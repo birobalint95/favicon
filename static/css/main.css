@@ -17,6 +17,19 @@ body {
   width:860px;
 }
 
+.container::-webkit-scrollbar {
+    width: 20px;
+}
+.container::-webkit-scrollbar-track {
+    border-radius: 100px;
+}
+.container::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+    background-color: rgba(81, 203, 238, 1);
+}
+
 /* MAIN TITLE */
 
 .main-title{
