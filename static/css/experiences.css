@@ -84,11 +84,11 @@
     background: #fff;
 }
 
-.rb-container ul.rb li.rb-item:hover a div.item-title {
+.rb-container ul.rb li.rb-item a:hover div.item-title {
     color: #fff;
 }
 
-.rb-container ul.rb li.rb-item:hover a div.timestamp {
+.rb-container ul.rb li.rb-item a:hover a div.timestamp {
     color: #fff;
 }
 
