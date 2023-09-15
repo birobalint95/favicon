@@ -3,6 +3,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
+html {
+    margin-left: calc(100vw - 100%);
+}
+
 body {
   background: #232931;
   font-family: "PT Sans", sans-serif;
