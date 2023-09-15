@@ -79,7 +79,7 @@
     transition: all 250ms ease-in-out;
 }
 
-.rb-container ul.rb li.rb-item:has(a:hover) ::before {
+.rb-container ul.rb li.rb-item:has(a:hover)::before {
     border-color: #fff;
     background: #fff;
 }
