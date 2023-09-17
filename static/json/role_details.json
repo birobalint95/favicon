@@ -30,5 +30,21 @@
         "area": "Electric & Driverless",
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Electric & Driverless Technical Manager."
+    },
+    {
+        "id": "chief-engineer",
+        "title": "Chief Engineer",
+        "company": "BME Formula Racing Team",
+        "area": "Electric & Driverless",
+        "time": "2017 Sep - 2018 Sep",
+        "content": "Content of Electric & Driverless Chief Engineer."
+    },
+    {
+        "id": "group-leader-1",
+        "title": "Group Leader",
+        "company": "BME Formula Racing Team",
+        "area": "Electric",
+        "time": "2018 Sep - 2019 Feb",
+        "content": "Content of Electric Group Leader."
     }
 ]
