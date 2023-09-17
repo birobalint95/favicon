@@ -12,7 +12,7 @@ fetch("./static/json/role_details.json")
             roleClass += " selected"
         }
         out += `
-            <li class=${roleClass} ng-repeat="itembx">
+            <li class="${roleClass}" ng-repeat="itembx">
                 <a id=${role.id} href="javascript:void(0)" onclick="selectPosition(this.id)">
                     <div class="item-title">${role.title}</div>
                     <div class="timestamp">
