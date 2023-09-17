@@ -8,7 +8,7 @@ fetch("./static/json/role_details.json")
     let indexOfRole = 1;
     for(let role of roles){
         let roleClass = "rb-item"
-        if (indexOfRole = 1) {
+        if (indexOfRole == 1) {
             roleClass += " selected"
         }
         out += `
@@ -22,7 +22,6 @@ fetch("./static/json/role_details.json")
             </li>
         `;
         indexOfRole++;
-        console.log(indexOfRole);
    }
    placeholder.innerHTML = out;
 });
