@@ -10,5 +10,17 @@
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
         "area": "Automation & Framework"
+    },
+    {
+        "id": "sw-developer",
+        "title": "SW Developer",
+        "company": "Jaguar Land Rover",
+        "area": "Modelling & Simulation"
+    },
+    {
+        "id": "technical-manager",
+        "title": "Technical Manager",
+        "company": "BME Formula Racing Team",
+        "area": "Electric & Driverless"
     }
 ]
