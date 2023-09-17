@@ -4,13 +4,11 @@
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
         "area": "Test Automation",
-        "selected": true
     },
     {
         "id": "product-owner-1",
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
         "area": "Automation & Framework",
-        "selected": false
     }
 ]
