@@ -6,13 +6,13 @@ fetch("./static/json/role_details.json")
     let placeholder = document.querySelector("#list-of-roles");
     let out = "";
     var indexOfRole = 1;
-    var role_class = "rb-item"
+    let roleClass = "rb-item"
     for(let role of roles){
         if (indexOfRole = 1) {
-            role_class += " selected"
+            roleClass += ` selected`
         }
         out += `
-            <li class=${role_class} ng-repeat="itembx">
+            <li class=${roleClass} ng-repeat="itembx">
                 <a id=${role.id} href="javascript:void(0)" onclick="selectPosition(this.id)">
                     <div class="item-title">${role.title}</div>
                     <div class="timestamp">
@@ -21,7 +21,8 @@ fetch("./static/json/role_details.json")
                 </a>
             </li>
         `;
-        indexOfRole++
+        indexOfRole++;
+        console.log(out);
    }
    placeholder.innerHTML = out;
 });
