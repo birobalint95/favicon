@@ -9,7 +9,7 @@ fetch("./static/json/role_details.json")
     let roleClass = "rb-item"
     for(let role of roles){
         if (indexOfRole = 1) {
-            roleClass += ` selected`
+            roleClass += " selected"
         }
         out += `
             <li class=${roleClass} ng-repeat="itembx">
