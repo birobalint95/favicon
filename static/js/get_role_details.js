@@ -3,17 +3,19 @@ fetch("./static/json/role_details.json")
    return response.json();
 })
 .then(function(roles){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let role of roles){
-      out += `
-         <tr>
-            <td>${role.title}</td>
-            <td>${role.company}</td>
-            <td>${role.area}</td>
-            <td>${role.selected}</td>
-         </tr>
-      `;
+    let placeholder = document.querySelector("#data-output");
+    let out = "";
+    for(let role of roles){
+        out += `
+            <li class="rb-item" ng-repeat="itembx">
+                <a id=${role.id} href="javascript:void(0)" onclick="selectPosition(this.id)">
+                    <div class="item-title">${role.title}</div>
+                    <div class="timestamp">
+                        ${role.company}<br> ${role.area}
+                    </div>
+                </a>
+            </li>
+        `;
    }
    placeholder.innerHTML = out;
 });
