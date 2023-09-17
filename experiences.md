@@ -7,6 +7,20 @@ filename: experiences
 <h2 class="main-title">Experiences</h2>
 <script defer src="./static/js/get_role_details.js" type="text/javascript"></script>
 
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Company</th>
+            <th>Area</th>
+            <th>Selected</th>
+        </tr>
+    </thead>
+    <tbody id="data-output">
+    <!-- Prodcuts from javascript file in here. -->
+    </tbody>
+</table>
+
 
 <div class="one">
     <div class="rb-container">
