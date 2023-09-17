@@ -5,7 +5,7 @@ fetch("./static/json/role_details.json")
 .then(function(roles){
     let placeholder = document.querySelector("#list-of-roles");
     let out = "";
-    var indexOfRole = 1;
+    let indexOfRole = 1;
     for(let role of roles){
         let roleClass = "rb-item"
         if (indexOfRole = 1) {
@@ -22,7 +22,7 @@ fetch("./static/json/role_details.json")
             </li>
         `;
         indexOfRole++;
-        console.log(out);
+        console.log(indexOfRole);
    }
    placeholder.innerHTML = out;
 });
