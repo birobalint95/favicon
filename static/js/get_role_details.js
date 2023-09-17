@@ -6,8 +6,8 @@ fetch("./static/json/role_details.json")
     let placeholder = document.querySelector("#list-of-roles");
     let out = "";
     var indexOfRole = 1;
-    let roleClass = "rb-item"
     for(let role of roles){
+        let roleClass = "rb-item"
         if (indexOfRole = 1) {
             roleClass += " selected"
         }
