@@ -5,6 +5,8 @@ filename: experiences
 --- 
 
 <h2 class="main-title">Experiences</h2>
+<script defer src="./static/js/get_role_details.js" type="text/javascript"></script>
+
 
 <div class="one">
     <div class="rb-container">

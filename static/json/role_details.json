@@ -1,0 +1,14 @@
+[
+    {
+        "role_title": "Product Owner",
+        "role_company": "Jaguar Land Rover",
+        "role_area": "Test Automation",
+        "selected": true
+    },
+    {
+        "role_title": "Product Owner",
+        "role_company": "Jaguar Land Rover",
+        "role_area": "Automation & Framework",
+        "selected": false
+    }
+]
