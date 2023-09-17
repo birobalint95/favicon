@@ -24,40 +24,8 @@ filename: experiences
 
 <div class="one">
     <div class="rb-container">
-        <ul class="rb">
-            <li class="rb-item selected" ng-repeat="itembx">
-                <a id="product-owner-2" href="javascript:void(0)" onclick="selectPosition(this.id)">
-                    <div class="item-title">Product Owner</div>
-                    <div class="timestamp">
-                        Jaguar Land Rover<br> Test Automation
-                    </div>
-                </a>
-            </li>
-            <li class="rb-item" ng-repeat="itembx">
-                <a id="product-owner-1" href="javascript:void(0)" onclick="selectPosition(this.id)">
-                    <div class="item-title">Product Owner</div>
-                    <div class="timestamp">
-                        Jaguar Land Rover<br> Automation & Framework
-                    </div>
-                </a>
-            </li>
-            <li class="rb-item" ng-repeat="itembx">
-                <a id="sw-developer" href="javascript:void(0)" onclick="selectPosition(this.id)">
-                    <div class="item-title">SW Developer</div>
-                    <div class="timestamp">
-                        Jaguar Land Rover<br> Modelling & Simulation
-                    </div>
-                </a>
-            </li>
-            <li class="rb-item" ng-repeat="itembx">
-                <a id="technical-manager" href="javascript:void(0)" onclick="selectPosition(this.id)">
-                    <div class="item-title">Technical Manager</div>
-                    <div class="timestamp">
-                        BME Formula Racing Team<br> Electric & Driverless 
-                    </div>
-                </a>
-            </li>
-      </ul>
+        <ul id="list-of-roles" class="rb">
+        </ul>
     </div>
 </div>
 

@@ -3,7 +3,7 @@ fetch("./static/json/role_details.json")
    return response.json();
 })
 .then(function(roles){
-    let placeholder = document.querySelector("#data-output");
+    let placeholder = document.querySelector("#list-of-roles");
     let out = "";
     for(let role of roles){
         out += `
