@@ -3,24 +3,32 @@
         "id": "product-owner-2",
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
-        "area": "Test Automation"
+        "area": "Test Automation",
+        "time": "2022 May - present",
+        "content": "Content of Test Automation Product Owner."
     },
     {
         "id": "product-owner-1",
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
-        "area": "Automation & Framework"
+        "area": "Automation & Framework",
+        "time": "2021 Sep - 2022 May",
+        "content": "Content of Automation & Framework Product Owner."
     },
     {
         "id": "sw-developer",
         "title": "SW Developer",
         "company": "Jaguar Land Rover",
-        "area": "Modelling & Simulation"
+        "area": "Modelling & Simulation",
+        "time": "2019 Jun - 2021 Sep",
+        "content": "Content of Modelling & Simulation SW Developer."
     },
     {
         "id": "technical-manager",
         "title": "Technical Manager",
         "company": "BME Formula Racing Team",
-        "area": "Electric & Driverless"
+        "area": "Electric & Driverless",
+        "time": "2018 Sep - 2019 Feb",
+        "content": "Content of Electric & Driverless Technical Manager."
     }
 ]

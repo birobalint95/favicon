@@ -3,16 +3,25 @@ fetch("./static/json/role_details.json")
    return response.json();
 })
 .then(function(roles){
-    let placeholder = document.querySelector("#list-of-roles");
-    let out = "";
+    let unorderedListOfRoles = document.querySelector("#list-of-roles");
+    let listItemsOfRoles = "";
+
+    let divOfContentOfRoles = document.querySelector("#content-of-roles");
+    let contentOfRoles = "";
+    
     let indexOfRole = 1;
     for(let role of roles){
-        let roleClass = "rb-item"
+
+        let classOfListItemOfRole = "rb-item"
+        let classOfContentOfRole = "role-description"
+
         if (indexOfRole == 1) {
-            roleClass += " selected"
+            classOfListItemOfRole += " selected"
+            classOfContentOfRole += " displayed"
         }
-        out += `
-            <li class="${roleClass}" ng-repeat="itembx">
+
+        listItemsOfRoles += `
+            <li class="${classOfListItemOfRole}" ng-repeat="itembx">
                 <a id=${role.id} href="javascript:void(0)" onclick="selectPosition(this.id)">
                     <div class="item-title">${role.title}</div>
                     <div class="timestamp">
@@ -21,7 +30,24 @@ fetch("./static/json/role_details.json")
                 </a>
             </li>
         `;
+
+        contentOfRoles += `
+            <div title="${role.id}" class="${classOfContentOfRole}">
+                <div class="title-section">
+                    <h2 class="role-title">${role.title}
+                        <span class="date">${role.time}</span>
+                    </h2>
+                    <h4 class="company-title">${role.company}, ${role.area}</h4>
+                </div>
+                <div class="content-section">
+                    ${role.content}
+                </div>
+            </div>
+        `;
+
         indexOfRole++;
    }
-   placeholder.innerHTML = out;
+
+   unorderedListOfRoles.innerHTML = listItemsOfRoles;
+   divOfContentOfRoles.innerHTML = contentOfRoles;
 });
