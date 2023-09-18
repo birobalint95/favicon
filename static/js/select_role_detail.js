@@ -5,7 +5,7 @@ function selectRoleDetail(clicked_id) {
   
       if (! isElementSelected) {
         [].forEach.call(allDetailSelectorItems, function(actualDetailSelectorItem) {
-            if(actualDetailSelectorItem.style.display != "none"){
+            if(actualDetailSelectorItem.style.display == "block"){
                 actualDetailSelectorItem.classList.remove("selected");
             }
         });
@@ -19,7 +19,7 @@ function selectRoleDetail(clicked_id) {
  
       if (! areDetailsDisplayed) {
         [].forEach.call(allDetailItems, function(actualDetailItem){
-            if(actualDetailItem.style.display != "none"){
+            if(actualDetailItem.style.display == "block"){
                 actualDetailItem.classList.remove("displayed");
             }
         });
