@@ -164,6 +164,10 @@ ul.rb li .timestamp {
     background-color: #181c21;
     color: rgba(80, 216, 144);
 }
+
+.detail-category.selected:hover{
+    color: rgba(80, 216, 144);
+}
   
 .tab-content {
     display: none;

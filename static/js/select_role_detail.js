@@ -5,7 +5,9 @@ function selectRoleDetail(clicked_id) {
   
       if (! isElementSelected) {
         [].forEach.call(allDetailSelectorItems, function(actualDetailSelectorItem) {
-            actualDetailSelectorItem.classList.remove("selected");
+            if(actualDetailSelectorItem.style.display != "none"){
+                actualDetailSelectorItem.classList.remove("selected");
+            }
         });
     clickedElement.classList.add("selected");
     };
@@ -17,9 +19,18 @@ function selectRoleDetail(clicked_id) {
  
       if (! areDetailsDisplayed) {
         [].forEach.call(allDetailItems, function(actualDetailItem){
-            actualDetailItem.classList.remove("displayed");
+            if(actualDetailItem.style.display != "none"){
+                actualDetailItem.classList.remove("displayed");
+            }
         });
  detailItemToLookFor.classList.add("displayed");
     };
   
 };
+
+
+if(allElems[i].style.display != "none"){
+    visibleElems.push(allElems[i]);
+  } else {
+   hiddenElems.push(allElems[i]);
+  }
