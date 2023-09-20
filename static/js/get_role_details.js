@@ -41,6 +41,8 @@ fetch("./static/json/role_details.json")
             `
         };
 
+        console.log(skillsOfRoleHtml);
+
         contentOfRoles += `
             <div title="${role.id}" class="${classOfContentOfRole}">
                 <div class="title-section">
