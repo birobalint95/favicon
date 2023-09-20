@@ -127,6 +127,10 @@ ul.rb li .timestamp {
     color: #50d890;
 }
 
+#list-of-roles {
+    margin-bottom: 0px;
+}
+
 .role-description {
     display: none;
     padding-left: 36px;
@@ -188,4 +192,13 @@ ul.rb li .timestamp {
 
 .tab-content.displayed{
     display: block;
+}
+
+.role-skill{
+    border-radius: 25px;
+    background-color: gray;
+    padding: 10px 25px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
