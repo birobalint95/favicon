@@ -6,6 +6,8 @@ filename: experiences
 
 <h2 class="main-title">Experiences</h2>
 
+<a id="blabla" href="#" onclick="selectRoleDetailTab(this.id)">BLABLA</a>
+
 <div class="one">
     <div class="rb-container">
         <ul id="list-of-roles" class="rb">

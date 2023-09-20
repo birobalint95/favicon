@@ -28,9 +28,8 @@ function selectRoleDetail(clicked_id) {
   
 };
 
+function selectTab(){
+    var roleDetailTabSelectorId = "product-owner-2-responsibilities";
 
-if(allElems[i].style.display != "none"){
-    visibleElems.push(allElems[i]);
-  } else {
-   hiddenElems.push(allElems[i]);
-  }
+    var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
+};
