@@ -208,7 +208,6 @@ ul.rb li .timestamp {
     padding: 10px 25px;
     color: white;
     font-size: 80%;
-    margin-bottom: 6px;
 }
 
 .skill-name::before {
@@ -225,7 +224,7 @@ ul.rb li .timestamp {
 
 .skill-details{
     background-color: #c1c1c1;
-    border-radius: 25px 25px 10px 10px;
+    border-radius: 25px 25px 25px 25px;
 }
 
 .skill-details[open] > .skill-name::before {
@@ -247,4 +246,8 @@ ul.rb li .timestamp {
 
 .skill-description {
     font-size: 14px;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
