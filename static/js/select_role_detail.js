@@ -28,8 +28,15 @@ function selectRoleDetail(clicked_id) {
   
 };
 
-function selectTab(){
-    var roleDetailTabSelectorId = "product-owner-2-responsibilities";
+function selectRoleDetailTab(roleDetailSelectorId){
+    var roleDetailSelectorId = "product-owner-2-responsibilities";
 
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
+    [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
+        if(actualRoleDetailSelectorItem.id == roleDetailSelectorId){
+            actualDetailSelectorItem.classList.add("selected");
+        } else {
+            actualDetailSelectorItem.classList.remove("selected");
+        }
+    });
 };
