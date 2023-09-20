@@ -34,9 +34,9 @@ function selectRoleDetailTab(roleDetailSelectorId){
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
         if(actualRoleDetailSelectorItem.id == roleDetailSelectorId){
-            actualDetailSelectorItem.classList.add("selected");
+            actualRoleDetailSelectorItem.classList.add("selected");
         } else {
-            actualDetailSelectorItem.classList.remove("selected");
+            actualRoleDetailSelectorItem.classList.remove("selected");
         }
     });
 };
