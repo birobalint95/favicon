@@ -21,8 +21,6 @@ function selectPosition(clicked_id) {
     roleContent.classList.add("displayed");
     };
 
-    console.log(CSS.escape(clicked_id) + "-responsibilities")
-
     selectRoleDetailTab(CSS.escape(clicked_id) + "-responsibilities")
 };
 
