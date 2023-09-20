@@ -59,21 +59,6 @@
                 "name": "Communication",
                 "description": "Short description of skill"
             }
-        ],
-        "skills_": [
-            {"Scaled Agile Framework": "Short description of skill"},
-            {"Priority Management": "Short description of skill"},
-            {"Backlog Management": "Short description of skill"},
-            {"Stakeholder Management": "Short description of skill"},
-            {"Product Vision": "Short description of skill"},
-            {"Scrum": "Short description of skill"},
-            {"Kanban": "Short description of skill"},
-            {"Product Management": "Short description of skill"},
-            {"Product Development": "Short description of skill"},
-            {"Software Development": "Short description of skill"},
-            {"Product Strategy": "Short description of skill"},
-            {"Product Road Mapping": "Short description of skill"},
-            {"Communication": "Short description of skill"}
         ]
     },
     {
@@ -84,7 +69,10 @@
         "time": "2021 Sep - 2022 May",
         "content": "Content of Automation & Framework Product Owner.",
         "skills": [
-            {"Placeholder": "Short description of skill"}
+            {
+                "name": "Placeholder",
+                "description": "Short description of skill"
+            }
         ]
     },
     {
@@ -95,7 +83,10 @@
         "time": "2019 Jun - 2021 Sep",
         "content": "Content of Modelling & Simulation SW Developer.",
         "skills": [
-            {"Placeholder": "Short description of skill"}
+            {
+                "name": "Placeholder",
+                "description": "Short description of skill"
+            }
         ]
     },
     {
@@ -106,7 +97,10 @@
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Electric & Driverless Technical Manager.",
         "skills": [
-            {"Placeholder": "Short description of skill"}
+            {
+                "name": "Placeholder",
+                "description": "Short description of skill"
+            }
         ]
     },
     {
@@ -117,7 +111,10 @@
         "time": "2017 Sep - 2018 Sep",
         "content": "Content of Electric & Driverless Chief Engineer.",
         "skills": [
-            {"Placeholder": "Short description of skill"}
+            {
+                "name": "Placeholder",
+                "description": "Short description of skill"
+            }
         ]
     },
     {
@@ -128,7 +125,10 @@
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Vehicle Dynamics Control Group Leader.",
         "skills": [
-            {"Placeholder": "Short description of skill"}
+            {
+                "name": "Placeholder",
+                "description": "Short description of skill"
+            }
         ]
     }
 ]
