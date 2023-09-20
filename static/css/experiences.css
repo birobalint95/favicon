@@ -225,6 +225,11 @@ ul.rb li .timestamp {
     list-style: none;
 }
 
+.skill-details > .skill-name::marker, /* Latest Chrome, Edge, Firefox */ 
+.skill-details > .skill-name::-webkit-details-marker /* Safari */ {
+    display: none;
+}
+
 .skill-description {
     font-size: 14px;
 }
