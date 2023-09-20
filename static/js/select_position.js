@@ -20,4 +20,22 @@ function selectPosition(clicked_id) {
         });
     roleContent.classList.add("displayed");
     };
+
+    console.log(CSS.escape(clicked_id) + "-responsibilities")
+
+    selectRoleDetailTab(CSS.escape(clicked_id) + "-responsibilities")
+};
+
+function selectRoleDetailTab(roleDetailSelectorId){
+    var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
+    [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
+        var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
+        if(actualRoleDetailSelectorItem.id == roleDetailSelectorId){
+            actualRoleDetailSelectorItem.classList.add("selected");
+            actualRoleDetailContentItem.classList.add("displayed");
+        } else {
+            actualRoleDetailSelectorItem.classList.remove("selected");
+            actualRoleDetailContentItem.classList.remove("displayed");
+        }
+    });
 };

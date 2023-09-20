@@ -27,17 +27,3 @@ function selectRoleDetail(clicked_id) {
     };
   
 };
-
-function selectRoleDetailTab(roleDetailSelectorId){
-    var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
-    [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
-        var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
-        if(actualRoleDetailSelectorItem.id == roleDetailSelectorId){
-            actualRoleDetailSelectorItem.classList.add("selected");
-            actualRoleDetailContentItem.classList.add("displayed");
-        } else {
-            actualRoleDetailSelectorItem.classList.remove("selected");
-            actualRoleDetailContentItem.classList.remove("displayed");
-        }
-    });
-};
