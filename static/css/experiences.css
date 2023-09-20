@@ -209,7 +209,7 @@ ul.rb li .timestamp {
     margin-bottom: 20px;
 }
 
-.skill-name::after {
+.skill-name::before {
     margin-left: 1ch;
     display: inline-block;
     font-family: FontAwesome; 
@@ -217,8 +217,12 @@ ul.rb li .timestamp {
     transition: 0.4s;
 }
   
-.skill-details[open] > summary::after {
+.skill-details[open] > summary::before {
     transform: rotate(180deg);
+}
+
+.skill-details > .skill-name {
+    list-style: none;
 }
 
 .skill-description {
