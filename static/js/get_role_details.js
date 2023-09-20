@@ -33,6 +33,10 @@ fetch("./static/json/role_details.json")
         `;
 
         for(let skill of role.skills){
+            console.log(skill);
+            var keys = Object.keys(skill);
+            console.log(keys);
+            console.log(keys[0])
             skillsOfRoleHtml += `
                 <div>
                     <span class="role-skill">${skill.key}</span>
@@ -40,8 +44,6 @@ fetch("./static/json/role_details.json")
                 </div>
             `
         };
-
-        console.log(skillsOfRoleHtml);
 
         contentOfRoles += `
             <div title="${role.id}" class="${classOfContentOfRole}">
