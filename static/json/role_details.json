@@ -7,6 +7,60 @@
         "time": "2022 May - present",
         "content": "Content of Test Automation Product Owner.",
         "skills": [
+            {
+                "name": "Scaled Agile Framework",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Priority Management",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Backlog Management",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Stakeholder Management",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Product Vision",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Scrum",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Kanban",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Product Management",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Product Development",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Software Development",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Product Strategy",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Product Road Mapping",
+                "description": "Short description of skill"
+            },
+            {
+                "name": "Communication",
+                "description": "Short description of skill"
+            }
+        ],
+        "skills_": [
             {"Scaled Agile Framework": "Short description of skill"},
             {"Priority Management": "Short description of skill"},
             {"Backlog Management": "Short description of skill"},
