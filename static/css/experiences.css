@@ -199,12 +199,26 @@ ul.rb li .timestamp {
 }
 
 .skill-name{
+    display: block;
+    cursor: pointer;
     border-radius: 25px;
     background-color: gray;
     padding: 10px 25px;
     color: white;
-    font-size: 14px;
+    font-size: 80%;
     margin-bottom: 20px;
+}
+
+.skill-name::after {
+    margin-left: 1ch;
+    display: inline-block;
+    font-family: FontAwesome; 
+    content: '\f078';
+    transition: 0.4s;
+}
+  
+.skill-details[open] > summary::after {
+    transform: rotate(180deg);
 }
 
 .skill-description {
