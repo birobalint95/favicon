@@ -36,7 +36,9 @@ fetch("./static/json/role_details.json")
             skillsOfRoleHtml += `
                 <div class="skill-content">
                     <details class="skill-details">
-                        <summary class="skill-name">${skill.name}</summary>
+                        <summary class="skill-name">
+                            <span>${skill.name}</span>
+                        </summary>
                         <p class="skill-description">${skill.description}</p>
                     </details>
                 </div>

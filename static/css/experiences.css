@@ -216,6 +216,10 @@ ul.rb li .timestamp {
     content: '\f078';
     transition: 0.4s;
 }
+
+.skill-name span{
+    padding-left: 16px;
+}
   
 .skill-details[open] > summary::before {
     transform: rotate(180deg);
