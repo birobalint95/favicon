@@ -194,6 +194,10 @@ ul.rb li .timestamp {
     display: block;
 }
 
+.skill-content{
+    padding-top: 16px;
+}
+
 .role-skill{
     border-radius: 25px;
     background-color: gray;
@@ -201,4 +205,8 @@ ul.rb li .timestamp {
     color: white;
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.role-description {
+    font-size: 14px;
 }

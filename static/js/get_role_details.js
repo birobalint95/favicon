@@ -34,9 +34,9 @@ fetch("./static/json/role_details.json")
 
         for(let skill of role.skills){
             skillsOfRoleHtml += `
-                <div>
+                <div class="skill-content">
                     <span class="role-skill">${skill.name}</span>
-                    <p>${skill.description}</p>
+                    <p class="role-description">${skill.description}</p>
                 </div>
             `
         };
