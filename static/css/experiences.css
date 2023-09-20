@@ -222,9 +222,18 @@ ul.rb li .timestamp {
 .skill-name span{
     padding-left: 16px;
 }
-  
-.skill-details[open] > summary::before {
+
+.skill-details{
+    background-color: #c1c1c1;
+    border-radius: 25px 25px 10px 10px;
+}
+
+.skill-details[open] > .skill-name::before {
     transform: rotate(180deg);
+}
+
+.skill-details[open] > .skill-name {
+    border-radius: 25px 25px 0px 0px;
 }
 
 .skill-details > .skill-name {
