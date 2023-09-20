@@ -14,6 +14,7 @@ fetch("./static/json/role_details.json")
 
         let classOfListItemOfRole = "rb-item"
         let classOfContentOfRole = "role-description"
+        let skillsOfRoleHtml = "";
 
         if (indexOfRole == 1) {
             classOfListItemOfRole += " selected"
@@ -30,6 +31,17 @@ fetch("./static/json/role_details.json")
                 </a>
             </li>
         `;
+
+        for(let skill of role.skills){
+            skillsOfRoleHtml += `
+                <div>
+                    <span class="role-skill">${skill.key}</span>
+                    <p>${skill.value}</p>
+                </div>
+            `
+        };
+
+        console.log(skillsOfRoleHtml);
 
         contentOfRoles += `
             <div title="${role.id}" class="${classOfContentOfRole}">
