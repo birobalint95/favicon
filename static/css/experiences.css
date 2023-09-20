@@ -178,11 +178,11 @@ ul.rb li .timestamp {
     border-radius: 0 10px 10px 10px;
 }
 
-.tab-content[id$="responsibilities"] {
+.tab-content[id$="skills"] {
     border-radius: 10px 10px 10px 10px;
 }
 
-.tab-content[id$="responsibilities"] {
+.tab-content[id$="tools"] {
     border-radius: 10px 0 10px 10px;
 }
 
