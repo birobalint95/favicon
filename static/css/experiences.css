@@ -198,7 +198,7 @@ ul.rb li .timestamp {
     padding-top: 16px;
 }
 
-.role-skill{
+.skill-name{
     border-radius: 25px;
     background-color: gray;
     padding: 10px 25px;
@@ -207,6 +207,6 @@ ul.rb li .timestamp {
     margin-bottom: 20px;
 }
 
-.role-description {
+.skill-description {
     font-size: 14px;
 }
