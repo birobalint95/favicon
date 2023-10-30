@@ -5,6 +5,7 @@ filename: experiences
 --- 
 
 <h2 class="main-title">Experiences</h2>
+<a title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank">CV</a>
 
 <div class="one">
     <div class="rb-container">

@@ -7,6 +7,6 @@
     color:white;
 }
 
-.contact-option:hover{
+.contact-option i:hover{
     color: rgba(80, 216, 144);
 }
