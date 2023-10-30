@@ -4,8 +4,10 @@ layout: template
 filename: experiences
 --- 
 
-<h2 class="main-title">Experiences</h2>
-<a title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank">CV</a>
+<h2 class="main-title">
+    Experiences
+    <a class="cv-download" title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank"><i class="fa fa-download"></i> CV</a>
+</h2>
 
 <div class="one">
     <div class="rb-container">

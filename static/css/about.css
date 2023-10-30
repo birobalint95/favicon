@@ -10,3 +10,18 @@
 .contact-option i:hover{
     color: rgba(80, 216, 144);
 }
+
+.cv-download {
+    background-color: rgba(80, 216, 144);
+    border: none;
+    color: black;
+    padding: 12px 12px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+  
+.cv-download:hover {
+    background-color: rgb(49, 133, 88);
+}
