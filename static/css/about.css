@@ -1,0 +1,12 @@
+.contact-option {
+    text-decoration: none;
+}
+
+.contact-option i {
+    font-size: 26px;
+    color:white;
+}
+
+.contact-option:hover{
+    color: rgba(80, 216, 144);
+}
