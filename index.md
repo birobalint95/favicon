@@ -81,39 +81,7 @@ filename: index
         </section>
     </div>
     <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content" style="color: black;">
-        <section class="hobby-cards">
-            <div class="hobby-card" style="display: flex;">
-                <div>
-                    <img class="hobby-icon" src="static/images/hobby_hiking.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-                </div>
-                <div class="hobby-card-content">
-                    <p class="hobby-description">Hiking</p>
-                </div>
-            </div>
-            <div class="hobby-card" style="display: flex;">
-                <div>
-                    <img class="hobby-icon" src="static/images/hobby_swimming.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-                </div>
-                <div class="hobby-card-content">
-                    <p class="hobby-description">Swimming</p>
-                </div>
-            </div>
-            <div class="hobby-card" style="display: flex;">
-                <div>
-                    <img class="hobby-icon" src="static/images/hobby_reading.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-                </div>
-                <div class="hobby-card-content">
-                    <p class="hobby-description">Reading</p>
-                </div>
-            </div>
-            <div class="hobby-card" style="display: flex;">
-                <div>
-                    <img class="hobby-icon" src="static/images/hobby_watching_movies.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-                </div>
-                <div class="hobby-card-content">
-                    <p class="hobby-description">Watching movies</p>
-                </div>
-            </div>
+        <section id="hobby-cards-section" class="hobby-cards">
         </section>
     </div>
 </div>
