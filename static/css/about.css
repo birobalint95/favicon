@@ -7,8 +7,10 @@
     color:white;
 }
 
-.contact-option i:hover{
-    color: rgba(80, 216, 144);
+@media (hover: hover) {
+    .contact-option i:hover{
+        color: rgba(80, 216, 144);
+    }
 }
 
 .cv-download {
@@ -21,7 +23,9 @@
     border-radius: 10px;
     text-decoration: none;
 }
-  
-.cv-download:hover {
-    background-color: rgb(49, 133, 88);
+
+@media (hover: hover) {
+    .cv-download:hover {
+        background-color: rgb(49, 133, 88);
+    }
 }
