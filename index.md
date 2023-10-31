@@ -23,7 +23,7 @@ filename: index
     </div>
 </div>
 
-<div class="content-section main-title">
+<div class="content-section">
     <group id="group-of-details">
         <a id="about-studies" class="detail-category selected" href="#" onclick="selectRoleDetailTab(this.id)">Studies</a>
         <a id="about-skills" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Skills</a>
@@ -104,7 +104,7 @@ filename: index
             </a>
         </section>
     </div>
-    <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content">
+    <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content" style="color: black;">
         <section class="hobby-cards">
             <div class="hobby-card" style="display: flex;">
                 <div>
