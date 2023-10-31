@@ -96,6 +96,12 @@ filename: index
                     <p>ISTQB® Certified Tester Foundation Level</p>
                 </div>
             </a>
+            <a class="certification-card" href="static/pdfs/Coursera_Django.pdf">
+                <img src="static/images/coursera_django.png" alt="image" />
+                <div class="certification-card-content">
+                    <p>Coursera Django Specialization</p>
+                </div>
+            </a>
         </section>
     </div>
     <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content">
