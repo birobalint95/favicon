@@ -106,35 +106,35 @@ filename: index
     </div>
     <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content">
         <section class="hobby-cards">
-            <div class="card" style="display: flex;">
+            <div class="hobby-card" style="display: flex;">
                 <div>
                     <img class="hobby-icon" src="static/images/hobby_hiking.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
                 </div>
-                <div class="card-content">
+                <div class="hobby-card-content">
                     <p class="hobby-description">Hiking</p>
                 </div>
             </div>
-            <div class="card" style="display: flex;">
+            <div class="hobby-card" style="display: flex;">
                 <div>
                     <img class="hobby-icon" src="static/images/hobby_swimming.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
                 </div>
-                <div class="card-content">
+                <div class="hobby-card-content">
                     <p class="hobby-description">Swimming</p>
                 </div>
             </div>
-            <div class="card" style="display: flex;">
+            <div class="hobby-card" style="display: flex;">
                 <div>
                     <img class="hobby-icon" src="static/images/hobby_reading.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
                 </div>
-                <div class="card-content">
+                <div class="hobby-card-content">
                     <p class="hobby-description">Reading</p>
                 </div>
             </div>
-            <div class="card" style="display: flex;">
+            <div class="hobby-card" style="display: flex;">
                 <div>
                     <img class="hobby-icon" src="static/images/hobby_watching_movies.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
                 </div>
-                <div class="card-content">
+                <div class="hobby-card-content">
                     <p class="hobby-description">Watching movies</p>
                 </div>
             </div>
