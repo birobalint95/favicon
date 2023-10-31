@@ -77,7 +77,26 @@ filename: index
         </div>
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
-        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+        <section class="certification-cards">
+            <a class="certification-card" href="https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification">
+                <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2022-09/asset_40pspo_i.png" alt="image" />
+                <div class="certification-card-content">
+                    <p>Professional Scrum Product Owner™ I Certification</p>
+                </div>
+            </a>
+            <a class="certification-card" href="https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification">
+                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/cd21ab5f-c7c2-4d9a-a0e7-ad17a88df444" alt="image" />
+                <div class="certification-card-content">
+                    <p>Blue in Foods</p>
+                </div>
+            </a>
+            <a class="certification-card" href="https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification">
+                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1beae2b7-eea5-4f05-8bb8-cd7a6a85d3e2" alt="image" />
+                <div class="certification-card-content">
+                    <p>Blue is Calming</p>
+                </div>
+            </a>
+        </section>
     </div>
     <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content">
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
