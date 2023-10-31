@@ -12,20 +12,3 @@
         color: rgba(80, 216, 144);
     }
 }
-
-.cv-download {
-    background-color: rgba(80, 216, 144);
-    border: none;
-    color: black;
-    padding: 6px 8px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-@media (hover: hover) {
-    .cv-download:hover {
-        background-color: rgb(49, 133, 88);
-    }
-}

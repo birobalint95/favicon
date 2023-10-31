@@ -251,3 +251,42 @@ ul.rb li .timestamp {
     padding-left: 20px;
     padding-bottom: 20px;
 }
+
+.cv-download {
+    background-color: rgba(80, 216, 144);
+    border: none;
+    color: black;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+  
+.cv-download .download-arrow {
+    transition: transform 0.2s linear;
+}
+
+.cv-download path{
+    stroke: black;
+    stroke-width: 2.5;
+    pointer-events:all;
+}
+
+@media (hover: hover) {
+    .cv-download:hover {
+        background-color: rgb(49, 133, 88);
+    }
+}
+
+@media (hover: hover) {
+    .cv-download:hover .download-arrow {
+        transform: translate(0, 3px);
+    }
+}
+
+@media (hover: hover) {
+    .cv-download:hover path{
+        stroke:white;
+    }
+}
