@@ -106,9 +106,9 @@
 
 .hobby-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    padding: 80px 40px 40px 80px;
+    padding: 40px;
 }
 
 .hobby-card {
@@ -117,13 +117,13 @@
     border-radius: 16px;
     z-index: 5;
     text-decoration: none;
-    height: 100px;
+    height: 70px;
 }
 
 .hobby-card-content {
     display: flex;
     flex-direction: column;
-    padding: 20px 15px 20px;
+    padding: 20px 15px 20px 0px;
 }
 
 @media (max-width: 900px) {
@@ -143,5 +143,5 @@
 }
 
 .hobby-description {
-    padding-top: 18px;
+    padding-top: 4px;
 }
