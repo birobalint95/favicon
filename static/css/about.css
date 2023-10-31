@@ -79,9 +79,9 @@
 }
 }
 
-
 @media (hover: hover) {
     .certification-card:hover img{
-        box-shadow: 0 0 10px rgba(80, 216, 144);;
+        -webkit-filter: drop-shadow(5px 5px 5px rgba(80, 216, 144));
+        filter: drop-shadow(5px 5px 5px rgba(80, 216, 144));
     }
 }
