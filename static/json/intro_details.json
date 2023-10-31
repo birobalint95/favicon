@@ -1,44 +1,43 @@
-[
-    {
-        "certifications": [
-            {
-                "name": "Professional Scrum Product Owner™ I",
-                "image_location": "./static/images/pspo_1.png",
-                "pdf_location": "./static/pdfs/PSPOI_BalintBiro.pdf"
-            },
-            {
-                "name": "Professional Scrum Master™ I",
-                "image_location": "./static/images/psm_1.png",
-                "pdf_location": "./static/pdfs/PSMI_BalintBiro.pdf"
-            },
-            {
-                "name": "ISTQB® Certified Tester Foundation Level",
-                "image_location": "./static/images/istqb_ctfl.jpg",
-                "pdf_location": "./static/pdfs/ISTQB_BalintBiro.pdf"
-            },
-            {
-                "name": "Coursera Django Specialization",
-                "image_location": "./static/images/coursera_django.png",
-                "pdf_location": "./static/pdfs/Coursera_Django.pdf"
-            }
-        ],
-        "hobbies": [
-            {
-                "name": "Hiking",
-                "image_location": "./static/images/hobby_hiking.png"
-            },
-            {
-                "name": "Swimming",
-                "image_location": "./static/images/hobby_swimming.png"
-            },
-            {
-                "name": "Reading",
-                "image_location": "./static/images/hobby_reading.png"
-            },
-            {
-                "name": "Watching movies",
-                "image_location": "./static/images/hobby_watching_movies.png"
-            }
-        ]
-    }
-]
+{
+    "certifications": [
+        {
+            "name": "Professional Scrum Product Owner™ I",
+            "image_location": "./static/images/pspo_1.png",
+            "pdf_location": "./static/pdfs/PSPOI_BalintBiro.pdf"
+        },
+        {
+            "name": "Professional Scrum Master™ I",
+            "image_location": "./static/images/psm_1.png",
+            "pdf_location": "./static/pdfs/PSMI_BalintBiro.pdf"
+        },
+        {
+            "name": "ISTQB® Certified Tester Foundation Level",
+            "image_location": "./static/images/istqb_ctfl.jpg",
+            "pdf_location": "./static/pdfs/ISTQB_BalintBiro.pdf"
+        },
+        {
+            "name": "Coursera Django Specialization",
+            "image_location": "./static/images/coursera_django.png",
+            "pdf_location": "./static/pdfs/Coursera_Django.pdf"
+        }
+    ],
+    "hobbies": [
+        {
+            "name": "Hiking",
+            "image_location": "./static/images/hobby_hiking.png"
+        },
+        {
+            "name": "Swimming",
+            "image_location": "./static/images/hobby_swimming.png"
+        },
+        {
+            "name": "Reading",
+            "image_location": "./static/images/hobby_reading.png"
+        },
+        {
+            "name": "Watching movies",
+            "image_location": "./static/images/hobby_watching_movies.png"
+        }
+    ]
+}
+
