@@ -78,30 +78,6 @@ filename: index
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
         <section id="certification-cards-section" class="certification-cards">
-            <a class="certification-card" href="./static/pdfs/PSPOI_BalintBiro.pdf">
-                <img src="./static/images/pspo_1.png" alt="image" />
-                <div class="certification-card-content">
-                    <p>Professional Scrum Product Owner™ I</p>
-                </div>
-            </a>
-            <a class="certification-card" href="static/pdfs/PSMI_BalintBiro.pdf">
-                <img src="static/images/psm_1.png" alt="image" />
-                <div class="certification-card-content">
-                    <p>Professional Scrum Master™ I</p>
-                </div>
-            </a>
-            <a class="certification-card" href="static/pdfs/ISTQB_BalintBiro.pdf">
-                <img src="static/images/istqb_ctfl.jpg" alt="image" />
-                <div class="certification-card-content">
-                    <p>ISTQB® Certified Tester Foundation Level</p>
-                </div>
-            </a>
-            <a class="certification-card" href="static/pdfs/Coursera_Django.pdf">
-                <img src="static/images/coursera_django.png" alt="image" />
-                <div class="certification-card-content">
-                    <p>Coursera Django Specialization</p>
-                </div>
-            </a>
         </section>
     </div>
     <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content" style="color: black;">
