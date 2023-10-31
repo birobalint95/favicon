@@ -78,22 +78,22 @@ filename: index
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
         <section class="certification-cards">
-            <a class="certification-card" href="https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification">
-                <img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2022-09/asset_40pspo_i.png" alt="image" />
+            <a class="certification-card" href="static/pdfs/PSPOI_BalintBiro.pdf">
+                <img src="static/images/pspo_1.png" alt="image" />
                 <div class="certification-card-content">
-                    <p>Professional Scrum Product Owner™ I Certification</p>
+                    <p>Professional Scrum Product Owner™ I</p>
                 </div>
             </a>
-            <a class="certification-card" href="https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification">
-                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/cd21ab5f-c7c2-4d9a-a0e7-ad17a88df444" alt="image" />
+            <a class="certification-card" href="static/pdfs/PSMI_BalintBiro.pdf">
+                <img src="static/images/psm_1.png" alt="image" />
                 <div class="certification-card-content">
-                    <p>Blue in Foods</p>
+                    <p>Professional Scrum Master™ I</p>
                 </div>
             </a>
-            <a class="certification-card" href="https://www.scrum.org/assessments/professional-scrum-product-owner-i-certification">
-                <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1beae2b7-eea5-4f05-8bb8-cd7a6a85d3e2" alt="image" />
+            <a class="certification-card" href="static/pdfs/ISTQB_BalintBiro.pdf">
+                <img src="static/images/istqb_ctfl.jpg" alt="image" />
                 <div class="certification-card-content">
-                    <p>Blue is Calming</p>
+                    <p>ISTQB® Certified Tester Foundation Level</p>
                 </div>
             </a>
         </section>
