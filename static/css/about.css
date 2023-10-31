@@ -19,14 +19,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    padding: 80px 40px 40px 80px;
+    padding: 40px;
 }
   
 .certification-card {
     width: min(100%, 500px);
     background: rgba(255, 255, 255);
     border-radius: 16px;
-    font-family: "Poppins", sans-serif;
     z-index: 5;
     text-decoration: none;
 }
@@ -50,11 +49,11 @@
   .certification-card-content {
     display: flex;
     flex-direction: column;
-    padding: 20px 15px 20px;
+    padding: 15px;
   }
   
   .certification-card-content > p {
-    margin-bottom: 10px;
+    margin: 0px;
   }
   
   .certification-card-content > p:nth-child(1) {
