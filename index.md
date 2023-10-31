@@ -77,9 +77,9 @@ filename: index
         </div>
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
-        <section class="certification-cards">
-            <a class="certification-card" href="static/pdfs/PSPOI_BalintBiro.pdf">
-                <img src="static/images/pspo_1.png" alt="image" />
+        <section id="certification-cards-section" class="certification-cards">
+            <a class="certification-card" href="./static/pdfs/PSPOI_BalintBiro.pdf">
+                <img src="./static/images/pspo_1.png" alt="image" />
                 <div class="certification-card-content">
                     <p>Professional Scrum Product Owner™ I</p>
                 </div>
