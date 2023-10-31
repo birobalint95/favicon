@@ -18,7 +18,7 @@
 .certification-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 60px;
     padding: 40px;
 }
   
@@ -81,7 +81,13 @@
 
 @media (hover: hover) {
     .certification-card:hover img{
-        -webkit-filter: drop-shadow(5px 5px 5px rgba(80, 216, 144));
-        filter: drop-shadow(5px 5px 5px rgba(80, 216, 144));
+        -webkit-filter: drop-shadow(0px 0px 5px rgba(80, 216, 144));
+        filter: drop-shadow(0px 0px 5px rgba(80, 216, 144));
+    }
+}
+
+@media (hover: hover) {
+    .certification-card:hover .certification-card-content p{
+        color: rgba(80, 216, 144);
     }
 }
