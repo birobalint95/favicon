@@ -12,8 +12,8 @@ function createSkillCards(){
             for(let skill of role.skills){
                 if (skill in dictOfSkills) {
                     // dictOfSkills[skill].push(roleToDisplay);
-                    dictOfSkills[skill][roles].push(roleToDisplay);
-                    dictOfSkills[skill][timeIntervals].push(role.time);
+                    dictOfSkills[skill]["roles"].push(roleToDisplay);
+                    dictOfSkills[skill]["timeIntervals"].push(role.time);
                 } else {
                     // dictOfSkills[skill] = [roleToDisplay];
                     dictOfSkills[skill]["roles"] = [roleToDisplay];
