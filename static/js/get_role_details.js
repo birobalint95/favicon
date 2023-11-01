@@ -32,18 +32,18 @@ fetch("./static/json/role_details.json")
             </li>
         `;
 
-        for(let skill of role.skills){
-            skillsOfRoleHtml += `
-                <div class="skill-content">
-                    <details class="skill-details">
-                        <summary class="skill-name">
-                            <span>${skill.name}</span>
-                        </summary>
-                        <p class="skill-description">${skill.description}</p>
-                    </details>
-                </div>
-            `
-        };
+        // for(let skill of role.skills){
+        //     skillsOfRoleHtml += `
+        //         <div class="skill-content">
+        //             <details class="skill-details">
+        //                 <summary class="skill-name">
+        //                     <span>${skill.name}</span>
+        //                 </summary>
+        //                 <p class="skill-description">${skill.description}</p>
+        //             </details>
+        //         </div>
+        //     `
+        // };
 
         contentOfRoles += `
             <div title="${role.id}" class="${classOfContentOfRole}">

@@ -7,58 +7,19 @@
         "time": "2022 May - present",
         "content": "Content of Test Automation Product Owner.",
         "skills": [
-            {
-                "name": "Scaled Agile Framework",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Priority Management",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Backlog Management",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Stakeholder Management",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Product Vision",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Scrum",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Kanban",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Product Management",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Product Development",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Software Development",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Product Strategy",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Product Road Mapping",
-                "description": "Short description of skill"
-            },
-            {
-                "name": "Communication",
-                "description": "Short description of skill"
-            }
+            "Scaled Agile Framework", 
+            "Priority Management",
+            "Backlog Management",
+            "Stakeholder Management",
+            "Product Vision",
+            "Scrum",
+            "Kanban",
+            "Product Management",
+            "Product Development",
+            "Software Development",
+            "Product Strategy",
+            "Product Road Mapping",
+            "Communication"
         ]
     },
     {
@@ -69,10 +30,19 @@
         "time": "2021 Sep - 2022 May",
         "content": "Content of Automation & Framework Product Owner.",
         "skills": [
-            {
-                "name": "Placeholder",
-                "description": "Short description of skill"
-            }
+            "Scaled Agile Framework", 
+            "Priority Management",
+            "Backlog Management",
+            "Stakeholder Management",
+            "Product Vision",
+            "Scrum",
+            "Kanban",
+            "Product Management",
+            "Product Development",
+            "Software Development",
+            "Product Strategy",
+            "Product Road Mapping",
+            "Communication"
         ]
     },
     {
@@ -83,10 +53,17 @@
         "time": "2019 Jun - 2021 Sep",
         "content": "Content of Modelling & Simulation SW Developer.",
         "skills": [
-            {
-                "name": "Placeholder",
-                "description": "Short description of skill"
-            }
+            "Scaled Agile Framework", 
+            "Priority Management",
+            "Backlog Management",
+            "Stakeholder Management",
+            "Product Vision",
+            "Product Management",
+            "Product Development",
+            "Software Development",
+            "Product Strategy",
+            "Product Road Mapping",
+            "Communication"
         ]
     },
     {
@@ -97,10 +74,18 @@
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Electric & Driverless Technical Manager.",
         "skills": [
-            {
-                "name": "Placeholder",
-                "description": "Short description of skill"
-            }
+            "Priority Management",
+            "Backlog Management",
+            "Stakeholder Management",
+            "Product Vision",
+            "Product Management",
+            "Product Development",
+            "Software Development",
+            "Product Strategy",
+            "Product Road Mapping",
+            "Communication",
+            "Waterfall",
+            "V-modell"
         ]
     },
     {
@@ -111,10 +96,18 @@
         "time": "2017 Sep - 2018 Sep",
         "content": "Content of Electric & Driverless Chief Engineer.",
         "skills": [
-            {
-                "name": "Placeholder",
-                "description": "Short description of skill"
-            }
+            "Priority Management",
+            "Backlog Management",
+            "Stakeholder Management",
+            "Product Vision",
+            "Product Management",
+            "Product Development",
+            "Software Development",
+            "Product Strategy",
+            "Product Road Mapping",
+            "Communication",
+            "Waterfall",
+            "V-modell"
         ]
     },
     {
@@ -125,10 +118,17 @@
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Vehicle Dynamics Control Group Leader.",
         "skills": [
-            {
-                "name": "Placeholder",
-                "description": "Short description of skill"
-            }
+            "Priority Management",
+            "Backlog Management",
+            "Product Vision",
+            "Product Management",
+            "Product Development",
+            "Software Development",
+            "Product Strategy",
+            "Product Road Mapping",
+            "Communication",
+            "Waterfall",
+            "V-modell"
         ]
     }
 ]
