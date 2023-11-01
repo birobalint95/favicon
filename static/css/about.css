@@ -208,6 +208,7 @@
 
 .about-skill-name{
     padding-top: 10px;
+    cursor: pointer;
 }
 
 .about-skill-name::before{
@@ -232,6 +233,11 @@
 .about-skill-details[open] > .about-skill-name::before {
     transform: rotate(180deg);
     transform-origin: 24px 23px;
+}
+
+.about-skill-details[open] {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(80, 216, 144));
+    filter: drop-shadow(0px 0px 8px rgba(80, 216, 144));
 }
 
 .about-skill-details > .about-skill-name {
