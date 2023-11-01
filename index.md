@@ -41,7 +41,11 @@ filename: index
                     <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
                     <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
                 </summary>
-                <p class="skill-description">Short description of skill</p>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                    <li>Automation & Framework Product Owner</li>
+                    <li>Chief Engineer</li>
+                </ul>
             </details>
             <div class="skill-card" style="display: flex;">
                 <div>
