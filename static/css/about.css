@@ -231,6 +231,7 @@
 
 .about-skill-details[open] > .about-skill-name::before {
     transform: rotate(180deg);
+    transform-origin: 24px 23px;
 }
 
 .about-skill-details > .about-skill-name {
