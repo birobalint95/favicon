@@ -6,7 +6,8 @@ $(document).ready (function() {
     details.addEventListener("toggle", function() {
         isDetailsOpen = details.hasAttribute("open");
         numberOfRoles = details.getElementsByClassName("number-of-roles");
-        console.log(numberOfRoles.innerText);
+        console.log(numberOfRoles.innerHTML);
+        console.log(numberOfRoles.value);
         if (isDetailsOpen) {
             details.style.height = "145px";
         } else {
