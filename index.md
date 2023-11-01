@@ -37,9 +37,9 @@ filename: index
     <div id="tab-content-about-skills" title="about-skills" class="tab-content">
         <section id="skill-cards-section" class="skill-cards" style="color: black;">
             <details class="about-skill-details skill-card" style="display: flex;">
-                <summary class="about-skill-name" style="padding-top: 12px;">
-                    <span class="skill-description" style="padding-top: 0px;font-weight: bold;padding-left: 10px;">Scaled Agile Framework</span>
-                    <p style="font-size: 80%;padding-left: 34px;">in 3 roles</p>
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
                 </summary>
                 <p class="skill-description">Short description of skill</p>
             </details>
@@ -72,8 +72,3 @@ filename: index
         </section>
     </div>
 </div>
-
-
-<details class="about-skill-details skill-card" style="display: flex;">
-
-                    </details>

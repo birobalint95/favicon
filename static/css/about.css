@@ -198,6 +198,24 @@
     padding-top: 4px;
 }
 
+.about-skill-description{
+    padding-left: 60px;
+}
+
+.about-role-count{
+    padding-left: 60px;
+}
+
+.about-skill-name{
+    padding-top: 10px;
+}
+
+.about-skill-name::before{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
 .about-skill-name::before {
     margin-left: 1ch;
     display: inline-block;
