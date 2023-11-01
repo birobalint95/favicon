@@ -47,7 +47,7 @@ function createSkillCard(skill, roles) {
     const paragraphOfSummary = document.createElement("p");
     paragraphOfSummary.setAttribute("class", "about-role-count");
     paragraphOfSummary.setAttribute("style", "font-size: 80%;");
-    paragraphOfSummary.insertAdjacentHTML("beforeend", `in <span class="number-of-roles">3</span> roles`)
+    paragraphOfSummary.insertAdjacentHTML("beforeend", `in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
     summaryOfSkillCard.appendChild(paragraphOfSummary);
 
     // UNORDERED LIST OF DETAILS
@@ -62,9 +62,22 @@ function createSkillCard(skill, roles) {
         unorderedListOfSkillCard.appendChild(listItem);
     }
 
-    // ADD SKILLCARD TO ITS SECTION
+    // FINALIZE SKILLCARD
     skillCard.appendChild(summaryOfSkillCard);
-    skillCard.appendChild(unorderedListOfSkillCard);
+    skillCard.appendChild(unorderedListOfSkillCard)
+    skillCard.addEventListener("toggle", function() {
+        isDetailsOpen = skillCard.hasAttribute("open");
+        numberOfRoles = skillCard.getElementsByClassName("number-of-roles")[0];
+        numberOfRolesInt = parseInt(numberOfRoles.innerText);
+        if (isDetailsOpen) {
+            requiredHeight = 90 + (numberOfRolesInt - 1)*27;
+            skillCard.style.height = requiredHeight.toString() + "px";
+        } else {
+            skillCard.style.height = "70px";
+        }
+    })
+
+    // ADD SKILLCARD TO ITS SECTION
     const skillCardSection = document.getElementById("skill-cards-section");
     skillCardSection.appendChild(skillCard);
     
