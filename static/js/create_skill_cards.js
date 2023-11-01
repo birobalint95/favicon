@@ -11,20 +11,31 @@ function createSkillCards(){
             roleToDisplay = role.area + " " + role.title;
             for(let skill of role.skills){
                 if (skill in dictOfSkills) {
-                    dictOfSkills[skill].push(roleToDisplay);
+                    // dictOfSkills[skill].push(roleToDisplay);
+                    dictOfSkills[skill][roles].push(roleToDisplay);
+                    dictOfSkills[skill][timeIntervals].push(role.time);
                 } else {
-                    dictOfSkills[skill] = [roleToDisplay];
+                    // dictOfSkills[skill] = [roleToDisplay];
+                    dictOfSkills[skill][roles] = [roleToDisplay];
+                    dictOfSkills[skill][timeIntervals] = [role.time];
                 }
             }
         }
 
-        for (const [skill, roles] of Object.entries(dictOfSkills)) {
-            createSkillCard(skill, roles);
-        };
+        // for (const [skill, roles] of Object.entries(dictOfSkills)) {
+        //     createSkillCard(skill, roles);
+        // };
+        for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
+            createSkillCard(skill, skillAttributes);
+        }
     });
 };
 
-function createSkillCard(skill, roles) {
+// function createSkillCard(skill, roles) {
+function createSkillCard(skill, skillAttributes) {
+
+    console.log(skillAttributes[timeIntervals]);
+    let roles = skillAttributes[roles];
  
     // DETAILS
     const skillCard = document.createElement("details");
@@ -47,7 +58,8 @@ function createSkillCard(skill, roles) {
     const paragraphOfSummary = document.createElement("p");
     paragraphOfSummary.setAttribute("class", "about-role-count");
     paragraphOfSummary.setAttribute("style", "font-size: 80%;");
-    paragraphOfSummary.insertAdjacentHTML("beforeend", `in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
+    // paragraphOfSummary.insertAdjacentHTML("beforeend", `in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
+    paragraphOfSummary.insertAdjacentHTML("beforeend", `3 years and 4 months, in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
     summaryOfSkillCard.appendChild(paragraphOfSummary);
 
     // UNORDERED LIST OF DETAILS
