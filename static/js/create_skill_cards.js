@@ -16,8 +16,8 @@ function createSkillCards(){
                     dictOfSkills[skill][timeIntervals].push(role.time);
                 } else {
                     // dictOfSkills[skill] = [roleToDisplay];
-                    dictOfSkills[skill][roles] = [roleToDisplay];
-                    dictOfSkills[skill][timeIntervals] = [role.time];
+                    dictOfSkills[skill]["roles"] = [roleToDisplay];
+                    dictOfSkills[skill]["timeIntervals"] = [role.time];
                 }
             }
         }
@@ -34,8 +34,8 @@ function createSkillCards(){
 // function createSkillCard(skill, roles) {
 function createSkillCard(skill, skillAttributes) {
 
-    console.log(skillAttributes[timeIntervals]);
-    let roles = skillAttributes[roles];
+    console.log(skillAttributes["timeIntervals"]);
+    let roles = skillAttributes["roles"];
  
     // DETAILS
     const skillCard = document.createElement("details");
