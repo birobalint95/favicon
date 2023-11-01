@@ -3,8 +3,11 @@ fetch("./static/json/role_details.json")
    return response.json();
 })
 .then(function(roles){
-    var dictOfSkills = {};
+    
+    let sectionOfSkillCards = document.querySelector("#skill-cards-section");
+    let detailsItemsOfSkills = ""
 
+    var dictOfSkills = {};
     for(let role of roles){
         roleToDisplay = role.area + " " + role.title;
         for(let skill of role.skills){
@@ -17,23 +20,35 @@ fetch("./static/json/role_details.json")
     }
 
     for (const [skill, roles] of Object.entries(dictOfSkills)) {
-        console.log(skill, roles);
+
+        summaryOfDetailsItem = `
+            <summary class="about-skill-name">
+                <span class="about-skill-description" style="font-weight: bold;">${skill}</span>
+                <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">${roles.length.toString()}</span> roles</p>
+            </summary>
+        `;
+
+        listItemsofDetailsItem = ""
+        for(let role of roles){
+            listItemsofDetailsItem += `<li>${role}</li>`
+        }
+        unorderedListOfDetailsItem = `
+            <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+            ${listItemsofDetailsItem}
+            </ul>
+        `;
+
+        detailsItemsOfSkills += `
+            <details class="about-skill-details skill-card" style="display: flex;">
+            ${summaryOfDetailsItem}
+            ${unorderedListOfDetailsItem}
+            </details>
+        `;
     }
 
+    console.log(detailsItemsOfSkills);
 
-    detailsItemsOfSkills += `
-        <details class="about-skill-details skill-card" style="display: flex;">
-            <summary class="about-skill-name">
-                <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
-                <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">3</span> roles</p>
-            </summary>
-            <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
-                <li>Test Automation Product Owner</li>
-                <li>Automation & Framework Product Owner</li>
-                <li>Chief Engineer</li>
-            </ul>
-        </details>
-    `;
+    // sectionOfSkillCards.innerHTML = detailsItemsOfSkills;
 
 });
 
