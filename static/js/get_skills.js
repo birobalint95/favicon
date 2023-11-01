@@ -8,10 +8,13 @@ fetch("./static/json/role_details.json")
     for(let role of roles){
         for(let skill of role.skills){
             if (skill in dictOfSkills) {
-                console.log("mar van")
+                dictOfSkills[skill].push(role);
             } else {
-                dictOfSkills[skill] = [role]
+                dictOfSkills[skill] = [role];
             }
         }
     }
+
+    console.log(dictOfSkills);
+
 });
