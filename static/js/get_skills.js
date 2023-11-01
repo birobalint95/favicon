@@ -46,8 +46,6 @@ fetch("./static/json/role_details.json")
         `;
     }
 
-    console.log(detailsItemsOfSkills);
-
     // sectionOfSkillCards.innerHTML = detailsItemsOfSkills;
 
 });
