@@ -36,15 +36,13 @@ filename: index
     </div>
     <div id="tab-content-about-skills" title="about-skills" class="tab-content">
         <section id="skill-cards-section" class="skill-cards" style="color: black;">
-            <div class="skill-card" style="display: flex;">
-                <div>
-                    <img class="skill-icon" src="./static/images/hobby_hiking.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-                </div>
-                <div class="skill-card-content" style="padding-top: 10px;">
-                    <p class="skill-description" style="padding-top: 0px; font-weight: bold;">Scaled Agile Framework</p>
-                    <p style="font-size: 80%;">in 3 roles</p>
-                </div>
-            </div>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name" style="padding-top: 12px;">
+                    <span class="skill-description" style="padding-top: 0px;font-weight: bold;padding-left: 10px;">Scaled Agile Framework</span>
+                    <p style="font-size: 80%;padding-left: 34px;">in 3 roles</p>
+                </summary>
+                <p class="skill-description">Short description of skill</p>
+            </details>
             <div class="skill-card" style="display: flex;">
                 <div>
                     <img class="skill-icon" src="./static/images/hobby_hiking.png" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
@@ -74,3 +72,8 @@ filename: index
         </section>
     </div>
 </div>
+
+
+<details class="about-skill-details skill-card" style="display: flex;">
+
+                    </details>

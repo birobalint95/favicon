@@ -158,7 +158,7 @@
 
 .skill-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 40px;
 }
@@ -196,4 +196,25 @@
 
 .skill-description {
     padding-top: 4px;
+}
+
+.about-skill-name::before {
+    margin-left: 1ch;
+    display: inline-block;
+    font-family: FontAwesome; 
+    content: '\f078';
+    transition: 0.4s;
+}
+
+.about-skill-details > .about-skill-name::marker, /* Latest Chrome, Edge, Firefox */ 
+.about-skill-details > .about-skill-name::-webkit-details-marker /* Safari */ {
+    display: none;
+}
+
+.about-skill-details[open] > .about-skill-name::before {
+    transform: rotate(180deg);
+}
+
+.about-skill-details > .about-skill-name {
+    list-style: none;
 }
