@@ -225,10 +225,6 @@
     transition: 0.4s;
 }
 
-.about-skill-details{
-    cursor: pointer;
-}
-
 .about-skill-details > .about-skill-name::marker, /* Latest Chrome, Edge, Firefox */ 
 .about-skill-details > .about-skill-name::-webkit-details-marker /* Safari */ {
     display: none;
