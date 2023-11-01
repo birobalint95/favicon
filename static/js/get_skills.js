@@ -6,11 +6,12 @@ fetch("./static/json/role_details.json")
     var dictOfSkills = {};
 
     for(let role of roles){
+        roleToDisplay = role.area + " " + role.title;
         for(let skill of role.skills){
             if (skill in dictOfSkills) {
-                dictOfSkills[skill].push(role);
+                dictOfSkills[skill].push(roleToDisplay);
             } else {
-                dictOfSkills[skill] = [role];
+                dictOfSkills[skill] = [roleToDisplay];
             }
         }
     }
