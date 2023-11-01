@@ -5,6 +5,8 @@ $(document).ready (function() {
     allDetails.forEach(details => {
     details.addEventListener("toggle", function() {
         isDetailsOpen = details.hasAttribute("open");
+        numberOfRoles = details.getElementsByClassName("number-of-roles");
+        console.log(numberOfRoles);
         if (isDetailsOpen) {
             details.style.height = "145px";
         } else {

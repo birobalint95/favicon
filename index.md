@@ -39,7 +39,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">3</span> roles</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -50,7 +50,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Priority Management</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 2 roles</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">2</span> roles</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -60,7 +60,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Stakeholder communication</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 1 role</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">1</span> role</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -69,7 +69,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">3</span> roles</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -80,7 +80,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Priority Management</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 2 roles</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">2</span> roles</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -90,7 +90,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Stakeholder communication</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 1 role</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">1</span> role</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -99,7 +99,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">3</span> roles</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -110,7 +110,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Priority Management</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 2 roles</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">2</span> roles</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
@@ -120,7 +120,7 @@ filename: index
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Stakeholder communication</span>
-                    <p style="font-size: 80%;" class="about-role-count">in 1 role</p>
+                    <p style="font-size: 80%;" class="about-role-count">in <span class="number-of-roles">1</span> role</p>
                 </summary>
                 <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
                     <li>Test Automation Product Owner</li>
