@@ -7,7 +7,11 @@ fetch("./static/json/role_details.json")
 
     for(let role of roles){
         for(let skill of role.skills){
-            console.log(skill);
+            if (skill in dictOfSkills) {
+                console.log("mar van")
+            } else {
+                dictOfSkills[skill] = [role]
+            }
         }
     }
 });
