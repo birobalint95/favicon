@@ -1,6 +1,33 @@
 document.body.onload = createSkillCards;
 
-function createSkillCards() {
+function createSkillCards(){
+    fetch("./static/json/role_details.json")
+    .then(function(response){
+    return response.json();
+    })
+    .then(function(roles){    
+        var dictOfSkills = {};
+        for(let role of roles){
+            roleToDisplay = role.area + " " + role.title;
+            for(let skill of role.skills){
+                if (skill in dictOfSkills) {
+                    dictOfSkills[skill].push(roleToDisplay);
+                } else {
+                    dictOfSkills[skill] = [roleToDisplay];
+                }
+            }
+        }
+
+        for (const [skill, roles] of Object.entries(dictOfSkills)) {
+            createSkillCard(skill, roles);
+        };
+
+    });
+};
+
+
+
+function createSkillCard(skill, roles) {
  
     // DETAILS
     const skillCard = document.createElement("details");
