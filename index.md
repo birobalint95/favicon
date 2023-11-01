@@ -66,6 +66,66 @@ filename: index
                     <li>Test Automation Product Owner</li>
                 </ul>
             </details>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
+                </summary>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                    <li>Automation & Framework Product Owner</li>
+                    <li>Chief Engineer</li>
+                </ul>
+            </details>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Priority Management</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 2 roles</p>
+                </summary>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                    <li>Automation & Framework Product Owner</li>
+                </ul>
+            </details>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Stakeholder communication</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 1 role</p>
+                </summary>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                </ul>
+            </details>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Scaled Agile Framework</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 3 roles</p>
+                </summary>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                    <li>Automation & Framework Product Owner</li>
+                    <li>Chief Engineer</li>
+                </ul>
+            </details>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Priority Management</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 2 roles</p>
+                </summary>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                    <li>Automation & Framework Product Owner</li>
+                </ul>
+            </details>
+            <details class="about-skill-details skill-card" style="display: flex;">
+                <summary class="about-skill-name">
+                    <span class="about-skill-description" style="font-weight: bold;">Stakeholder communication</span>
+                    <p style="font-size: 80%;" class="about-role-count">in 1 role</p>
+                </summary>
+                <ul class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+                    <li>Test Automation Product Owner</li>
+                </ul>
+            </details>
         </section>
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
