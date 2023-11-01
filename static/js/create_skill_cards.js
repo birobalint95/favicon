@@ -76,6 +76,14 @@ function createSkillCard(skill, roles) {
             skillCard.style.height = "70px";
         }
     })
+    skillCard.addEventListener("click", function() {
+        isDetailsOpen = skillCard.hasAttribute("open");
+        if (isDetailsOpen) {
+            skillCard.removeAttribute("open");
+        } else {
+            skillCard.setAttribute("open");
+        }
+    })
 
     // ADD SKILLCARD TO ITS SECTION
     const skillCardSection = document.getElementById("skill-cards-section");
