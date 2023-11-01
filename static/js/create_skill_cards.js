@@ -21,11 +21,8 @@ function createSkillCards(){
         for (const [skill, roles] of Object.entries(dictOfSkills)) {
             createSkillCard(skill, roles);
         };
-
     });
 };
-
-
 
 function createSkillCard(skill, roles) {
  
@@ -42,7 +39,7 @@ function createSkillCard(skill, roles) {
     const spanOfSummary = document.createElement("span");
     spanOfSummary.setAttribute("class", "about-skill-description");
     spanOfSummary.setAttribute("style", "font-weight: bold;");
-    const textOfSummary = document.createTextNode("HELLO");
+    const textOfSummary = document.createTextNode(`${skill}`);
     spanOfSummary.appendChild(textOfSummary);
     summaryOfSkillCard.appendChild(spanOfSummary);
 
@@ -57,10 +54,13 @@ function createSkillCard(skill, roles) {
     const unorderedListOfSkillCard = document.createElement("ul");
     unorderedListOfSkillCard.setAttribute("class", "skill-description");
     unorderedListOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
-    const listItem = document.createElement("li");
-    const textOfListItem = document.createTextNode("Test Automation Product Owner");
-    listItem.appendChild(textOfListItem);
-    unorderedListOfSkillCard.appendChild(listItem);
+
+    for(let role of roles){
+        const listItem = document.createElement("li");
+        const textOfListItem = document.createTextNode(`${role}`);
+        listItem.appendChild(textOfListItem);
+        unorderedListOfSkillCard.appendChild(listItem);
+    }
 
     // ADD SKILLCARD TO ITS SECTION
     skillCard.appendChild(summaryOfSkillCard);
