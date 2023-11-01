@@ -6,11 +6,10 @@ $(document).ready (function() {
     details.addEventListener("toggle", function() {
         isDetailsOpen = details.hasAttribute("open");
         numberOfRoles = details.getElementsByClassName("number-of-roles")[0];
-        console.log(numberOfRoles.innerText);
-        console.log(numberOfRoles.innerHTML);
-        console.log(numberOfRoles.value);
+        numberOfRolesInt = parseInt(numberOfRoles.innerText);
         if (isDetailsOpen) {
-            details.style.height = "145px";
+            requiredHeight = 90 + (numberOfRolesInt - 1)*27;
+            details.style.height = requiredHeight.toString() + "px";
         } else {
             details.style.height = "70px";
         }
