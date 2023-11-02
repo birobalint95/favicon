@@ -128,16 +128,6 @@ function createSkillCard(mainTitle, subTitle, details) {
         detailsOfSkillCard = "";
     }
 
-    <details class="about-skill-details skill-card" style="display: flex;">
-    <summary class="about-skill-name">
-        <span class="about-skill-description" style="font-weight: bold;">Hungarian <span class="flag-icon flag-icon-hu"></span></span>
-        <p class="about-role-count" style="font-size: 80%;">Native</p>
-    </summary>
-    <p class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
-        My mother language as I was born and raised in Hungary.
-    </p>
-</details>
-
     skillCard.appendChild(summaryOfSkillCard);
     skillCard.appendChild(detailsOfSkillCard);
 
