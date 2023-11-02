@@ -25,6 +25,21 @@ function createSkillCards(){
             createTechnicalSkillCard(skill, skillAttributes);
         }
     });
+
+    fetch("./static/json/intro_details.json")
+    .then(function(response){
+    return response.json();
+    })
+    .then(function(introDetails){    
+        let jsonDataOfLanguages = introDetails["languages"];
+        for(let language of jsonDataOfLanguages){
+            console.log(language.name);
+            console.log(language.country_code);
+            console.log(language.level);
+            console.log(language.description);
+        }
+    });
+
 };
 
 function createTechnicalSkillCard(skill, skillAttributes) {
@@ -104,9 +119,24 @@ function createSkillCard(mainTitle, subTitle, details) {
             listItem.appendChild(textOfListItem);
             detailsOfSkillCard.appendChild(listItem);
         }
+    } else if (typeof details === 'string') {
+        detailsOfSkillCard = document.createElement("p");
+        detailsOfSkillCard.setAttribute("class", "skill-description");
+        detailsOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
+        detailsOfSkillCard.innerText(details)
     } else {
         detailsOfSkillCard = "";
     }
+
+    <details class="about-skill-details skill-card" style="display: flex;">
+    <summary class="about-skill-name">
+        <span class="about-skill-description" style="font-weight: bold;">Hungarian <span class="flag-icon flag-icon-hu"></span></span>
+        <p class="about-role-count" style="font-size: 80%;">Native</p>
+    </summary>
+    <p class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
+        My mother language as I was born and raised in Hungary.
+    </p>
+</details>
 
     skillCard.appendChild(summaryOfSkillCard);
     skillCard.appendChild(detailsOfSkillCard);
