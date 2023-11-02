@@ -2,7 +2,7 @@ let roleDetailsJsonData = fetch('./static/json/role_details.json"').then((respon
 
 document.body.onload = createSkillCards;
 
-function createSkillCards(){
+function createSkillCards(roleDetailsJsonData){
     // fetch("./static/json/role_details.json")
     // .then(function(response){
     // return response.json();
