@@ -9,14 +9,17 @@ function createSkillCards(){
         var dictOfSkills = {};
         for(let role of roles){
             roleToDisplay = role.area + " " + role.title;
-            for(let skill of role.skills){
-                if (skill in dictOfSkills) {
-                    dictOfSkills[skill]["roles"].push(roleToDisplay);
-                    dictOfSkills[skill]["timeIntervals"].push(role.time);
-                } else {
-                    dictOfSkills[skill] = {};
-                    dictOfSkills[skill]["roles"] = [roleToDisplay];
-                    dictOfSkills[skill]["timeIntervals"] = [role.time];
+            for(let skill_area of role.skills){
+                console.log(skill_area);
+                for(let skill of skill_area){
+                    if (skill in dictOfSkills) {
+                        dictOfSkills[skill]["roles"].push(roleToDisplay);
+                        dictOfSkills[skill]["timeIntervals"].push(role.time);
+                    } else {
+                        dictOfSkills[skill] = {};
+                        dictOfSkills[skill]["roles"] = [roleToDisplay];
+                        dictOfSkills[skill]["timeIntervals"] = [role.time];
+                    }
                 }
             }
         }
@@ -25,58 +28,43 @@ function createSkillCards(){
             createTechnicalSkillCard(skill, skillAttributes);
         }
     });
+
+    fetch("./static/json/intro_details.json")
+    .then(function(response){
+    return response.json();
+    })
+    .then(function(introDetails){
+        let jsonDataOfLanguages = introDetails["languages"];
+        for(let language of jsonDataOfLanguages){
+            createLanguageSkillCard(language);
+        }
+    });
+
 };
 
 function createTechnicalSkillCard(skill, skillAttributes) {
 
     let timeIntervals = skillAttributes["timeIntervals"]
     let roles = skillAttributes["roles"];
- 
-    // DETAILS
-    const skillCard = document.createElement("details");
-    skillCard.setAttribute("class", "about-skill-details skill-card");
-    skillCard.setAttribute("style", "display: flex;");
 
-    // SUMMARY OF DETAILS
-    const summaryOfSkillCard = document.createElement("summary");
-    summaryOfSkillCard.setAttribute("class", "about-skill-name");
+    // MAIN TITLE
+    let mainTitle = `${skill}`;
 
-    // SPAN OF SUMMARY
-    const spanOfSummary = document.createElement("span");
-    spanOfSummary.setAttribute("class", "about-skill-description");
-    spanOfSummary.setAttribute("style", "font-weight: bold;");
-    const textOfSummary = document.createTextNode(`${skill}`);
-    spanOfSummary.appendChild(textOfSummary);
-    summaryOfSkillCard.appendChild(spanOfSummary);
-
-    // PARAGRAPH OF SUMMARY
-    const paragraphOfSummary = document.createElement("p");
-    paragraphOfSummary.setAttribute("class", "about-role-count");
-    paragraphOfSummary.setAttribute("style", "font-size: 80%;");
-
+    // SUBTITLE
     let sumSpentTime = 0;
     for(let timeInterval of timeIntervals){
         sumSpentTime += calculateSpentTime(timeInterval);
     }
     let spentTimeInWords = getWords(sumSpentTime);
-    paragraphOfSummary.insertAdjacentHTML("beforeend", `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
-    summaryOfSkillCard.appendChild(paragraphOfSummary);
+    let subTitle = `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> roles`;
 
-    // UNORDERED LIST OF DETAILS
-    const unorderedListOfSkillCard = document.createElement("ul");
-    unorderedListOfSkillCard.setAttribute("class", "skill-description");
-    unorderedListOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
+    // DETAILS
+    let details = roles;
 
-    for(let role of roles){
-        const listItem = document.createElement("li");
-        const textOfListItem = document.createTextNode(`${role}`);
-        listItem.appendChild(textOfListItem);
-        unorderedListOfSkillCard.appendChild(listItem);
-    }
+    // CREATE THE SKILL CARD
+    let skillCard = createSkillCard(mainTitle, subTitle, details);
 
-    // FINALIZE SKILLCARD
-    skillCard.appendChild(summaryOfSkillCard);
-    skillCard.appendChild(unorderedListOfSkillCard)
+    // ADD EVENTLISTENER TO SKILLCARD
     skillCard.addEventListener("toggle", function() {
         isDetailsOpen = skillCard.hasAttribute("open");
         numberOfRoles = skillCard.getElementsByClassName("number-of-roles")[0];
@@ -90,9 +78,82 @@ function createTechnicalSkillCard(skill, skillAttributes) {
     })
 
     // ADD SKILLCARD TO ITS SECTION
-    const skillCardSection = document.getElementById("skill-cards-section");
+    const skillCardSection = document.getElementById("methodology-skill-cards-section");
     skillCardSection.appendChild(skillCard);
     
+}
+
+function createLanguageSkillCard(language){
+
+    // MAIN TITLE
+    let mainTitle = `${language.name} <span class="flag-icon flag-icon-${language.country_code}"></span>`
+    // CREATE THE SKILL CARD
+    let skillCard = createSkillCard(mainTitle, language.level, language.description);
+    // ADD EVENTLISTENER TO SKILLCARD
+    skillCard.addEventListener("toggle", function() {
+        isDetailsOpen = skillCard.hasAttribute("open");
+        if (isDetailsOpen) {
+            skillCard.style.height = "120px";
+        } else {
+            skillCard.style.height = "70px";
+        }
+    })
+
+    // ADD SKILLCARD TO ITS SECTION
+    const skillCardSection = document.getElementById("language-skill-cards-section");
+    skillCardSection.appendChild(skillCard);
+
+}
+
+function createSkillCard(mainTitle, subTitle, details) {
+    // DETAILS ELEMENT
+    const skillCard = document.createElement("details");
+    skillCard.setAttribute("class", "about-skill-details skill-card");
+    skillCard.setAttribute("style", "display: flex;");
+
+    // SUMMARY OF DETAILS
+    const summaryOfSkillCard = document.createElement("summary");
+    summaryOfSkillCard.setAttribute("class", "about-skill-name");
+
+    // SPAN OF SUMMARY
+    const spanOfSummary = document.createElement("span");
+    spanOfSummary.setAttribute("class", "about-skill-description");
+    spanOfSummary.setAttribute("style", "font-weight: bold;");
+    spanOfSummary.insertAdjacentHTML("beforeend", mainTitle)
+    summaryOfSkillCard.appendChild(spanOfSummary);
+
+    // PARAGRAPH OF SUMMARY
+    const paragraphOfSummary = document.createElement("p");
+    paragraphOfSummary.setAttribute("class", "about-role-count");
+    paragraphOfSummary.setAttribute("style", "font-size: 80%;");
+    paragraphOfSummary.insertAdjacentHTML("beforeend", subTitle)
+    summaryOfSkillCard.appendChild(paragraphOfSummary);
+
+    // DETAILS
+    if (Array.isArray(details)){
+        detailsOfSkillCard = document.createElement("ul");
+        detailsOfSkillCard.setAttribute("class", "skill-description");
+        detailsOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
+        for(let detail of details){
+            const listItem = document.createElement("li");
+            const textOfListItem = document.createTextNode(`${detail}`);
+            listItem.appendChild(textOfListItem);
+            detailsOfSkillCard.appendChild(listItem);
+        }
+    } else if (typeof details === 'string') {
+        detailsOfSkillCard = document.createElement("p");
+        detailsOfSkillCard.setAttribute("class", "skill-description");
+        detailsOfSkillCard.setAttribute("style", "padding-left: 60px; font-size: 80%; padding-top: 0px;");
+        detailsOfSkillCard.insertAdjacentHTML("beforeend", details);
+    } else {
+        detailsOfSkillCard = "";
+    }
+
+    skillCard.appendChild(summaryOfSkillCard);
+    skillCard.appendChild(detailsOfSkillCard);
+
+    return skillCard;
+
 }
 
 

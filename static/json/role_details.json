@@ -6,21 +6,24 @@
         "area": "Test Automation",
         "time": "2022 May - present",
         "content": "Content of Test Automation Product Owner.",
-        "skills": [
-            "Scaled Agile Framework", 
-            "Priority Management",
-            "Backlog Management",
-            "Stakeholder Management",
-            "Product Vision",
-            "Scrum",
-            "Kanban",
-            "Product Management",
-            "Product Development",
-            "Software Development",
-            "Product Strategy",
-            "Product Road Mapping",
-            "Communication"
-        ]
+        "skills": {
+            "methodology": [
+                "Scaled Agile Framework", 
+                "Priority Management",
+                "Backlog Management",
+                "Stakeholder Management",
+                "Product Vision",
+                "Scrum",
+                "Kanban",
+                "Product Management",
+                "Product Development",
+                "Software Development",
+                "Product Strategy",
+                "Product Road Mapping",
+                "Communication"
+            ],
+            "management": []
+        }
     },
     {
         "id": "product-owner-1",
@@ -29,21 +32,24 @@
         "area": "Automation & Framework",
         "time": "2021 Sep - 2022 May",
         "content": "Content of Automation & Framework Product Owner.",
-        "skills": [
-            "Scaled Agile Framework", 
-            "Priority Management",
-            "Backlog Management",
-            "Stakeholder Management",
-            "Product Vision",
-            "Scrum",
-            "Kanban",
-            "Product Management",
-            "Product Development",
-            "Software Development",
-            "Product Strategy",
-            "Product Road Mapping",
-            "Communication"
-        ]
+        "skills": {
+            "methodology": [
+                "Scaled Agile Framework", 
+                "Priority Management",
+                "Backlog Management",
+                "Stakeholder Management",
+                "Product Vision",
+                "Scrum",
+                "Kanban",
+                "Product Management",
+                "Product Development",
+                "Software Development",
+                "Product Strategy",
+                "Product Road Mapping",
+                "Communication"
+            ],
+            "management": []
+        }
     },
     {
         "id": "sw-developer",
@@ -52,19 +58,22 @@
         "area": "Modelling & Simulation",
         "time": "2019 Jun - 2021 Sep",
         "content": "Content of Modelling & Simulation SW Developer.",
-        "skills": [
-            "Scaled Agile Framework", 
-            "Priority Management",
-            "Backlog Management",
-            "Stakeholder Management",
-            "Product Vision",
-            "Product Management",
-            "Product Development",
-            "Software Development",
-            "Product Strategy",
-            "Product Road Mapping",
-            "Communication"
-        ]
+        "skills": {
+            "methodology": [
+                "Scaled Agile Framework", 
+                "Priority Management",
+                "Backlog Management",
+                "Stakeholder Management",
+                "Product Vision",
+                "Product Management",
+                "Product Development",
+                "Software Development",
+                "Product Strategy",
+                "Product Road Mapping",
+                "Communication"
+            ],
+            "management": []
+        }
     },
     {
         "id": "technical-manager",
@@ -73,20 +82,23 @@
         "area": "Electric & Driverless Cars",
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Electric & Driverless Technical Manager.",
-        "skills": [
-            "Priority Management",
-            "Backlog Management",
-            "Stakeholder Management",
-            "Product Vision",
-            "Product Management",
-            "Product Development",
-            "Software Development",
-            "Product Strategy",
-            "Product Road Mapping",
-            "Communication",
-            "Waterfall",
-            "V-modell"
-        ]
+        "skills": {
+            "methodology": [
+                "Priority Management",
+                "Backlog Management",
+                "Stakeholder Management",
+                "Product Vision",
+                "Product Management",
+                "Product Development",
+                "Software Development",
+                "Product Strategy",
+                "Product Road Mapping",
+                "Communication",
+                "Waterfall",
+                "V-modell"
+            ],
+            "management": []
+        }
     },
     {
         "id": "chief-engineer",
@@ -95,20 +107,23 @@
         "area": "Electric & Driverless Cars",
         "time": "2017 Sep - 2018 Sep",
         "content": "Content of Electric & Driverless Chief Engineer.",
-        "skills": [
-            "Priority Management",
-            "Backlog Management",
-            "Stakeholder Management",
-            "Product Vision",
-            "Product Management",
-            "Product Development",
-            "Software Development",
-            "Product Strategy",
-            "Product Road Mapping",
-            "Communication",
-            "Waterfall",
-            "V-modell"
-        ]
+        "skills": {
+            "methodology": [
+                "Priority Management",
+                "Backlog Management",
+                "Stakeholder Management",
+                "Product Vision",
+                "Product Management",
+                "Product Development",
+                "Software Development",
+                "Product Strategy",
+                "Product Road Mapping",
+                "Communication",
+                "Waterfall",
+                "V-modell"
+            ],
+            "management": []
+        }
     },
     {
         "id": "group-leader-1",
@@ -117,18 +132,21 @@
         "area": "Vehicle Dynamics Control",
         "time": "2018 Sep - 2019 Feb",
         "content": "Content of Vehicle Dynamics Control Group Leader.",
-        "skills": [
-            "Priority Management",
-            "Backlog Management",
-            "Product Vision",
-            "Product Management",
-            "Product Development",
-            "Software Development",
-            "Product Strategy",
-            "Product Road Mapping",
-            "Communication",
-            "Waterfall",
-            "V-modell"
-        ]
+        "skills": {
+            "methodology": [
+                "Priority Management",
+                "Backlog Management",
+                "Product Vision",
+                "Product Management",
+                "Product Development",
+                "Software Development",
+                "Product Strategy",
+                "Product Road Mapping",
+                "Communication",
+                "Waterfall",
+                "V-modell"
+            ],
+            "management": []
+        }
     }
 ]
