@@ -78,10 +78,8 @@ function createTechnicalSkillCard(skill, skillAttributes) {
         }
     })
 
-    console.log(skillArea);
-
     // ADD SKILLCARD TO ITS SECTION
-    const skillCardSection = document.getElementById("methodology-skill-cards-section");
+    const skillCardSection = document.getElementById(`${skillArea}-skill-cards-section`);
     skillCardSection.appendChild(skillCard);
     
 }
