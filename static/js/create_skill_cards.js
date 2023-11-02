@@ -63,8 +63,6 @@ function createSkillCard(skill, skillAttributes) {
 
     let sumSpentTime = 0;
     for(let timeInterval of timeIntervals){
-        console.log(timeInterval)
-        console.log(calculateSpentTime(timeInterval));
         sumSpentTime += calculateSpentTime(timeInterval);
     }
     let spentTimeInWords = getWords(sumSpentTime);

@@ -3,6 +3,7 @@
 @import "about.css";
 
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.3.1/css/flag-icon.min.css");
 
 html {
     margin-left: calc(100vw - 100%);
