@@ -35,7 +35,7 @@ function createSkillCards(){
 // function createSkillCard(skill, roles) {
 function createSkillCard(skill, skillAttributes) {
 
-    console.log(skillAttributes["timeIntervals"]);
+    let timeIntervals = skillAttributes["timeIntervals"]
     let roles = skillAttributes["roles"];
  
     // DETAILS
@@ -60,7 +60,13 @@ function createSkillCard(skill, skillAttributes) {
     paragraphOfSummary.setAttribute("class", "about-role-count");
     paragraphOfSummary.setAttribute("style", "font-size: 80%;");
     // paragraphOfSummary.insertAdjacentHTML("beforeend", `in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
-    paragraphOfSummary.insertAdjacentHTML("beforeend", `3 years and 4 months, in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
+
+    let sumSpentTime = 0;
+    for(let timeInterval of timeIntervals){
+        sumSpentTime += calculateSpentTime(timeInterval);
+    }
+    let spentTimeInWords = getWords(sumSpentTime);
+    paragraphOfSummary.insertAdjacentHTML("beforeend", `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
     summaryOfSkillCard.appendChild(paragraphOfSummary);
 
     // UNORDERED LIST OF DETAILS
@@ -94,4 +100,54 @@ function createSkillCard(skill, skillAttributes) {
     const skillCardSection = document.getElementById("skill-cards-section");
     skillCardSection.appendChild(skillCard);
     
+}
+
+
+function calculateSpentTime(intervalString){
+    const partsOfString = intervalString.split(" - ");
+  
+    let startDate = partsOfString[0];
+    let splitStartDate = startDate.split(" ");
+    let startYear = splitStartDate[0];
+    let startMonth = splitStartDate[1];
+  
+    let endDate = partsOfString[1];
+    let splitEndDate = endDate.split(" ");
+    let endYear = splitEndDate[0];
+    let endMonth = splitEndDate[1];
+  
+    let spentTime = monthDiff(
+        new Date(startYear, getMonthFromString(startMonth), 1), 
+        new Date(endYear, getMonthFromString(endMonth), 1)
+    )
+    
+    return spentTime;
+}
+  
+function getMonthFromString(mon){
+    return new Date(Date.parse(mon +" 1, 2012")).getMonth()+1
+}
+  
+function monthDiff(d1, d2) {
+    var months;
+    months = (d2.getFullYear() - d1.getFullYear()) * 12;
+    months -= d1.getMonth();
+    months += d2.getMonth();
+    return months <= 0 ? 0 : months;
+}
+  
+function getWords(monthCount) {
+    function getPlural(number, word) {
+        return number === 1 && word.one || word.other;
+    }
+
+    var months = { one: 'month', other: 'months' },
+        years = { one: 'year', other: 'years' },
+        m = monthCount % 12,
+        y = Math.floor(monthCount / 12),
+        result = [];
+
+    y && result.push(y + ' ' + getPlural(y, years));
+    m && result.push(m + ' ' + getPlural(m, months));
+    return result.join(' and ');
 }
