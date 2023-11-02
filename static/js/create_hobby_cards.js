@@ -19,9 +19,11 @@ function createHobbyCards(){
 
             // DIV 1 OF MAIN DIV
             const div1OfHobbyCard = document.createElement("div");
-            div1OfHobbyCard.setAttribute("class", "hobby-icon");
-            div1OfHobbyCard.setAttribute("src", `${hobby.image_location}`);
-            div1OfHobbyCard.setAttribute("style", "max-width: 100%; max-height: 100%; display: block; border-radius: 10px;");
+            const imgOfHobbyCard = document.createElement("img");
+            imgOfHobbyCard.setAttribute("class", "hobby-icon");
+            imgOfHobbyCard.setAttribute("src", `${hobby.image_location}`);
+            imgOfHobbyCard.setAttribute("style", "max-width: 100%; max-height: 100%; display: block; border-radius: 10px;");
+            div1OfHobbyCard.appendChild(imgOfHobbyCard);
             hobbyCard.appendChild(div1OfHobbyCard);
 
             // DIV 2 OF MAIN DIV
@@ -42,3 +44,12 @@ function createHobbyCards(){
         }
     });
 };
+
+<div class="hobby-card" style="display: flex;">
+<div>
+    <img class="hobby-icon" src="${hobby.image_location}" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
+</div>
+<div class="hobby-card-content">
+    <p class="hobby-description">${hobby.name}</p>
+</div>
+</div>
