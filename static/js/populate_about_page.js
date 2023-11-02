@@ -1,5 +1,4 @@
 importScripts("./create_skill_cards.js")
-import { createTechnicalSkillCard, createLanguageSkillCard } from "./create_skill_cards.js";
 
 document.body.onload = populateAboutPage;
 
