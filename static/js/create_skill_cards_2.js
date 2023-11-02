@@ -100,7 +100,7 @@ function createSkillCard(mainTitle, subTitle, details) {
         detailsOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
         for(let detail of details){
             const listItem = document.createElement("li");
-            const textOfListItem = document.createTextNode(`${role}`);
+            const textOfListItem = document.createTextNode(`${detail}`);
             listItem.appendChild(textOfListItem);
             detailsOfSkillCard.appendChild(listItem);
         }
