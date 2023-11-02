@@ -243,3 +243,16 @@
 .about-skill-details > .about-skill-name {
     list-style: none;
 }
+
+.tab-content[id$="skills-about"] {
+    border-radius: 0 10px 10px 10px;
+}
+
+.tab-content[id$="certifications-about"],
+.tab-content[id$="studies-about"] {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tab-content[id$="hobbies-about"] {
+    border-radius: 10px 0 10px 10px;
+}

@@ -25,16 +25,12 @@ filename: index
 
 <div class="content-section">
     <group id="group-of-details">
-        <a id="about-studies" class="detail-category selected" href="#" onclick="selectRoleDetailTab(this.id)">Studies</a>
         <a id="about-skills" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Skills</a>
         <a id="about-certifications" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Certifications</a>
+        <a id="about-studies" class="detail-category selected" href="#" onclick="selectRoleDetailTab(this.id)">Studies</a>
         <a id="about-hobbies" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Hobbies</a>
     </group>
-    <div id="tab-content-about-studies" title="about-studies" class="tab-content displayed">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
-        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
-    </div>
-    <div id="tab-content-about-skills" title="about-skills" class="tab-content">
+    <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
         <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
         <section id="language-skill-cards-section" class="skill-cards" style="color: black;"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>
@@ -42,13 +38,15 @@ filename: index
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Management and ownership</p>
         <section id="management-skill-cards-section" class="skill-cards" style="color: black;"></section>
     </div>
-    <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
-        <section id="certification-cards-section" class="certification-cards">
-        </section>
+    <div id="tab-content-certifications-about" title="about-certifications" class="tab-content">
+        <section id="certification-cards-section" class="certification-cards"></section>
     </div>
-    <div id="tab-content-about-hobbies" title="about-hobbies" class="tab-content" style="color: black;">
-        <section id="hobby-cards-section" class="hobby-cards">
-        </section>
+    <div id="tab-content-studies-about" title="about-studies" class="tab-content">
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+    </div>
+    <div id="tab-content-hobbies-about" title="about-hobbies" class="tab-content" style="color: black;">
+        <section id="hobby-cards-section" class="hobby-cards"></section>
     </div>
 </div>
 
