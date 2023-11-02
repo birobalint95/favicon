@@ -18,6 +18,7 @@ function createSkillCards(){
                         dictOfSkills[area_skill] = {};
                         dictOfSkills[area_skill]["roles"] = [roleToDisplay];
                         dictOfSkills[area_skill]["timeIntervals"] = [role.time];
+                        dictOfSkills[area_skill]["skillArea"] = skill_area;
                     }
                 }
             });
@@ -43,8 +44,9 @@ function createSkillCards(){
 
 function createTechnicalSkillCard(skill, skillAttributes) {
 
-    let timeIntervals = skillAttributes["timeIntervals"]
+    let timeIntervals = skillAttributes["timeIntervals"];
     let roles = skillAttributes["roles"];
+    let skillArea = skillAttributes["skillArea"];
 
     // MAIN TITLE
     let mainTitle = `${skill}`;
@@ -75,6 +77,8 @@ function createTechnicalSkillCard(skill, skillAttributes) {
             skillCard.style.height = "70px";
         }
     })
+
+    console.log(skillArea);
 
     // ADD SKILLCARD TO ITS SECTION
     const skillCardSection = document.getElementById("methodology-skill-cards-section");
