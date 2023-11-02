@@ -30,13 +30,10 @@ function createSkillCards(){
     .then(function(response){
     return response.json();
     })
-    .then(function(introDetails){    
+    .then(function(introDetails){
         let jsonDataOfLanguages = introDetails["languages"];
         for(let language of jsonDataOfLanguages){
             console.log(language.name);
-            console.log(language.country_code);
-            console.log(language.level);
-            console.log(language.description);
         }
     });
 
@@ -97,8 +94,12 @@ function createSkillCard(mainTitle, subTitle, details) {
     const spanOfSummary = document.createElement("span");
     spanOfSummary.setAttribute("class", "about-skill-description");
     spanOfSummary.setAttribute("style", "font-weight: bold;");
-    const textOfSummary = document.createTextNode(mainTitle);
-    spanOfSummary.appendChild(textOfSummary);
+
+    // const textOfSummary = document.createTextNode(mainTitle);
+    // spanOfSummary.appendChild(textOfSummary);
+
+    spanOfSummary.insertAdjacentHTML("beforeend", mainTitle)
+
     summaryOfSkillCard.appendChild(spanOfSummary);
 
     // PARAGRAPH OF SUMMARY
