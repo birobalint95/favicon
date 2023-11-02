@@ -1,4 +1,6 @@
-document.body.onload = createHobbyCards;
+$(document).ready(function(){
+    createHobbyCards();
+ });
 
 function createHobbyCards(){
     fetch("./static/json/intro_details.json")
