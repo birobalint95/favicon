@@ -33,7 +33,7 @@ function createSkillCards(){
     .then(function(introDetails){
         let jsonDataOfLanguages = introDetails["languages"];
         for(let language of jsonDataOfLanguages){
-            console.log(language.name);
+            createLanguageSkillCard(language);
         }
     });
 
@@ -61,7 +61,7 @@ function createTechnicalSkillCard(skill, skillAttributes) {
     // CREATE THE SKILL CARD
     let skillCard = createSkillCard(mainTitle, subTitle, details);
 
-    // FINALIZE SKILLCARD
+    // ADD EVENTLISTENER TO SKILLCARD
     skillCard.addEventListener("toggle", function() {
         isDetailsOpen = skillCard.hasAttribute("open");
         numberOfRoles = skillCard.getElementsByClassName("number-of-roles")[0];
@@ -78,6 +78,28 @@ function createTechnicalSkillCard(skill, skillAttributes) {
     const skillCardSection = document.getElementById("skill-cards-section");
     skillCardSection.appendChild(skillCard);
     
+}
+
+function createLanguageSkillCard(language){
+
+    // MAIN TITLE
+    let mainTitle = `${language.name} <span class="flag-icon flag-icon-${language.country_code}"></span>`
+    // CREATE THE SKILL CARD
+    let skillCard = createSkillCard(mainTitle, language.level, language.description);
+    // ADD EVENTLISTENER TO SKILLCARD
+    skillCard.addEventListener("toggle", function() {
+        isDetailsOpen = skillCard.hasAttribute("open");
+        if (isDetailsOpen) {
+            skillCard.style.height = "120px";
+        } else {
+            skillCard.style.height = "70px";
+        }
+    })
+
+    // ADD SKILLCARD TO ITS SECTION
+    const skillCardSection = document.getElementById("language-cards-section");
+    skillCardSection.appendChild(skillCard);
+
 }
 
 function createSkillCard(mainTitle, subTitle, details) {
