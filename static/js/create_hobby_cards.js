@@ -44,12 +44,3 @@ function createHobbyCards(){
         }
     });
 };
-
-<div class="hobby-card" style="display: flex;">
-<div>
-    <img class="hobby-icon" src="${hobby.image_location}" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-</div>
-<div class="hobby-card-content">
-    <p class="hobby-description">${hobby.name}</p>
-</div>
-</div>
