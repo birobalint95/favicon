@@ -1,4 +1,6 @@
-window.addEventListener('DOMContentLoaded', function() {createSkillCards});
+$(document).ready(function(){
+    createSkillCards();
+ });
 
 function createSkillCards(){
     fetch("./static/json/role_details.json")

@@ -1,4 +1,6 @@
-window.addEventListener('DOMContentLoaded', function() {createCertificationCards});
+$(document).ready(function(){
+    createCertificationCards();
+ });
 
 function createCertificationCards(){
 
