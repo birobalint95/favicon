@@ -9,23 +9,18 @@ function createSkillCards(){
         var dictOfSkills = {};
         for(let role of roles){
             roleToDisplay = role.area + " " + role.title;
-            Object.entries(role.skills).forEach(([skill_area, skill_area_skills]) => {
-                console.log(skill_area);
-                console.log(skill_area_skills);
-            });
-            for(let skill_area of role.skills){
-                console.log(skill_area);
-                for(let skill of skill_area){
-                    if (skill in dictOfSkills) {
-                        dictOfSkills[skill]["roles"].push(roleToDisplay);
-                        dictOfSkills[skill]["timeIntervals"].push(role.time);
+            Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
+                for(let area_skill of area_skills){
+                    if (area_skill in dictOfSkills) {
+                        dictOfSkills[area_skill]["roles"].push(roleToDisplay);
+                        dictOfSkills[area_skill]["timeIntervals"].push(role.time);
                     } else {
-                        dictOfSkills[skill] = {};
-                        dictOfSkills[skill]["roles"] = [roleToDisplay];
-                        dictOfSkills[skill]["timeIntervals"] = [role.time];
+                        dictOfSkills[area_skill] = {};
+                        dictOfSkills[area_skill]["roles"] = [roleToDisplay];
+                        dictOfSkills[area_skill]["timeIntervals"] = [role.time];
                     }
                 }
-            }
+            });
         }
 
         for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
