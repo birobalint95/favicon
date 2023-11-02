@@ -36,45 +36,8 @@ filename: index
     </div>
     <div id="tab-content-about-skills" title="about-skills" class="tab-content">
         <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
-        <section id="language-cards-section" class="skill-cards" style="color: black;">
-            <details class="about-skill-details skill-card" style="display: flex;">
-                <summary class="about-skill-name">
-                    <span class="about-skill-description" style="font-weight: bold;">Hungarian <span class="flag-icon flag-icon-hu"></span></span>
-                    <p class="about-role-count" style="font-size: 80%;">Native</p>
-                </summary>
-                <p class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
-                    My mother language as I was born and raised in Hungary.
-                </p>
-            </details>
-            <details class="about-skill-details skill-card" style="display: flex;">
-                <summary class="about-skill-name">
-                    <span class="about-skill-description" style="font-weight: bold;">English <span class="flag-icon flag-icon-gb"></span></span>
-                    <p class="about-role-count" style="font-size: 80%;">Fluent</p>
-                </summary>
-                <p class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
-                    B2 language exam, I was speaking the language in the last years on a daily basis in work.
-                </p>
-            </details>
-            <details class="about-skill-details skill-card" style="display: flex;">
-                <summary class="about-skill-name">
-                    <span class="about-skill-description" style="font-weight: bold;">German <span class="flag-icon flag-icon-de"></span></span>
-                    <p class="about-role-count" style="font-size: 80%;">Intermediate</p>
-                </summary>
-                <p class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
-                    I have a B2 language exam but did not speak the language frequently in the last few years.
-                </p>
-            </details>
-            <details class="about-skill-details skill-card" style="display: flex;">
-                <summary class="about-skill-name">
-                    <span class="about-skill-description" style="font-weight: bold;">Spanish <span class="flag-icon flag-icon-es"></span></span>
-                    <p class="about-role-count" style="font-size: 80%;">Beginner</p>
-                </summary>
-                <p class="skill-description" style="padding-left: 90px; font-size: 80%; padding-top: 0px;">
-                    I would love to speak Spanish so I recently started learning it.
-                </p>
-            </details>
-        </section>
-        <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies</p>
+        <section id="language-cards-section" class="skill-cards" style="color: black;"></section>
+        <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>
         <section id="skill-cards-section" class="skill-cards" style="color: black;"></section>
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
