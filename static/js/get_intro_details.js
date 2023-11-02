@@ -3,24 +3,10 @@ fetch("./static/json/intro_details.json")
    return response.json();
 })
 .then(function(introDetails){
-    let sectionOfCertificationCards = document.querySelector("#certification-cards-section");
-    let jsonDataOfCertifications = introDetails["certifications"];
-    let anchorItemsOfCertifications = "";
 
     let sectionOfHobbyCards = document.querySelector("#hobby-cards-section");
     let jsonDataOfHobbies = introDetails["hobbies"];
     let divItemsOfHobbies = "";
-
-    for(let certification of jsonDataOfCertifications){
-        anchorItemsOfCertifications += `
-            <a class="certification-card" href="${certification.pdf_location}">
-                <img src="${certification.image_location}" alt="image" />
-                <div class="certification-card-content">
-                    <p>${certification.name}</p>
-                </div>
-            </a>
-        `;
-    }
 
     for(let hobby of jsonDataOfHobbies){
         divItemsOfHobbies += `
@@ -35,6 +21,5 @@ fetch("./static/json/intro_details.json")
         `;
     }
     
-    sectionOfCertificationCards.innerHTML = anchorItemsOfCertifications;
     sectionOfHobbyCards.innerHTML = divItemsOfHobbies;
 });
