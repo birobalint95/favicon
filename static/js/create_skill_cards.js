@@ -29,16 +29,16 @@ function createSkillCards(){
         }
     });
 
-    // fetch("./static/json/intro_details.json")
-    // .then(function(response){
-    // return response.json();
-    // })
-    // .then(function(introDetails){
-    //     let jsonDataOfLanguages = introDetails["languages"];
-    //     for(let language of jsonDataOfLanguages){
-    //         createLanguageSkillCard(language);
-    //     }
-    // });
+    fetch("./static/json/intro_details.json")
+    .then(function(response){
+    return response.json();
+    })
+    .then(function(introDetails){
+        let jsonDataOfLanguages = introDetails["languages"];
+        for(let language of jsonDataOfLanguages){
+            createLanguageSkillCard(language);
+        }
+    });
 
 };
 
