@@ -1,4 +1,4 @@
-document.body.onload = createSkillCards;
+window.addEventListener('DOMContentLoaded', function() {createSkillCards});
 
 function createSkillCards(){
     fetch("./static/json/role_details.json")
