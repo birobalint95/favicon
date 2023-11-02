@@ -2,12 +2,14 @@ let roleDetailsJsonData = fetch('./static/json/role_details.json"').then((respon
 
 document.body.onload = createSkillCards;
 
-function createSkillCards(roleDetailsJsonData){
+function createSkillCards(){
     // fetch("./static/json/role_details.json")
     // .then(function(response){
     // return response.json();
     // })
-    // .then(function(roles){    
+    // .then(function(roles){
+
+    console.log(roleDetailsJsonData)
 
     var dictOfSkills = {};
     for(let role of roleDetailsJsonData){
