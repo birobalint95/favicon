@@ -9,6 +9,10 @@ function createSkillCards(){
         var dictOfSkills = {};
         for(let role of roles){
             roleToDisplay = role.area + " " + role.title;
+            Object.entries(role.skills).forEach(([skill_area, skill_area_skills]) => {
+                console.log(skill_area);
+                console.log(skill_area_skills);
+            });
             for(let skill_area of role.skills){
                 console.log(skill_area);
                 for(let skill of skill_area){
