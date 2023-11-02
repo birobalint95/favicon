@@ -25,9 +25,9 @@ filename: index
 
 <div class="content-section">
     <group id="group-of-details">
-        <a id="about-skills" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Skills</a>
+        <a id="about-skills" class="detail-category selected" href="#" onclick="selectRoleDetailTab(this.id)">Skills</a>
         <a id="about-certifications" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Certifications</a>
-        <a id="about-studies" class="detail-category selected" href="#" onclick="selectRoleDetailTab(this.id)">Studies</a>
+        <a id="about-studies" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Studies</a>
         <a id="about-hobbies" class="detail-category" href="#" onclick="selectRoleDetailTab(this.id)">Hobbies</a>
     </group>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
