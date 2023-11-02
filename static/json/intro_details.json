@@ -38,6 +38,32 @@
             "name": "Watching movies",
             "image_location": "./static/images/hobby_watching_movies.png"
         }
+    ],
+    "languages": [
+        {
+            "name": "Hungarian",
+            "country_code": "hu",
+            "level": "Native",
+            "description": "My mother language as I was born and raised in Hungary."
+        },
+        {
+            "name": "English",
+            "country_code": "gb",
+            "level": "Fluent",
+            "description": "B2 language exam, I was speaking the language in the last years on a daily basis in work."
+        },
+        {
+            "name": "German",
+            "country_code": "de",
+            "level": "Intermediate",
+            "description": "I have a B2 language exam but did not speak the language frequently in the last few years."
+        },
+        {
+            "name": "Spanish",
+            "country_code": "es",
+            "level": "Beginner",
+            "description": "I would love to speak Spanish so I recently started learning it."
+        }
     ]
 }
 

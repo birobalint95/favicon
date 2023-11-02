@@ -31,52 +31,25 @@ function createTechnicalSkillCard(skill, skillAttributes) {
 
     let timeIntervals = skillAttributes["timeIntervals"]
     let roles = skillAttributes["roles"];
- 
-    // DETAILS
-    const skillCard = document.createElement("details");
-    skillCard.setAttribute("class", "about-skill-details skill-card");
-    skillCard.setAttribute("style", "display: flex;");
 
-    // SUMMARY OF DETAILS
-    const summaryOfSkillCard = document.createElement("summary");
-    summaryOfSkillCard.setAttribute("class", "about-skill-name");
+    // MAIN TITLE
+    let mainTitle = `${skill}`;
 
-    // SPAN OF SUMMARY
-    const spanOfSummary = document.createElement("span");
-    spanOfSummary.setAttribute("class", "about-skill-description");
-    spanOfSummary.setAttribute("style", "font-weight: bold;");
-    const textOfSummary = document.createTextNode(`${skill}`);
-    spanOfSummary.appendChild(textOfSummary);
-    summaryOfSkillCard.appendChild(spanOfSummary);
-
-    // PARAGRAPH OF SUMMARY
-    const paragraphOfSummary = document.createElement("p");
-    paragraphOfSummary.setAttribute("class", "about-role-count");
-    paragraphOfSummary.setAttribute("style", "font-size: 80%;");
-
+    // SUBTITLE
     let sumSpentTime = 0;
     for(let timeInterval of timeIntervals){
         sumSpentTime += calculateSpentTime(timeInterval);
     }
     let spentTimeInWords = getWords(sumSpentTime);
-    paragraphOfSummary.insertAdjacentHTML("beforeend", `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> roles`)
-    summaryOfSkillCard.appendChild(paragraphOfSummary);
+    let subTitle = `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> roles`;
 
-    // UNORDERED LIST OF DETAILS
-    const unorderedListOfSkillCard = document.createElement("ul");
-    unorderedListOfSkillCard.setAttribute("class", "skill-description");
-    unorderedListOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
+    // DETAILS
+    let details = roles;
 
-    for(let role of roles){
-        const listItem = document.createElement("li");
-        const textOfListItem = document.createTextNode(`${role}`);
-        listItem.appendChild(textOfListItem);
-        unorderedListOfSkillCard.appendChild(listItem);
-    }
+    // CREATE THE SKILL CARD
+    let skillCard = createSkillCard(mainTitle, subTitle, details);
 
     // FINALIZE SKILLCARD
-    skillCard.appendChild(summaryOfSkillCard);
-    skillCard.appendChild(unorderedListOfSkillCard)
     skillCard.addEventListener("toggle", function() {
         isDetailsOpen = skillCard.hasAttribute("open");
         numberOfRoles = skillCard.getElementsByClassName("number-of-roles")[0];
@@ -93,6 +66,53 @@ function createTechnicalSkillCard(skill, skillAttributes) {
     const skillCardSection = document.getElementById("skill-cards-section");
     skillCardSection.appendChild(skillCard);
     
+}
+
+function createSkillCard(mainTitle, subTitle, details) {
+    // DETAILS ELEMENT
+    const skillCard = document.createElement("details");
+    skillCard.setAttribute("class", "about-skill-details skill-card");
+    skillCard.setAttribute("style", "display: flex;");
+
+    // SUMMARY OF DETAILS
+    const summaryOfSkillCard = document.createElement("summary");
+    summaryOfSkillCard.setAttribute("class", "about-skill-name");
+
+    // SPAN OF SUMMARY
+    const spanOfSummary = document.createElement("span");
+    spanOfSummary.setAttribute("class", "about-skill-description");
+    spanOfSummary.setAttribute("style", "font-weight: bold;");
+    const textOfSummary = document.createTextNode(mainTitle);
+    spanOfSummary.appendChild(textOfSummary);
+    summaryOfSkillCard.appendChild(spanOfSummary);
+
+    // PARAGRAPH OF SUMMARY
+    const paragraphOfSummary = document.createElement("p");
+    paragraphOfSummary.setAttribute("class", "about-role-count");
+    paragraphOfSummary.setAttribute("style", "font-size: 80%;");
+    paragraphOfSummary.insertAdjacentHTML("beforeend", subTitle)
+    summaryOfSkillCard.appendChild(paragraphOfSummary);
+
+    // DETAILS
+    if (Array.isArray(details)){
+        const detailsOfSkillCard = document.createElement("ul");
+        detailsOfSkillCard.setAttribute("class", "skill-description");
+        detailsOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
+        for(let detail of details){
+            const listItem = document.createElement("li");
+            const textOfListItem = document.createTextNode(`${role}`);
+            listItem.appendChild(textOfListItem);
+            detailsOfSkillCard.appendChild(listItem);
+        }
+    } else {
+        detailsOfSkillCard = "";
+    }
+
+    skillCard.appendChild(summaryOfSkillCard);
+    skillCard.appendChild(detailsOfSkillCard);
+
+    return skillCard;
+
 }
 
 
