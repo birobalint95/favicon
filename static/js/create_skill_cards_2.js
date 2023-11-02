@@ -146,7 +146,7 @@ function createSkillCard(mainTitle, subTitle, details) {
         detailsOfSkillCard = document.createElement("p");
         detailsOfSkillCard.setAttribute("class", "skill-description");
         detailsOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
-        detailsOfSkillCard.innerText(details)
+        detailsOfSkillCard.insertAdjacentHTML("beforeend", details);
     } else {
         detailsOfSkillCard = "";
     }
