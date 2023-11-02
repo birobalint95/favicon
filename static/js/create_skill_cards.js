@@ -114,14 +114,19 @@ function calculateSpentTime(intervalString){
     let startMonth = splitStartDate[1];
   
     let endDate = partsOfString[1];
-    let splitEndDate = endDate.split(" ");
-    let endYear = splitEndDate[0];
-    let endMonth = splitEndDate[1];
-  
+    if (endDate == "present"){
+        endDateInput = new Date();
+    } else {
+        let splitEndDate = endDate.split(" ");
+        let endYear = splitEndDate[0];
+        let endMonth = splitEndDate[1];
+        endDateInput = new Date(endYear, getMonthFromString(endMonth), 1);
+    }
+    
     let spentTime = monthDiff(
         new Date(startYear, getMonthFromString(startMonth), 1), 
-        new Date(endYear, getMonthFromString(endMonth), 1)
-    )
+        endDateInput
+      )
     
     return spentTime;
 }

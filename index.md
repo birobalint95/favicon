@@ -35,6 +35,7 @@ filename: index
         <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
     </div>
     <div id="tab-content-about-skills" title="about-skills" class="tab-content">
+        <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
         <section id="skill-cards-section" class="skill-cards" style="color: black;"></section>
     </div>
     <div id="tab-content-about-certifications" title="about-certifications" class="tab-content">
