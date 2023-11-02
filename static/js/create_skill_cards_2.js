@@ -95,7 +95,7 @@ function createSkillCard(mainTitle, subTitle, details) {
 
     // DETAILS
     if (Array.isArray(details)){
-        const detailsOfSkillCard = document.createElement("ul");
+        detailsOfSkillCard = document.createElement("ul");
         detailsOfSkillCard.setAttribute("class", "skill-description");
         detailsOfSkillCard.setAttribute("style", "padding-left: 90px; font-size: 80%; padding-top: 0px;");
         for(let detail of details){
