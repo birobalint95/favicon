@@ -36,7 +36,7 @@ filename: index
     </div>
     <div id="tab-content-about-skills" title="about-skills" class="tab-content">
         <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
-        <section id="skill-cards-section" class="skill-cards" style="color: black;">
+        <section id="language-cards-section" class="skill-cards" style="color: black;">
             <details class="about-skill-details skill-card" style="display: flex;">
                 <summary class="about-skill-name">
                     <span class="about-skill-description" style="font-weight: bold;">Hungarian <span class="flag-icon flag-icon-hu"></span></span>
