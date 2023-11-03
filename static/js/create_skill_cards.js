@@ -1,6 +1,6 @@
-export {createSkillCards};
+export {createTechnicalSkillCards, createLanguageSkillCards};
 
-function createSkillCards(rolesJsonData){
+function createTechnicalSkillCards(rolesJsonData){
     var dictOfSkills = {};
     for(let role of rolesJsonData){
         let roleToDisplay = role.area + " " + role.title;
@@ -18,23 +18,18 @@ function createSkillCards(rolesJsonData){
             }
         });
     }
-
     for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
         createTechnicalSkillCard(skill, skillAttributes);
     }
 
-    fetch("./static/json/intro_details.json")
-    .then(function(response){
-    return response.json();
-    })
-    .then(function(introDetails){
-        let jsonDataOfLanguages = introDetails["languages"];
-        for(let language of jsonDataOfLanguages){
-            createLanguageSkillCard(language);
-        }
-    });
-
 };
+
+function createLanguageSkillCards(introJsonData){
+    let jsonDataOfLanguages = introJsonData["languages"];
+    for(let language of jsonDataOfLanguages){
+        createLanguageSkillCard(language);
+    }
+}
 
 function createTechnicalSkillCard(skill, skillAttributes) {
 
