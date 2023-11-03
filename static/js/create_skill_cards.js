@@ -1,4 +1,4 @@
-export {createSkillCards};
+
 
 $(document).ready(function(){
     createSkillCards();
