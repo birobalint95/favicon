@@ -1,17 +1,4 @@
-
-
-$(document).ready(function(){
-
-    fetch("./static/json/role_details.json")
-    .then(function(response){
-    return response.json();
-    })
-    .then(function(rolesJsonData){
-        console.log("jo lehet");
-        createSkillCards(rolesJsonData);
-    });
-
-});
+export {createSkillCards};
 
 function createSkillCards(rolesJsonData){  
     var dictOfSkills = {};
