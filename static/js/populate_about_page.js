@@ -14,15 +14,15 @@ function populatePage(pageName){
     return response.json();
     })
     .then(function(rolesJsonData){
-        if (pageName == "index") {
+        if (pageName == "index.md") {
             createTechnicalSkillCards(rolesJsonData);
-        } else if (pageName == "experiences") {
+        } else if (pageName == "experiences.md") {
             console.log("IDE JON EXPERIENCES");
         }
         
     });
 
-    if (pageName == "index") {
+    if (pageName == "index.md") {
         fetch("./static/json/intro_details.json")
         .then(function(response){
         return response.json();
