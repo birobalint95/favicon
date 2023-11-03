@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    createCertificationCards();
- });
+export {createCertificationCards};
 
 function createCertificationCards(){
 

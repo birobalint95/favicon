@@ -1,6 +1,4 @@
-$(document).ready(function(){
-    createHobbyCards();
- });
+export {createHobbyCards};
 
 function createHobbyCards(){
     fetch("./static/json/intro_details.json")
