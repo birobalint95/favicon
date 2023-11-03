@@ -8,7 +8,8 @@ $(document).ready(function(){
     .then(function(response){
     return response.json();
     })
-    .then(function(rolesJsonData){ 
+    .then(function(rolesJsonData){
+        console.log(rolesJsonData);
         createSkillCards(rolesJsonData);
     });
 

@@ -1,6 +1,7 @@
 export {createSkillCards};
 
-function createSkillCards(rolesJsonData){  
+function createSkillCards(rolesJsonData){
+    console.log(rolesJsonData);
     var dictOfSkills = {};
     for(let role of rolesJsonData){
         roleToDisplay = role.area + " " + role.title;
