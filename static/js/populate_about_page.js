@@ -5,6 +5,8 @@ import { createHobbyCards } from "./create_hobby_cards.js";
 
 $(document).ready(function(){
 
+    console.log("{{ page.title }}")
+
     fetch("./static/json/role_details.json")
     .then(function(response){
     return response.json();
