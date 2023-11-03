@@ -1,3 +1,3 @@
-import { sziaHello } from "./test_1";
+import { sziaHello } from "./static/js/test_1.js";
 
 sziaHello;
