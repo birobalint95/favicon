@@ -1,3 +1,5 @@
 import { sziaHello } from "./test_1.js";
 
-sziaHello;
+$(document).ready(function(){
+    sziaHello();
+});
