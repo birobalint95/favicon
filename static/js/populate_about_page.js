@@ -12,6 +12,7 @@ $(document).ready(function(){
     })
     .then(function(roles){ 
         rolesJsonData = roles;
+        console.log(roles);
     });
 
     console.log(rolesJsonData);
