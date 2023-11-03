@@ -161,6 +161,7 @@ function calculateSpentTime(intervalString){
     let startMonth = splitStartDate[1];
   
     let endDate = partsOfString[1];
+    let endDateInput;
     if (endDate == "present"){
         endDateInput = new Date();
     } else {
