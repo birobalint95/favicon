@@ -4,9 +4,9 @@ layout: template
 filename: index
 --- 
 
-<head>
+{% block page_specific_scripts %}
     <script defer src="./static/js/test.js" type="text/javascript"></script>
-</head>
+{% endblock %}
 
 <h2 class="main-title">About</h2>
 
