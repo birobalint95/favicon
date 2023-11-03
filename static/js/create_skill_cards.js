@@ -1,5 +1,9 @@
 export {createSkillCards};
 
+$(document).ready(function(){
+    createSkillCards();
+});
+
 function createSkillCards(){
     fetch("./static/json/role_details.json")
     .then(function(response){

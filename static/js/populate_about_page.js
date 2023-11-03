@@ -4,18 +4,14 @@
 
 $(document).ready(function(){
 
-    let rolesJsonData;
-
     fetch("./static/json/role_details.json")
     .then(function(response){
     return response.json();
     })
-    .then(function(roles){ 
-        rolesJsonData = roles;
-        console.log(roles);
+    .then(function(rolesJsonData){ 
+        console.log(rolesJsonData);
     });
 
-    console.log(rolesJsonData);
 
 
     // createSkillCards();
