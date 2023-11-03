@@ -4,6 +4,10 @@ layout: template
 filename: experiences
 --- 
 
+{% block page_specific_scripts %}
+    <script defer src="./static/js/test_2.js" type="text/javascript"></script>
+{% endblock %}
+
 <h2 class="main-title">
     Experiences
     <a class="cv-download" title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank" style="margin-left: 8px;">

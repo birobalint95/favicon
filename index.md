@@ -5,7 +5,7 @@ filename: index
 --- 
 
 {% block page_specific_scripts %}
-    <script defer src="./static/js/test.js" type="text/javascript"></script>
+    <script defer src="./static/js/test_1.js" type="text/javascript"></script>
 {% endblock %}
 
 <h2 class="main-title">About</h2>
