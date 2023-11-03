@@ -3,10 +3,13 @@ import { createLanguageSkillCards } from "./create_skill_cards.js";
 import { createCertificationCards } from "./create_certification_cards.js";
 import { createHobbyCards } from "./create_hobby_cards.js";
 
-$(document).ready(function(){
+export {populatePage};
 
-    console.log("{{ page.title }}")
+// $(document).ready(function(){
+//     populatePage();
+// });
 
+function populatePage(){
     fetch("./static/json/role_details.json")
     .then(function(response){
     return response.json();
@@ -24,4 +27,4 @@ $(document).ready(function(){
         createCertificationCards(introJsonData);
         createHobbyCards(introJsonData);
     });
-});
+}
