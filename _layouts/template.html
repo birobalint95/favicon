@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <script>
-            console.log("HELLO");
-            console.log(page.title);
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function () {
+                console.log("{{ page.title }}");
+            });
         </script>
 
         <script defer src="./static/js/select_navbar.js" type="text/javascript"></script>
