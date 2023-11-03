@@ -125,6 +125,7 @@ function createSkillCard(mainTitle, subTitle, details) {
     summaryOfSkillCard.appendChild(paragraphOfSummary);
 
     // DETAILS
+    let detailsOfSkillCard;
     if (Array.isArray(details)){
         detailsOfSkillCard = document.createElement("ul");
         detailsOfSkillCard.setAttribute("class", "skill-description");
