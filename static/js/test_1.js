@@ -1,3 +1,7 @@
-$(document).ready(function(){
-    console.log("HELLO");
-});
+export {sziaHello};
+
+function sziaHello(){
+
+    console.log("SZIAHELLO")
+
+};
