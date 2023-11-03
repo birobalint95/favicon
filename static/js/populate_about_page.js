@@ -5,26 +5,32 @@ import { createHobbyCards } from "./create_hobby_cards.js";
 
 export {populatePage};
 
-function populatePage(pageTitle){
+function populatePage(pageName){
 
-    console.log("ez itt az");
-    console.log(pageTitle);
+    console.log(pageName);
 
     fetch("./static/json/role_details.json")
     .then(function(response){
     return response.json();
     })
     .then(function(rolesJsonData){
-        createTechnicalSkillCards(rolesJsonData);
+        if (pageName == "index") {
+            createTechnicalSkillCards(rolesJsonData);
+        } else if (pageName == "experiences") {
+            console.log("IDE JON EXPERIENCES");
+        }
+        
     });
 
-    fetch("./static/json/intro_details.json")
-    .then(function(response){
-    return response.json();
-    })
-    .then(function(introJsonData){
-        createLanguageSkillCards(introJsonData);
-        createCertificationCards(introJsonData);
-        createHobbyCards(introJsonData);
-    });
+    if (pageName == "index") {
+        fetch("./static/json/intro_details.json")
+        .then(function(response){
+        return response.json();
+        })
+        .then(function(introJsonData){
+            createLanguageSkillCards(introJsonData);
+            createCertificationCards(introJsonData);
+            createHobbyCards(introJsonData);
+        });
+    }
 }
