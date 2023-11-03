@@ -56,11 +56,11 @@ function createTechnicalSkillCard(skill, skillAttributes) {
 
     // ADD EVENTLISTENER TO SKILLCARD
     skillCard.addEventListener("toggle", function() {
-        isDetailsOpen = skillCard.hasAttribute("open");
-        numberOfRoles = skillCard.getElementsByClassName("number-of-roles")[0];
-        numberOfRolesInt = parseInt(numberOfRoles.innerText);
+        let isDetailsOpen = skillCard.hasAttribute("open");
+        let numberOfRoles = skillCard.getElementsByClassName("number-of-roles")[0];
+        let numberOfRolesInt = parseInt(numberOfRoles.innerText);
         if (isDetailsOpen) {
-            requiredHeight = 90 + (numberOfRolesInt - 1)*27;
+            let requiredHeight = 90 + (numberOfRolesInt - 1)*27;
             skillCard.style.height = requiredHeight.toString() + "px";
         } else {
             skillCard.style.height = "70px";
@@ -81,7 +81,7 @@ function createLanguageSkillCard(language){
     let skillCard = createSkillCard(mainTitle, language.level, language.description);
     // ADD EVENTLISTENER TO SKILLCARD
     skillCard.addEventListener("toggle", function() {
-        isDetailsOpen = skillCard.hasAttribute("open");
+        let isDetailsOpen = skillCard.hasAttribute("open");
         if (isDetailsOpen) {
             skillCard.style.height = "120px";
         } else {
