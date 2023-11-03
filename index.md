@@ -4,6 +4,10 @@ layout: template
 filename: index
 --- 
 
+<head>
+    <script defer src="./static/js/test.js" type="text/javascript"></script>
+</head>
+
 <h2 class="main-title">About</h2>
 
 
