@@ -9,7 +9,6 @@ $(document).ready(function(){
     return response.json();
     })
     .then(function(rolesJsonData){
-        console.log(rolesJsonData);
         createSkillCards(rolesJsonData);
     });
 
