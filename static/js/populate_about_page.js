@@ -5,11 +5,11 @@ import { createHobbyCards } from "./create_hobby_cards.js";
 
 export {populatePage};
 
-// $(document).ready(function(){
-//     populatePage();
-// });
+function populatePage(pageTitle){
 
-function populatePage(){
+    console.log("ez itt az");
+    console.log(pageTitle);
+
     fetch("./static/json/role_details.json")
     .then(function(response){
     return response.json();
