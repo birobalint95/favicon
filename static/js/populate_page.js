@@ -7,8 +7,6 @@ export {populatePage};
 
 function populatePage(pageName){
 
-    console.log(pageName);
-
     fetch("./static/json/role_details.json")
     .then(function(response){
     return response.json();
