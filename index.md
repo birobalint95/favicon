@@ -49,7 +49,7 @@ filename: index
                         <a id="university-degree-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">University degree</div>
                             <div class="education-location">
-                                University of Technology<br>Budapest <span class="flag-icon flag-icon-hu"></span>
+                                University of Technology<br>Budapest, Hungary
                             </div>
                         </a>
                     </li>
@@ -57,7 +57,7 @@ filename: index
                         <a id="language-learning-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">Language learning</div>
                             <div class="education-location">
-                                De La Salle Gymnasium<br>Vienna <span class="flag-icon flag-icon-at"></span>
+                                De La Salle Gymnasium<br>Vienna, Austria
                             </div>
                         </a>
                     </li>
@@ -65,7 +65,7 @@ filename: index
                         <a id="school-leaving-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">School leaving exam</div>
                             <div class="education-location">
-                                Bolyai Janos High School<br>Szombathely <span class="flag-icon flag-icon-hu"></span>
+                                Bolyai Janos High School<br>Szombathely, Hungary
                             </div>
                         </a>
                     </li>
@@ -81,7 +81,7 @@ filename: index
                     <h4 class="study-location">University of Technology, Budapest, Hungary</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-university-degree" title="university-degree-study" class="study-description displayed">
+                    <div id="study-description-university-degree" class="study-description">
                         <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ filename: index
                     <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-language-learning" title="language-learning-study" class="study-description">
+                    <div id="study-description-language-learning" class="study-description">
                         <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ filename: index
                     <h4 class="study-location">Bolyai Janos High School, Szombathely, Hungary</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-school-leaving" title="school-leaving-study" class="study-description">
+                    <div id="study-description-school-leaving" class="study-description">
                         <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
                     </div>
                 </div>

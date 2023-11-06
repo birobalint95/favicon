@@ -403,14 +403,10 @@
 }
 
 .study-description {
-    display: none;
+    display: block;
     line-height: 25px;
     padding: 16px;
     background: #181c21;
     margin-left: 2px;
     margin-right: 2px;
-}
-
-.study-description.displayed{
-    display: block;
 }

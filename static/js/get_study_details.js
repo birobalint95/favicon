@@ -10,16 +10,16 @@ function getStudyDetails(clicked_id) {
     clickedElement.parentElement.classList.add("selected");
     };
 
-    // var roleContent = document.querySelector("[title=" + CSS.escape(clicked_id) + "]");
-    // var isRoleContentDisplayed = roleContent.classList.contains("displayed");
-    // var allRoleContentItems = document.getElementsByClassName("role-description");
+    var studyContent = document.querySelector("[title=" + CSS.escape(clicked_id) + "]");
+    var isStudyContentDisplayed = studyContent.classList.contains("displayed");
+    var allStudyContentItems = document.getElementsByClassName("study-content");
 
-    // if (! isRoleContentDisplayed) {
-    //     [].forEach.call(allRoleContentItems, function(actualRoleContentItem){
-    //         actualRoleContentItem.classList.remove("displayed");
-    //     });
-    // roleContent.classList.add("displayed");
-    // };
+    if (! isStudyContentDisplayed) {
+        [].forEach.call(allStudyContentItems, function(actualStudyContentItem){
+            actualStudyContentItem.classList.remove("displayed");
+        });
+        studyContent.classList.add("displayed");
+    };
 
     // selectRoleDetailTab(CSS.escape(clicked_id) + "-responsibilities")
 };
