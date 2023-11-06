@@ -165,11 +165,12 @@
 
 .skill-card {
     width: min(100%, 500px);
-    background: rgba(137, 148, 153, 1);
     border-radius: 16px;
     z-index: 5;
     text-decoration: none;
     height: 70px;
+    background-color: rgb(53 53 53);
+    color: white;
 }
 
 .skill-card-content {
