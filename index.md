@@ -46,7 +46,7 @@ filename: index
             <div class="timeline-of-studies">
                 <ul class="list-of-studies">
                     <li class="study-item" ng-repeat="itembx">
-                        <a id="product-owner-1" href="javascript:void(0)" onclick="selectPosition(this.id)">
+                        <a id="university-degree-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">University degree</div>
                             <div class="education-location">
                                 University of Technology<br>Budapest <span class="flag-icon flag-icon-hu"></span>
@@ -54,7 +54,7 @@ filename: index
                         </a>
                     </li>
                     <li class="study-item" ng-repeat="itembx">
-                        <a id="product-owner-1" href="javascript:void(0)" onclick="selectPosition(this.id)">
+                        <a id="language-learning-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">Language learning</div>
                             <div class="education-location">
                                 De La Salle Gymnasium<br>Vienna <span class="flag-icon flag-icon-at"></span>
@@ -62,7 +62,7 @@ filename: index
                         </a>
                     </li>
                     <li class="study-item" ng-repeat="itembx">
-                        <a id="product-owner-1" href="javascript:void(0)" onclick="selectPosition(this.id)">
+                        <a id="school-leaving-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">School leaving exam</div>
                             <div class="education-location">
                                 Bolyai Janos High School<br>Szombathely <span class="flag-icon flag-icon-hu"></span>
@@ -77,8 +77,3 @@ filename: index
         <section id="hobby-cards-section" class="hobby-cards"></section>
     </div>
 </div>
-
-
-
-<details class="about-skill-details skill-card" style="display: flex;"><summary class="about-skill-name"><span class="about-skill-description" style="font-weight: bold;">Hungarian <span class="flag-icon flag-icon-hu"></span></span><p class="about-role-count" style="font-size: 80%;">Native</p></summary><p class="skill-description" style="padding-left: 60px; font-size: 80%; padding-top: 0px;">My mother language as I was born and raised in Hungary.</p></details>
-
