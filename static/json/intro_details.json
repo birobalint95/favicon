@@ -56,7 +56,7 @@
             "name": "German",
             "country_code": "de",
             "level": "Intermediate",
-            "description": "I have a B2 language exam but did not speak the language frequently in the last few years."
+            "description": "I have a <a class='inline-language-certification' href='./static/pdfs/PSMI_BalintBiro.pdf'>B2 language certification</a> but did not speak the language frequently in the last few years."
         },
         {
             "name": "Spanish",

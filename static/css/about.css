@@ -414,3 +414,8 @@
 .tab-content {
     border-radius: 0px 0px 10px 10px;
 }
+
+.inline-language-certification {
+    text-decoration: none; 
+    color: rgba(80, 216, 144);
+}
