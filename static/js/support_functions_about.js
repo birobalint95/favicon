@@ -25,6 +25,7 @@ function getStudyDetails(clicked_id) {
 function selectAboutDetailTab(aboutDetailSelector){
     let aboutDetailSelectorId = aboutDetailSelector.id;
     console.log($(aboutDetailSelector).index());
+    console.log(aboutDetailSelector === aboutDetailSelector.parentNode.lastChild);
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
         var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
