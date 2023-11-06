@@ -45,7 +45,7 @@ filename: index
         <div class="container-of-timeline-of-studies">
             <div class="timeline-of-studies">
                 <ul class="list-of-studies">
-                    <li class="study-item" ng-repeat="itembx">
+                    <li class="study-item selected" ng-repeat="itembx">
                         <a id="university-degree-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">University degree</div>
                             <div class="education-location">

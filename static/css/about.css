@@ -372,6 +372,7 @@
     display: none;
     padding-left: 36px;
     border-left: 2px solid rgba(137, 148, 153, 1);
+    padding-top: 20px;
 }
 
 .study-content.displayed {
