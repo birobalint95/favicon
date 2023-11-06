@@ -30,8 +30,7 @@ filename: index
         <a id="about-studies" class="detail-category" href="#" onclick="selectAboutDetailTab(this)">Studies</a>
         <a id="about-hobbies" class="detail-category" href="#" onclick="selectAboutDetailTab(this)">Hobbies</a>
     </group>
-    <div style="height: 50px;background-color: #181c21;margin-right: 2px;margin-left: 2px;" id="rounded-spacer-for-tab-contents">
-    </div>
+    <div id="rounded-spacer-for-tab-contents"></div>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
         <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
         <section id="language-skill-cards-section" class="skill-cards" style="color: black;"></section>

@@ -24,10 +24,16 @@ function getStudyDetails(clicked_id) {
 
 function selectAboutDetailTab(aboutDetailSelector){
     let aboutDetailSelectorId = aboutDetailSelector.id;
-    console.log($(aboutDetailSelector).index());
-    console.log($(aboutDetailSelector.parentNode.lastChild))
-    console.log($(aboutDetailSelector.parentNode))
-    console.log($(aboutDetailSelector.parentNode.lastChild).index());
+
+    let spacer = document.getElementById("rounded-spacer-for-tab-contents");
+    if ($(aboutDetailSelector).index() == 0){
+        spacer.style.borderRadius = "0 10px 0 0";
+    } else if ($(aboutDetailSelector).index() == aboutDetailSelector.parentNode.children.length - 1) {
+        spacer.style.borderRadius = "10px 0 0 0";
+    } else {
+        spacer.style.borderRadius = "10px 10px 0 0";
+    }
+
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
         var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
