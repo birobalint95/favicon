@@ -32,7 +32,7 @@ filename: index
     </group>
     <div id="rounded-spacer-for-tab-contents"></div>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
-        <p style="padding-left: 40px; padding-top: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
+        <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
         <section id="language-skill-cards-section" class="skill-cards" style="color: black;"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>
         <section id="methodology-skill-cards-section" class="skill-cards" style="color: black;"></section>
