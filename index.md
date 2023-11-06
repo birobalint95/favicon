@@ -25,10 +25,10 @@ filename: index
 
 <div class="content-section">
     <group id="group-of-details" style="position: -webkit-sticky; position: sticky; top: 90px; background-color: #232931; z-index: 99;">
-        <a id="about-skills" class="detail-category selected" href="#" onclick="selectAboutDetailTab(this.id)">Skills</a>
-        <a id="about-certifications" class="detail-category" href="#" onclick="selectAboutDetailTab(this.id)">Certifications</a>
-        <a id="about-studies" class="detail-category" href="#" onclick="selectAboutDetailTab(this.id)">Studies</a>
-        <a id="about-hobbies" class="detail-category" href="#" onclick="selectAboutDetailTab(this.id)">Hobbies</a>
+        <a id="about-skills" class="detail-category selected" href="#" onclick="selectAboutDetailTab(this)">Skills</a>
+        <a id="about-certifications" class="detail-category" href="#" onclick="selectAboutDetailTab(this)">Certifications</a>
+        <a id="about-studies" class="detail-category" href="#" onclick="selectAboutDetailTab(this)">Studies</a>
+        <a id="about-hobbies" class="detail-category" href="#" onclick="selectAboutDetailTab(this)">Hobbies</a>
     </group>
     <div style="height: 50px;background-color: #181c21;margin-right: 2px;margin-left: 2px;" id="rounded-spacer-for-tab-contents">
     </div>

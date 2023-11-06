@@ -22,8 +22,9 @@ function getStudyDetails(clicked_id) {
     };
 };
 
-function selectAboutDetailTab(aboutDetailSelectorId){
-    console.log(document.getElementById(aboutDetailSelectorId).index());
+function selectAboutDetailTab(aboutDetailSelector){
+    let aboutDetailSelectorId = aboutDetailSelector.id;
+    console.log(aboutDetailSelector.index());
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
         var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
