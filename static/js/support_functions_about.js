@@ -21,3 +21,18 @@ function getStudyDetails(clicked_id) {
         studyContent.classList.add("displayed");
     };
 };
+
+function selectAboutDetailTab(aboutDetailSelectorId){
+    console.log(document.getElementById(aboutDetailSelectorId).index());
+    var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
+    [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
+        var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
+        if(actualRoleDetailSelectorItem.id == aboutDetailSelectorId){
+            actualRoleDetailSelectorItem.classList.add("selected");
+            actualRoleDetailContentItem.classList.add("displayed");
+        } else {
+            actualRoleDetailSelectorItem.classList.remove("selected");
+            actualRoleDetailContentItem.classList.remove("displayed");
+        }
+    });
+};

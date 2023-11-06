@@ -244,19 +244,6 @@
     list-style: none;
 }
 
-.tab-content[id$="skills-about"] {
-    border-radius: 0 10px 10px 10px;
-}
-
-.tab-content[id$="certifications-about"],
-.tab-content[id$="studies-about"] {
-    border-radius: 10px 10px 10px 10px;
-}
-
-.tab-content[id$="hobbies-about"] {
-    border-radius: 10px 0 10px 10px;
-}
-
 /* STUDIES */
 
 .container-of-timeline-of-studies{
@@ -410,4 +397,27 @@
     background: #181c21;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+#rounded-spacer-for-tab-contents {
+    height: 50px;
+    background-color: #181c21;
+    margin: 0 2px;
+}
+
+#rounded-spacer-for-tab-contents {
+    border-radius: 0 10px 0 0;
+}
+
+.tab-content[id$="skills-about"] {
+    border-radius: 0 10px 10px 10px;
+}
+
+.tab-content[id$="certifications-about"],
+.tab-content[id$="studies-about"] {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tab-content[id$="hobbies-about"] {
+    border-radius: 10px 0 10px 10px;
 }
