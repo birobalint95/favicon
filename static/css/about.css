@@ -403,8 +403,9 @@
     height: 50px;
     background-color: #181c21;
     margin: 0 2px;
-}
-
-#rounded-spacer-for-tab-contents {
-    border-radius: 0 10px 0 0;
+    position: sticky; 
+    top: 130px; 
+    background-color: rgb(24, 28, 33); 
+    z-index: 99; 
+    border-radius: 0px 10px 0px 0px;
 }
