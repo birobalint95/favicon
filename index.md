@@ -72,6 +72,47 @@ filename: index
                 </ul>
             </div>
         </div>
+        <div id="content-of-roles" class="container-of-content-of-studies">
+            <div title="university-degree-study" class="study-content displayed">
+                <div class="study-title-section">
+                    <h2 class="study-title">University degree
+                        <span class="study-date">2014 Sep - 2018 Jun</span>
+                    </h2>
+                    <h4 class="study-location">University of Technology, Budapest, Hungary</h4>
+                </div>
+                <div class="study-description-section">
+                    <div id="study-description-university-degree" title="university-degree-study" class="study-description displayed">
+                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                    </div>
+                </div>
+            </div>
+            <div title="language-learning-study" class="study-content">
+                <div class="study-title-section">
+                    <h2 class="study-title">Language learning
+                        <span class="study-date">2012 Sep - 2013 Sep</span>
+                    </h2>
+                    <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
+                </div>
+                <div class="study-description-section">
+                    <div id="study-description-language-learning" title="language-learning-study" class="study-description">
+                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                    </div>
+                </div>
+            </div>
+            <div title="school-leaving-study" class="study-content">
+                <div class="study-title-section">
+                    <h2 class="study-title">School leaving exam
+                        <span class="study-date">2002 Sep - 2014 Jun</span>
+                    </h2>
+                    <h4 class="study-location">Bolyai Janos High School, Szombathely, Hungary</h4>
+                </div>
+                <div class="study-description-section">
+                    <div id="study-description-school-leaving" title="school-leaving-study" class="study-description">
+                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="tab-content-hobbies-about" title="about-hobbies" class="tab-content" style="color: black;">
         <section id="hobby-cards-section" class="hobby-cards"></section>

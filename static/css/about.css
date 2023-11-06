@@ -360,3 +360,57 @@
     width: 140px;
     font-size: 12px;
 }
+
+.container-of-content-of-studies {
+    width:580px;
+    height:auto;
+    color: white;
+    overflow:hidden;
+}
+
+.study-content {
+    display: none;
+    padding-left: 36px;
+    border-left: 2px solid rgba(137, 148, 153, 1);
+}
+
+.study-content.displayed {
+    display: block;
+    visibility: visible;
+}
+
+.study-title-section {
+    background: rgba(80, 216, 144);
+    padding: 10px 24px 10px 24px;
+    box-shadow: inset 0px 0px 4px 4px #232931;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.study-title {
+    margin-bottom: 0px;
+}
+
+.study-date {
+    float: right;
+    font-size: 16px;
+    position: relative;
+    top: 14px;
+}
+
+.study-location {
+    margin-top: 0px;
+}
+
+.study-description {
+    display: none;
+    line-height: 25px;
+    padding: 16px;
+    background: #181c21;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.study-description.displayed{
+    display: block;
+}
