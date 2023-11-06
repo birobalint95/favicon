@@ -19,6 +19,16 @@
             "name": "Coursera Django Specialization",
             "image_location": "./static/images/coursera_django.png",
             "pdf_location": "./static/pdfs/Coursera_Django.pdf"
+        },
+        {
+            "name": "English B2 Language Certification",
+            "image_location": "./static/images/ecl_english.png",
+            "pdf_location": "./static/pdfs/english_language_certification.pdf"
+        },
+        {
+            "name": "German B2 Language Certification",
+            "image_location": "./static/images/ecl_german.png",
+            "pdf_location": "./static/pdfs/german_language_certification.pdf"
         }
     ],
     "hobbies": [
