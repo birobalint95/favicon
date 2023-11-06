@@ -42,7 +42,7 @@ filename: index
     <div id="tab-content-certifications-about" title="about-certifications" class="tab-content">
         <section id="certification-cards-section" class="certification-cards"></section>
     </div>
-    <div id="tab-content-studies-about" title="about-studies" class="tab-content" style="height: 400px;">
+    <div id="tab-content-studies-about" title="about-studies" class="tab-content">
         <div class="container-of-timeline-of-studies">
             <div class="timeline-of-studies">
                 <ul class="list-of-studies">
