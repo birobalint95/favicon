@@ -1,5 +1,7 @@
 function includeHTMLSnippet() {
 
+	console.log("szia");
+
 	// Traverse the collection of all
 	// HTML elements
 	id = document.getElementsByTagName("*");
