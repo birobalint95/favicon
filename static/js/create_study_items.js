@@ -20,7 +20,8 @@ function createStudyItems(introJsonData){
 
         // ANCHOR OF LIST ITEM
         const anchorOfListItem = document.createElement("a");
-        anchorOfListItem.setAttribute("id", "university-degree-study");
+        let idOfAnchor = `${study.result}`.toLowerCase().replace(/ /g, "-") + "-study";
+        anchorOfListItem.setAttribute("id", `${idOfAnchor}`);
         anchorOfListItem.setAttribute("href", "javascript:void(0)");
         anchorOfListItem.addEventListener("click", getStudyDetails);
 

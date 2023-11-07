@@ -60,7 +60,7 @@ filename: index
                     <div id="study-description-university-degree" class="study-description" include-html-snippet="./html_snippets/university_degree_description.html"></div>
                 </div>
             </div>
-            <div title="year-abroad-study" class="study-content">
+            <div title="a-year-abroad-study" class="study-content">
                 <div class="study-title-section">
                     <h2 class="study-title">A year abroad
                         <span class="study-date">2012 Sep - 2013 Jun</span>
@@ -71,7 +71,7 @@ filename: index
                     <div id="study-description-year-abroad" class="study-description" include-html-snippet="./html_snippets/a_year_abroad_description.html"></div>
                 </div>
             </div>
-            <div title="high-school-study" class="study-content">
+            <div title="high-school-graduation-study" class="study-content">
                 <div class="study-title-section">
                     <h2 class="study-title">High school graduation
                         <span class="study-date">2002 Sep - 2014 Jun</span>
