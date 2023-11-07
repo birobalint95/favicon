@@ -6,8 +6,6 @@ export {includeHTMLSnippet};
 
 function includeHTMLSnippet() {
 
-	console.log("HELLO")
-
 	// Traverse the collection of all
 	// HTML elements
 	let id = document.getElementsByTagName("*");
@@ -19,7 +17,11 @@ function includeHTMLSnippet() {
 		let file = element.getAttribute(
 			"include-html-snippet");
 
+		console.log("HELLO");
+
 		if (file) {
+
+			console.log("SZIA");
 
 			// Create an HTTP request with
 			// the attribute value as the
