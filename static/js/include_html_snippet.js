@@ -8,13 +8,13 @@ function includeHTMLSnippet() {
 
 	// Traverse the collection of all
 	// HTML elements
-	id = document.getElementsByTagName("*");
+	let id = document.getElementsByTagName("*");
 	for (i = 0; i < id.length; i++) {
-		element = id[i];
+		let element = id[i];
 
 		// Search for elements with
 		// specific attributes
-		file = element.getAttribute(
+		let file = element.getAttribute(
 			"include-html-snippet");
 
 		if (file) {
@@ -22,7 +22,7 @@ function includeHTMLSnippet() {
 			// Create an HTTP request with
 			// the attribute value as the
 			// file name
-			xmlRequest = new XMLHttpRequest();
+			let xmlRequest = new XMLHttpRequest();
 			xmlRequest.onreadystatechange = function () {
 				if (this.readyState == 4) {
 					if (this.status == 200) {
