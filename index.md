@@ -49,6 +49,39 @@ filename: index
             </div>
         </div>
         <div id="content-of-roles" class="container-of-content-of-studies">
+            <div title="university-degree-study" class="study-content displayed">
+                <div class="study-title-section">
+                    <h2 class="study-title">University degree
+                        <span class="study-date">2014 Sep - 2018 Jun</span>
+                    </h2>
+                    <h4 class="study-location">University of Technology, Budapest, Hungary</h4>
+                </div>
+                <div class="study-description-section">
+                    <div id="study-description-university-degree" class="study-description" include-html-snippet="./html_snippets/university_degree_description.html"></div>
+                </div>
+            </div>
+            <!-- <div title="a-year-abroad-study" class="study-content">
+                <div class="study-title-section">
+                    <h2 class="study-title">A year abroad
+                        <span class="study-date">2012 Sep - 2013 Jun</span>
+                    </h2>
+                    <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
+                </div>
+                <div class="study-description-section">
+                    <div id="study-description-year-abroad" class="study-description" include-html-snippet="./html_snippets/a_year_abroad_description.html"></div>
+                </div>
+            </div>
+            <div title="high-school-graduation-study" class="study-content">
+                <div class="study-title-section">
+                    <h2 class="study-title">High school graduation
+                        <span class="study-date">2002 Sep - 2014 Jun</span>
+                    </h2>
+                    <h4 class="study-location">Bolyai Janos School, Szombathely, Hungary</h4>
+                </div>
+                <div class="study-description-section">
+                    <div id="study-description-high-school" class="study-description" include-html-snippet="./html_snippets/high_school_graduation_description.html"></div>
+                </div>
+            </div> -->
         </div>
     </div>
     <div id="tab-content-hobbies-about" title="about-hobbies" class="tab-content" style="color: black;">
