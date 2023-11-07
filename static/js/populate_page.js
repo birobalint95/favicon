@@ -35,7 +35,7 @@ function populatePage(pageName){
         });
     }
 
-    wait(1000);
+    setTimeout(console.log("WAIT"), 1000);
     includeHTMLSnippet();
 
 }
