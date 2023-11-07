@@ -56,7 +56,7 @@ filename: index
                     </li>
                     <li class="study-item" ng-repeat="itembx">
                         <a id="language-learning-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
-                            <div class="education-result">Language learning</div>
+                            <div class="education-result">A year abroad</div>
                             <div class="education-location">
                                 De La Salle Gymnasium<br>Vienna, Austria
                             </div>
@@ -64,7 +64,7 @@ filename: index
                     </li>
                     <li class="study-item" ng-repeat="itembx">
                         <a id="school-leaving-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
-                            <div class="education-result">School leaving exam</div>
+                            <div class="education-result">High school graduation</div>
                             <div class="education-location">
                                 Bolyai Janos High School<br>Szombathely, Hungary
                             </div>
@@ -116,7 +116,7 @@ filename: index
             </div>
             <div title="language-learning-study" class="study-content">
                 <div class="study-title-section">
-                    <h2 class="study-title">Language learning
+                    <h2 class="study-title">A year abroad
                         <span class="study-date">2012 Sep - 2013 Sep</span>
                     </h2>
                     <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
