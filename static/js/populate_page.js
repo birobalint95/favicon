@@ -35,6 +35,7 @@ function populatePage(pageName){
         });
     }
 
+    wait(1000);
     includeHTMLSnippet();
 
 }

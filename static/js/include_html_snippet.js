@@ -17,8 +17,6 @@ function includeHTMLSnippet() {
 		let file = element.getAttribute(
 			"include-html-snippet");
 
-		console.log("HELLO");
-
 		if (file) {
 
 			console.log("SZIA");
