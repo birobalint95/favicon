@@ -1,3 +1,7 @@
+$(document).ready (function() {
+	includeHTMLSnippet();
+});
+
 function includeHTMLSnippet() {
 
 	console.log("szia");
