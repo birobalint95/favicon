@@ -9,7 +9,7 @@ function includeHTMLSnippet() {
 	// Traverse the collection of all
 	// HTML elements
 	let id = document.getElementsByTagName("*");
-	for (i = 0; i < id.length; i++) {
+	for (let i = 0; i < id.length; i++) {
 		let element = id[i];
 
 		// Search for elements with
