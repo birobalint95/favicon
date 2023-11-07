@@ -19,8 +19,6 @@ function includeHTMLSnippet() {
 
 		if (file) {
 
-			console.log("SZIA");
-
 			// Create an HTTP request with
 			// the attribute value as the
 			// file name
