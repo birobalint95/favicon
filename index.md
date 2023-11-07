@@ -45,32 +45,7 @@ filename: index
     <div id="tab-content-studies-about" title="about-studies" class="tab-content">
         <div class="container-of-timeline-of-studies">
             <div class="timeline-of-studies">
-                <ul id="list-of-studies" class="list-of-studies">
-                    <li class="study-item selected" ng-repeat="itembx">
-                        <a id="university-degree-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
-                            <div class="education-result">University degree</div>
-                            <div class="education-location">
-                                University of Technology<br>Budapest, Hungary
-                            </div>
-                        </a>
-                    </li>
-                    <li class="study-item" ng-repeat="itembx">
-                        <a id="year-abroad-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
-                            <div class="education-result">A year abroad</div>
-                            <div class="education-location">
-                                De La Salle Gymnasium<br>Vienna, Austria
-                            </div>
-                        </a>
-                    </li>
-                    <li class="study-item" ng-repeat="itembx">
-                        <a id="high-school-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
-                            <div class="education-result">High school graduation</div>
-                            <div class="education-location">
-                                Bolyai Janos High School<br>Szombathely, Hungary
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                <ul id="list-of-studies" class="list-of-studies"></ul>
             </div>
         </div>
         <div id="content-of-roles" class="container-of-content-of-studies">
