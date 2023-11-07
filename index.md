@@ -55,7 +55,7 @@ filename: index
                         </a>
                     </li>
                     <li class="study-item" ng-repeat="itembx">
-                        <a id="language-learning-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
+                        <a id="year-abroad-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">A year abroad</div>
                             <div class="education-location">
                                 De La Salle Gymnasium<br>Vienna, Austria
@@ -63,7 +63,7 @@ filename: index
                         </a>
                     </li>
                     <li class="study-item" ng-repeat="itembx">
-                        <a id="school-leaving-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
+                        <a id="high-school-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">High school graduation</div>
                             <div class="education-location">
                                 Bolyai Janos High School<br>Szombathely, Hungary
@@ -85,7 +85,7 @@ filename: index
                     <div id="study-description-university-degree" class="study-description" include-html-snippet="./html_snippets/university_degree_description.html"></div>
                 </div>
             </div>
-            <div title="language-learning-study" class="study-content">
+            <div title="year-abroad-study" class="study-content">
                 <div class="study-title-section">
                     <h2 class="study-title">A year abroad
                         <span class="study-date">2012 Sep - 2013 Sep</span>
@@ -93,10 +93,10 @@ filename: index
                     <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-language-learning" class="study-description" include-html-snippet="./html_snippets/a_year_abroad_description.html"></div>
+                    <div id="study-description-year-abroad" class="study-description" include-html-snippet="./html_snippets/a_year_abroad_description.html"></div>
                 </div>
             </div>
-            <div title="school-leaving-study" class="study-content">
+            <div title="high-school-study" class="study-content">
                 <div class="study-title-section">
                     <h2 class="study-title">High school graduation
                         <span class="study-date">2002 Sep - 2014 Jun</span>
@@ -104,12 +104,7 @@ filename: index
                     <h4 class="study-location">Bolyai Janos School, Szombathely, Hungary</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-school-leaving" class="study-description">
-                        <p>I was born and raised in Szombathely which is almost in the westernmost part of Hungary, near to the Austrian border. I have spent 12 years studying in <a class='clickable-inline-link' href='http://www.bolyaigimnazium.elte.hu/' target='_blank'>Bolyai Janos School</a> as it is both an elementary and a high school.</p>
-                        <p>In the last 2 years, I had to choose my faculties which happened to be maths and physics due to the fact that my goal was to admit to the Technical University of Budapest and to become a mechanical engineer. As maths was my favourite subject, I graduated from that on an advanced level and the other subjects on an intermediate level.</p>
-                        <p>As I loved (and still love) swimming and playing waterpolo, I also represented the school in such competitions which for I gained some additional points for my university admission.</p>
-                        <img src="static/images/bolyai.jpg" style="max-width: 100%; max-height: 100%; border-radius: 10px;">
-                    </div>
+                    <div id="study-description-high-school" class="study-description" include-html-snippet="./html_snippets/high_school_graduation_description.html"></div>
                 </div>
             </div>
         </div>
