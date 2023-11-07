@@ -1,4 +1,27 @@
 {
+    "studies": [
+        {
+            "result": "University degree",
+            "institution": "University of Technology",
+            "location": "Budapest, Hungary",
+            "time": "2014 Sep - 2018 Jun",
+            "description_html": "./html_snippets/university_degree_description.html"
+        },
+        {
+            "result": "A year abroad",
+            "institution": "De La Salle Gymnasium",
+            "location": "Vienna, Austria",
+            "time": "2012 Sep - 2013 Jun",
+            "description_html": "./html_snippets/a_year_abroad_description.html"
+        },
+        {
+            "result": "High school graduation",
+            "institution": "Bolyai Janos School",
+            "location": "Szombathely, Hungary",
+            "time": "2002 Sep - 2014 Jun",
+            "description_html": "./html_snippets/high_school_graduation_description.html"
+        }
+    ],
     "certifications": [
         {
             "name": "Professional Scrum Product Owner™ I",

@@ -45,7 +45,7 @@ filename: index
     <div id="tab-content-studies-about" title="about-studies" class="tab-content">
         <div class="container-of-timeline-of-studies">
             <div class="timeline-of-studies">
-                <ul class="list-of-studies">
+                <ul id="list-of-studies" class="list-of-studies">
                     <li class="study-item selected" ng-repeat="itembx">
                         <a id="university-degree-study" href="javascript:void(0)" onclick="getStudyDetails(this.id)">
                             <div class="education-result">University degree</div>
@@ -88,7 +88,7 @@ filename: index
             <div title="year-abroad-study" class="study-content">
                 <div class="study-title-section">
                     <h2 class="study-title">A year abroad
-                        <span class="study-date">2012 Sep - 2013 Sep</span>
+                        <span class="study-date">2012 Sep - 2013 Jun</span>
                     </h2>
                     <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
                 </div>
