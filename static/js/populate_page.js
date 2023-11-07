@@ -28,14 +28,13 @@ function populatePage(pageName){
         return response.json();
         })
         .then(function(introJsonData){
+            createStudyItems(introJsonData);
             createLanguageSkillCards(introJsonData);
             createCertificationCards(introJsonData);
             createHobbyCards(introJsonData);
-            createStudyItems(introJsonData);
         });
     }
 
-    setTimeout(console.log("WAIT"), 1000);
     includeHTMLSnippet();
 
 }
