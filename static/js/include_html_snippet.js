@@ -1,6 +1,8 @@
-$(document).ready (function() {
-	includeHTMLSnippet();
-});
+// $(document).ready (function() {
+// 	includeHTMLSnippet();
+// });
+
+export {includeHTMLSnippet}
 
 function includeHTMLSnippet() {
 
