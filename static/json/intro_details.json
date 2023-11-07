@@ -34,19 +34,19 @@
     "hobbies": [
         {
             "name": "Hiking",
-            "image_location": "./static/images/hobby_hiking.png"
+            "image_location": "./static/images/hiking.svg"
         },
         {
             "name": "Swimming",
-            "image_location": "./static/images/hobby_swimming.png"
+            "image_location": "./static/images/swimming.svg"
         },
         {
             "name": "Reading",
-            "image_location": "./static/images/hobby_reading.png"
+            "image_location": "./static/images/reading.svg"
         },
         {
             "name": "Watching movies",
-            "image_location": "./static/images/hobby_watching_movies.png"
+            "image_location": "./static/images/watching_movies.svg"
         }
     ],
     "languages": [
