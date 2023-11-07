@@ -9,6 +9,7 @@ function createCertificationCards(introJsonData){
         const certificationCard = document.createElement("a");
         certificationCard.setAttribute("class", "certification-card");
         certificationCard.setAttribute("href", `${certification.pdf_location}`);
+        certificationCard.setAttribute("target", "_blank");
 
         // IMAGE OF ANCHOR
         const imageOfCertificationCard = document.createElement("img");

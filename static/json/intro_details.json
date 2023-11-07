@@ -60,13 +60,13 @@
             "name": "English",
             "country_code": "gb",
             "level": "Professional",
-            "description": "<a class='inline-language-certification' href='./static/pdfs/english_language_certification.pdf'>B2 language certification</a>, I was speaking the language in the last years on a daily basis in work."
+            "description": "<a class='inline-language-certification' href='./static/pdfs/english_language_certification.pdf' target='_blank'>B2 language certification</a>, I was speaking the language in the last years on a daily basis in work."
         },
         {
             "name": "German",
             "country_code": "de",
             "level": "Intermediate",
-            "description": "I have a <a class='inline-language-certification' href='./static/pdfs/german_language_certification.pdf'>B2 language certification</a> but did not speak the language frequently in the last few years."
+            "description": "I have a <a class='inline-language-certification' href='./static/pdfs/german_language_certification.pdf' target='_blank'>B2 language certification</a> but did not speak the language frequently in the last few years."
         },
         {
             "name": "Spanish",
