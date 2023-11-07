@@ -82,7 +82,7 @@ filename: index
                     <h4 class="study-location">University of Technology, Budapest, Hungary</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-university-degree" class="study-description" include-html-snippet="./html_snippets/test.html"></div>
+                    <div id="study-description-university-degree" class="study-description" include-html-snippet="./html_snippets/university_degree_description.html"></div>
                 </div>
             </div>
             <div title="language-learning-study" class="study-content">
@@ -93,12 +93,7 @@ filename: index
                     <h4 class="study-location">De La Salle Gymnasium, Vienna, Austria</h4>
                 </div>
                 <div class="study-description-section">
-                    <div id="study-description-language-learning" class="study-description">
-                        <p>In the 3rd year of high school, I have spent 1 year studying in <a class='clickable-inline-link' href='https://ahs.dls21.at/de/' target='_blank'>De La Salle Gymnasium, Vienna</a>. The main goal was to learn the German language and once I come back home, pass the German B2 language exam which I successfully achieved.</p>
-                        <p>Although in the beginning it was difficult to be away from my family and friends, and to attend all the foreign language classes but after a while I got use to it and it was a pleasure to meet and make friends with people from different countries. I believe it was a great challenge and was totally worth it to get out of my comfort zone.</p>
-                        <p>To not lose a year in my Hungarian studies, I did learn for my Hungarian subjects as well and occasionally went back to my Hungarian high school and took the exams that enabled me to continue my studies in the final (4th) year with my original class.</p>
-                        <img src="static/images/de_la_salle.jpg" style="max-width: 100%; max-height: 100%; border-radius: 10px;">
-                    </div>
+                    <div id="study-description-language-learning" class="study-description" include-html-snippet="./html_snippets/a_year_abroad_description.html"></div>
                 </div>
             </div>
             <div title="school-leaving-study" class="study-content">
