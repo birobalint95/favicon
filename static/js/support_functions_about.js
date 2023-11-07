@@ -1,17 +1,15 @@
 function getStudyDetails() {
-    console.log(this.id);
-    var clickedElement = document.getElementById(clicked_id);
-    var isElementSelected = clickedElement.classList.contains("selected");
+    var isElementSelected = this.classList.contains("selected");
     var allStudyItems = document.getElementsByClassName("study-item");
 
     if (! isElementSelected) {
         [].forEach.call(allStudyItems, function(actualStudyItem) {
             actualStudyItem.classList.remove("selected");
         });
-    clickedElement.parentElement.classList.add("selected");
+    this.parentElement.classList.add("selected");
     };
 
-    var studyContent = document.querySelector("[title=" + CSS.escape(clicked_id) + "]");
+    var studyContent = document.querySelector("[title=" + CSS.escape(this.id) + "]");
     var isStudyContentDisplayed = studyContent.classList.contains("displayed");
     var allStudyContentItems = document.getElementsByClassName("study-content");
 
