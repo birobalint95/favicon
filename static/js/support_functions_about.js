@@ -1,4 +1,5 @@
-function getStudyDetails(clicked_id) {
+function getStudyDetails() {
+    console.log(this.id);
     var clickedElement = document.getElementById(clicked_id);
     var isElementSelected = clickedElement.classList.contains("selected");
     var allStudyItems = document.getElementsByClassName("study-item");

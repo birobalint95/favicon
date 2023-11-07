@@ -22,7 +22,7 @@ function createStudyItems(introJsonData){
         const anchorOfListItem = document.createElement("a");
         anchorOfListItem.setAttribute("id", "university-degree-study");
         anchorOfListItem.setAttribute("href", "javascript:void(0)");
-        anchorOfListItem.onclick = getStudyDetails(this.id);
+        anchorOfListItem.addEventListener("click", getStudyDetails);
 
         // RESULT OF STUDY
         const resultOfStudy = document.createElement("div");
