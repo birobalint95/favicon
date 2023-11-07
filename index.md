@@ -123,7 +123,10 @@ filename: index
                 </div>
                 <div class="study-description-section">
                     <div id="study-description-language-learning" class="study-description">
-                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                        <p>In the 3rd year of high school, I have spent 1 year studying in <a class='clickable-inline-link' href='https://ahs.dls21.at/de/' target='_blank'>De La Salle Gymnasium, Vienna</a>. The main goal was to learn the German language and once I come back home, pass the German B2 language exam which I successfully achieved.</p>
+                        </p>Although in the beginning it was difficult to be away from my family and friends, and to attend all the foreign language classes but after a while I got use to it and it was a pleasure to meet and make friends with people from different countries. I believe it was a great challenge and was totally worth it to get out of my comfort zone.</p>
+                        </p>To not lose a year in my Hungarian studies, I did learn for my Hungarian subjects as well and occasionally went back to my Hungarian high school and took the exams that enabled me to continue my studies in the final (4th) year with my original class.</p>
+                        <img src="static/images/de_la_salle.jpg" style="max-width: 100%; max-height: 100%;">
                     </div>
                 </div>
             </div>
