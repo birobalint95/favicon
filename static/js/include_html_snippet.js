@@ -6,6 +6,8 @@ export {includeHTMLSnippet};
 
 function includeHTMLSnippet() {
 
+	console.log("HELLO")
+
 	// Traverse the collection of all
 	// HTML elements
 	let id = document.getElementsByTagName("*");
