@@ -7,13 +7,16 @@ function createStudyItems(introJsonData){
     let indexOfRole = 1;
     for(let study of jsonDataOfStudies){
 
-        // *TIMELINE SECTION*
-
-        // LIST ITEM ELEMENT
         let classOfListItemOfStudy = "study-item";
+        let classOfStudyContentDiv = "study-content";
         if (indexOfRole == 1) {
             classOfListItemOfStudy += " selected"
+            classOfStudyContentDiv += " displayed"
         }
+
+        // *** TIMELINE SECTION ***
+
+        // LIST ITEM ELEMENT
         const listItemOfStudy = document.createElement("li");
         listItemOfStudy.setAttribute("class", `${classOfListItemOfStudy}`);
         listItemOfStudy.setAttribute("ng-repeat", "itembx");
@@ -40,9 +43,66 @@ function createStudyItems(introJsonData){
         // ADD ANCHOR TO LIST ITEM
         listItemOfStudy.appendChild(anchorOfListItem);
 
-        // ADD STUDY TO ITS SECTION
+        // ADD STUDY LIST ITEM TO ITS SECTION
         const studySection = document.getElementById("list-of-studies");
         studySection.appendChild(listItemOfStudy);
+
+        // *** CONTENT SECTION ***
+
+        // STUDY CONTENT DIV ELEMENT
+        const studyContentDiv = document.createElement("div");
+        studyContentDiv.setAttribute("title", `${idOfAnchor}`);
+        studyContentDiv.setAttribute("class", `${classOfStudyContentDiv}`);
+
+        // TITLE SECTION OF STUDY CONTENT
+        const titleSectionOfStudyContent = document.createElement("div");
+        titleSectionOfStudyContent.setAttribute("class", "study-title-section");
+
+        // TITLE
+        const studyTitle = document.createElement("h2");
+        studyTitle.setAttribute("class", "study-title");
+        const textOfStudyTitle = document.createTextNode(`${study.result}`);
+        studyTitle.appendChild(textOfStudyTitle);
+
+        // DATE
+        const dateOfStudy = document.createElement("span");
+        dateOfStudy.setAttribute("class", "study-date");
+        const textOfDate = document.createTextNode(`${study.time}`);
+        dateOfStudy.appendChild(textOfDate);
+        studyTitle.appendChild(dateOfStudy);
+
+        // ADD STUDY TITLE TO TITLE SECTION 
+        titleSectionOfStudyContent.appendChild(studyTitle);
+
+        // LOCATION
+        const studyLocation = document.createElement("h4");
+        studyLocation.setAttribute("class", "study-location");
+        const textOfStudyLocation = document.createTextNode(`${study.institution}, ${study.location}`);
+        studyLocation.appendChild(textOfStudyLocation);
+
+        // ADD LOCATION TO TITLE SECTION 
+        titleSectionOfStudyContent.appendChild(studyLocation);
+
+        // ADD TITLE SECTION TO STUDY CONTENT
+        studyContentDiv.appendChild(titleSectionOfStudyContent);
+
+        // DESCRIPTION SECTION
+        const descriptionSectionOfStudyContent = document.createElement("div");
+        descriptionSectionOfStudyContent.setAttribute("class", "study-description-section");
+
+        // DESCRIPTION
+        const descriptionOfStudyContent = document.createElement("div");
+        descriptionOfStudyContent.setAttribute("id", `study-description-${idOfAnchor}`);
+        descriptionOfStudyContent.setAttribute("class", "study-description");
+        descriptionOfStudyContent.setAttribute("include-html-snippet", `${study.description_html}`);
+        descriptionSectionOfStudyContent.appendChild(descriptionOfStudyContent)
+
+        // ADD DESCRIPTION SECTION TO STUDY CONTENT
+        studyContentDiv.appendChild(descriptionSectionOfStudyContent);
+
+        // ADD STUDY CONTENT TO ITS SECTION
+        const studyContentSection = document.getElementById("content-of-roles");
+        studyContentSection.appendChild(studyContentDiv);
 
         indexOfRole++;
 
