@@ -422,5 +422,5 @@
 }
 
 .clickable-inline-link:hover {
-    color: rgba(80, 216, 144);
+    color: rgba(80, 216, 144) !important;
 }
