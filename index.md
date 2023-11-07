@@ -83,7 +83,6 @@ filename: index
                 </div>
                 <div class="study-description-section">
                     <div id="study-description-university-degree" class="study-description" include-html-snippet="./html_snippets/test.html"></div>
-                    </div>
                 </div>
             </div>
             <div title="language-learning-study" class="study-content">
