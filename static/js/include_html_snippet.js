@@ -2,7 +2,7 @@
 // 	includeHTMLSnippet();
 // });
 
-export {includeHTMLSnippet}
+export {includeHTMLSnippet};
 
 function includeHTMLSnippet() {
 
