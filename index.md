@@ -83,7 +83,33 @@ filename: index
                 </div>
                 <div class="study-description-section">
                     <div id="study-description-university-degree" class="study-description">
-                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                        <p>My thesis was about designing a steering actuator for our driverless electric race car at BME Formula Racing Team. To achieve this, I went with the traditional waterfall method as it fit into the approach we have followed on vehicle level. This included the following actions:</p>
+                        <ul>
+                            <li>Collecting requirements (from the aspects of regulations and team needs)</li>
+                            <li>Benchmarking and literature research</li>
+                            <li>Conceptual design creation</li>
+                            <li>Calculations to validate the concept</li>
+                            <li>Pre-design, choosing off-the-shelf products</li>
+                            <li>Structural design creation</li>
+                            <li>Manufacturing and ordering products</li>
+                            <li>Assembling and testing</li>
+                            <li>Suggestions for improvement, summary</li>
+                        </ul>
+                        <p>Downloadable links:
+                            <a class="cv-download" title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank" style="margin-left: 8px;">
+                                <svg class="download-icon" width="13" height="16" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="download-arrow" d="M13 9L9 13M9 13L5 9M9 13V1" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 17V18C1 18.7956 1.31607 19.5587 1.87868 20.1213C2.44129 20.6839 3.20435 21 4 21H14C14.7956 21 15.5587 20.6839 16.1213 20.1213C16.6839 19.5587 17 18.7956 17 18V17" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <span> Thesis</span>
+                            </a>
+                            <a class="cv-download" title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank" style="margin-left: 8px;">
+                                <svg class="download-icon" width="13" height="16" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="download-arrow" d="M13 9L9 13M9 13L5 9M9 13V1" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 17V18C1 18.7956 1.31607 19.5587 1.87868 20.1213C2.44129 20.6839 3.20435 21 4 21H14C14.7956 21 15.5587 20.6839 16.1213 20.1213C16.6839 19.5587 17 18.7956 17 18V17" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <span> Drawings (zip)</span>
+                            </a>
+                            <a class="cv-download" title="download CV" id="download" href="static/pdfs/CV_eng.pdf" target="_blank" style="margin-left: 8px;">
+                                <svg class="download-icon" width="13" height="16" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="download-arrow" d="M13 9L9 13M9 13L5 9M9 13V1" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 17V18C1 18.7956 1.31607 19.5587 1.87868 20.1213C2.44129 20.6839 3.20435 21 4 21H14C14.7956 21 15.5587 20.6839 16.1213 20.1213C16.6839 19.5587 17 18.7956 17 18V17" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <span> Presentation</span>
+                            </a>
+                        </p>
+                        <p>Please forgive me that they are written only in Hungarian.</p>
                         <img src="static/videos/steering_actuator.gif" style="max-width: 100%; max-height: 100%;">
                     </div>
                 </div>
