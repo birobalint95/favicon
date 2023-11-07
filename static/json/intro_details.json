@@ -33,6 +33,10 @@
     ],
     "hobbies": [
         {
+            "name": "Travelling",
+            "image_location": "./static/images/hobby_travelling.svg"
+        },
+        {
             "name": "Hiking",
             "image_location": "./static/images/hobby_hiking.svg"
         },
@@ -41,12 +45,36 @@
             "image_location": "./static/images/hobby_swimming.svg"
         },
         {
+            "name": "Waterpolo",
+            "image_location": "./static/images/hobby_waterpolo.svg"
+        },
+        {
+            "name": "Soccer",
+            "image_location": "./static/images/hobby_soccer.svg"
+        },
+        {
+            "name": "Skiing",
+            "image_location": "./static/images/hobby_skiing.svg"
+        },
+        {
             "name": "Reading",
             "image_location": "./static/images/hobby_reading.svg"
         },
         {
+            "name": "Listening to music",
+            "image_location": "./static/images/hobby_listening_music.svg"
+        },
+        {
+            "name": "Making music",
+            "image_location": "./static/images/hobby_making_music.svg"
+        },
+        {
             "name": "Watching movies",
             "image_location": "./static/images/hobby_watching_movies.svg"
+        },
+        {
+            "name": "Going out",
+            "image_location": "./static/images/hobby_going_out.svg"
         }
     ],
     "languages": [
