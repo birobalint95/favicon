@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-    padding: 40px;
+    padding: 10px 40px 40px 40px;
 }
   
 .certification-card {
@@ -53,12 +53,12 @@
 .certification-card-content {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding-top: 15px;
     text-align: center;
 }
 
 .certification-card-content > p {
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .certification-card-content > p:nth-child(1) {
@@ -110,7 +110,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    padding: 40px;
+    padding: 10px 40px 40px 40px;
 }
 
 .hobby-card {
@@ -355,6 +355,7 @@
     height:auto;
     color: white;
     overflow:hidden;
+    padding-bottom: 30px;
 }
 
 .study-content {
