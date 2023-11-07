@@ -110,7 +110,7 @@ filename: index
                             </a>
                         </p>
                         <p>Please forgive me that they are written only in Hungarian.</p>
-                        <img src="static/videos/steering_actuator.gif" style="max-width: 100%; max-height: 100%;">
+                        <img src="static/videos/steering_actuator.gif" style="max-width: 100%; max-height: 100%; border-radius: 10px;">
                     </div>
                 </div>
             </div>
@@ -126,20 +126,23 @@ filename: index
                         <p>In the 3rd year of high school, I have spent 1 year studying in <a class='clickable-inline-link' href='https://ahs.dls21.at/de/' target='_blank'>De La Salle Gymnasium, Vienna</a>. The main goal was to learn the German language and once I come back home, pass the German B2 language exam which I successfully achieved.</p>
                         <p>Although in the beginning it was difficult to be away from my family and friends, and to attend all the foreign language classes but after a while I got use to it and it was a pleasure to meet and make friends with people from different countries. I believe it was a great challenge and was totally worth it to get out of my comfort zone.</p>
                         <p>To not lose a year in my Hungarian studies, I did learn for my Hungarian subjects as well and occasionally went back to my Hungarian high school and took the exams that enabled me to continue my studies in the final (4th) year with my original class.</p>
-                        <img src="static/images/de_la_salle.jpg" style="max-width: 100%; max-height: 100%;">
+                        <img src="static/images/de_la_salle.jpg" style="max-width: 100%; max-height: 100%; border-radius: 10px;">
                     </div>
                 </div>
             </div>
             <div title="school-leaving-study" class="study-content">
                 <div class="study-title-section">
-                    <h2 class="study-title">School leaving exam
+                    <h2 class="study-title">High school graduation
                         <span class="study-date">2002 Sep - 2014 Jun</span>
                     </h2>
-                    <h4 class="study-location">Bolyai Janos High School, Szombathely, Hungary</h4>
+                    <h4 class="study-location">Bolyai Janos School, Szombathely, Hungary</h4>
                 </div>
                 <div class="study-description-section">
                     <div id="study-description-school-leaving" class="study-description">
-                        <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla?</p>
+                        <p>I was born and raised in Szombathely which is almost in the westernmost part of Hungary, near to the Austrian border. I have spent 12 years studying in <a class='clickable-inline-link' href='http://www.bolyaigimnazium.elte.hu/' target='_blank'>Bolyai Janos School</a> as it is both an elementary and a high school.</p>
+                        <p>In the last 2 years, I had to choose my faculties which happened to be maths and physics due to the fact that my goal was to admit to the Technical University of Budapest and to become a mechanical engineer. As maths was my favourite subject, I graduated from that on an advanced level and the other subjects on an intermediate level.</p>
+                        <p>As I loved (and still love) swimming and playing waterpolo, I also represented the school in such competitions which for I gained some additional points for my university admission.</p>
+                        <img src="static/images/bolyai.jpg" style="max-width: 100%; max-height: 100%; border-radius: 10px;">
                     </div>
                 </div>
             </div>
