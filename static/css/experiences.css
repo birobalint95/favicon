@@ -290,3 +290,21 @@ ul.list-of-experiences li .timestamp {
         stroke:white;
     }
 }
+
+.role-skill-card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+
+.role-skill-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.role-skill-area {
+    padding-left: 20px;
+}
