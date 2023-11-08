@@ -23,7 +23,7 @@ function selectPosition() {
     let responsibilitiesDetail = document.getElementById(CSS.escape(this.id) + "-responsibilities");
 
     selectRoleDetailTab(responsibilitiesDetail);
-    responsibilitiesDetail.selectRoleDetailTab()
+
 };
 
 // function selectRoleDetailTab(){
