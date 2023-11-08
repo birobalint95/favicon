@@ -5,15 +5,6 @@ function createExperienceItems(rolesJsonData){
     let indexOfRole = 1;
     for(let role of rolesJsonData){
 
-        console.log('------')
-        console.log("ROLE:" + String(role));
-        Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
-            console.log("SKILL AREA:" + String(skill_area));
-            for(let area_skill of area_skills){
-                console.log(area_skill)
-            }
-        });
-
         let classOfListItemOfExperience = "experience-item";
         let classOfExperienceContentDiv = "experience-content";
         if (indexOfRole == 1) {
@@ -111,6 +102,8 @@ function createExperienceItems(rolesJsonData){
                 classOfDescription += " displayed"
             }
 
+            createHtmlContentForRoleDetail(detail, role);
+
             // ANCHOR OF GROUP
             const anchorOfDetail = document.createElement("a");
             anchorOfDetail.setAttribute("id", `${idOfAnchor}-${detail}`.toLowerCase());
@@ -150,6 +143,24 @@ function createExperienceItems(rolesJsonData){
     }
 };
 
+function createHtmlContentForRoleDetail(detail, role){
+    console.log(role.title)
+    if (detail == "Responsibilities"){
+        console.log("IDE JON A RESP");
+    } else if (detail == "Skills"){
+        console.log("IDE JON A SKILLS");
+    } else if (detail == "Tools"){
+        console.log("IDE JON A TOOLS");
+    }
+    // console.log('------')
+    // console.log("ROLE:" + String(role.title));
+    // Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
+    //     console.log("SKILL AREA:" + String(skill_area));
+    //     for(let area_skill of area_skills){
+    //         console.log(area_skill)
+    //     }
+    // });
+}
 
 
 {/* <section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
