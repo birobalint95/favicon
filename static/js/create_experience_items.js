@@ -155,10 +155,11 @@ function createHtmlContentForRoleDetail(detail, role){
 }
 
 function createHtmlContentForRoleSkills(skills){
+    let sectionOfSkills;
     Object.entries(skills).forEach(([skill_area, area_skills]) => {
         const skillArea = document.createElement("p");
         skillArea.insertAdjacentHTML("beforeend", `${skill_area}`);
-        const sectionOfSkills = document.createElement("section");
+        sectionOfSkills = document.createElement("section");
         sectionOfSkills.setAttribute("class", "hobby-cards");
         for(let area_skill of area_skills){
             // SKILL CARD
