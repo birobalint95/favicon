@@ -152,10 +152,10 @@ function createExperienceItems(rolesJsonData){
 
 
 
-<section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
+{/* <section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
     <div class="hobby-card" style="display: flex;">
         <div class="hobby-card-content" style="padding-right: 0px; margin: 0px auto;">
             <p class="hobby-description">Travelling</p>
         </div>
     </div>
-</section>
+</section> */}
