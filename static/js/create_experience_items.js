@@ -117,13 +117,8 @@ function createExperienceItems(rolesJsonData){
             divOfDescriptionOfDetail.setAttribute("title", `${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
 
-            const paragraphOfDescriptionOfDetail = document.createElement("p");
-            paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder")
-            divOfDescriptionOfDetail.appendChild(paragraphOfDescriptionOfDetail)
-            divsOfDescriptions.push(divOfDescriptionOfDetail);
-
-            // let detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
-            // divsOfDescriptions.push(detailElementWithContent);
+            let detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
+            divsOfDescriptions.push(detailElementWithContent);
 
             indexOfDetail++;
         });
@@ -146,17 +141,22 @@ function createExperienceItems(rolesJsonData){
 };
 
 function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
-    let detailElementWithContent;
-    if (detailCategory == "Responsibilities"){
-        detailElementWithContent = document.createElement("p");
-        detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
-    } else if (detailCategory == "Skills"){
-        detailElementWithContent = createHtmlContentForRoleSkills(role.skills, detailElement);
-    } else if (detailCategory == "Tools"){
-        detailElementWithContent = document.createElement("p");
-        detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
-    }
-    return detailElementWithContent;
+    const paragraphOfDescriptionOfDetail = document.createElement("p");
+    paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
+    detailElement.appendChild(paragraphOfDescriptionOfDetail);
+    return detailElement;
+
+    // let detailElementWithContent;
+    // if (detailCategory == "Responsibilities"){
+    //     detailElementWithContent = document.createElement("p");
+    //     detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
+    // } else if (detailCategory == "Skills"){
+    //     detailElementWithContent = createHtmlContentForRoleSkills(role.skills, detailElement);
+    // } else if (detailCategory == "Tools"){
+    //     detailElementWithContent = document.createElement("p");
+    //     detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
+    // }
+    // return detailElementWithContent;
 }
 
 function createHtmlContentForRoleSkills(skills, detailElement){
