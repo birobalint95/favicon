@@ -116,7 +116,7 @@ function createExperienceItems(rolesJsonData){
             divOfDescriptionOfDetail.setAttribute("id", `tab-content-${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("title", `${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
-            detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
+            let detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
             divsOfDescriptions.push(detailElementWithContent);
 
             indexOfDetail++;
