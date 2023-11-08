@@ -144,12 +144,12 @@ function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
     let detailElementWithContent;
     if (detailCategory == "Responsibilities"){
         console.log("IDE JON A RESP");
-        detailElementWithContent = "";
+        detailElementWithContent = document.createElement("p");;
     } else if (detailCategory == "Skills"){
         detailElementWithContent = createHtmlContentForRoleSkills(role.skills, detailElement);
     } else if (detailCategory == "Tools"){
         console.log("IDE JON A TOOLS");
-        detailElementWithContent = "";
+        detailElementWithContent = document.createElement("p");;
     }
     return detailElementWithContent;
 }
