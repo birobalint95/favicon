@@ -3,7 +3,6 @@ import { createLanguageSkillCards } from "./create_skill_cards.js";
 import { createCertificationCards } from "./create_certification_cards.js";
 import { createHobbyCards } from "./create_hobby_cards.js";
 import { createStudyItems } from "./create_study_items.js";
-import { includeHTMLSnippet } from "./include_html_snippet.js";
 
 export {populatePage};
 
@@ -32,7 +31,6 @@ function populatePage(pageName){
             createCertificationCards(introJsonData);
             createHobbyCards(introJsonData);
             createStudyItems(introJsonData);
-            includeHTMLSnippet();
         });
     }
 
