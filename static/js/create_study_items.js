@@ -101,9 +101,7 @@ function createStudyItems(introJsonData){
             }
             throw response;
         }).then(function (text) {
-            console.log(text);
-            // let dialog = document.querySelector('dialog');
-            // dialog.innnerHTML = text;
+            descriptionOfStudyContent.innerHTML = text;
         });
 
         descriptionOfStudyContent.setAttribute("include-html-snippet", `${study.description_html}`);
