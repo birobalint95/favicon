@@ -48,7 +48,7 @@ filename: index
                 <ul id="studies-list" class="list-of-studies"></ul>
             </div>
         </div>
-        <div id="content-of-roles" class="container-of-content-of-studies"></div>
+        <div id="content-of-studies" class="container-of-content-of-studies"></div>
     </div>
     <div id="tab-content-hobbies-about" title="about-hobbies" class="tab-content" style="color: black;">
         <section id="hobby-cards-section" class="hobby-cards"></section>

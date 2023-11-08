@@ -108,7 +108,7 @@ function createStudyItems(introJsonData){
         studyContentDiv.appendChild(descriptionSectionOfStudyContent);
 
         // ADD STUDY CONTENT TO ITS SECTION
-        const studyContentSection = document.getElementById("content-of-roles");
+        const studyContentSection = document.getElementById("content-of-studies");
         studyContentSection.appendChild(studyContentDiv);
 
         indexOfRole++;

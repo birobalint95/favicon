@@ -1,19 +1,19 @@
-.date {
+.experience-date {
     float: right;
     font-size: 16px;
     position: relative;
     top: 14px;
 }
 
-.role-title {
+.experience-title {
     margin-bottom: 0px;
 }
 
-.company-title {
+.experience-location {
     margin-top: 0px;
 }
 
-.title-section {
+.experience-title-section {
     background: rgba(80, 216, 144);
     padding: 10px 24px 10px 24px;
     box-shadow: inset 0px 0px 4px 4px #232931;
@@ -27,7 +27,7 @@
     float:left;
 }
 
-.two{
+.container-of-content-of-experiences{
     width:580px;
     height:auto;
     color: white;
@@ -57,7 +57,7 @@
     position: relative;
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item a {
+.timeline-of-experiences ul.list-of-experiences li.experience-item a {
     text-decoration: none;
     top: -12px;
 }
@@ -79,16 +79,16 @@
     transition: all 250ms ease-in-out;
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item:has(a:hover)::before {
+.timeline-of-experiences ul.list-of-experiences li.experience-item:has(a:hover)::before {
     border-color: #fff;
     background: #fff;
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item a:hover div.item-title {
+.timeline-of-experiences ul.list-of-experiences li.experience-item a:hover div.item-title {
     color: #fff;
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item a:hover div.timestamp {
+.timeline-of-experiences ul.list-of-experiences li.experience-item a:hover div.timestamp {
     color: #fff;
 }
 
@@ -113,17 +113,17 @@ ul.list-of-experiences li .timestamp {
     color: rgba(137, 148, 153, 1);
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item.selected::before {
+.timeline-of-experiences ul.list-of-experiences li.experience-item.selected::before {
     border-color: #50d890 !important;
     background: #50d890 !important;
     animation: pulse-animation 2s infinite;
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item.selected a div.item-title {
+.timeline-of-experiences ul.list-of-experiences li.experience-item.selected a div.item-title {
     color: #fff;
 }
 
-.timeline-of-experiences ul.list-of-experiences li.rb-item.selected a div.timestamp {
+.timeline-of-experiences ul.list-of-experiences li.experience-item.selected a div.timestamp {
     color: #50d890;
 }
 
@@ -131,13 +131,13 @@ ul.list-of-experiences li .timestamp {
     margin-bottom: 0px;
 }
 
-.role-description {
+.experience-content {
     display: none;
     padding-left: 36px;
     border-left: 2px solid rgba(137, 148, 153, 1);
 }
 
-.role-description.displayed {
+.experience-content.displayed {
     display: block;
     visibility: visible;
 }

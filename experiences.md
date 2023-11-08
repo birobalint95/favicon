@@ -19,14 +19,5 @@ filename: experiences
     </div>
 </div>
 
-<div id="content-of-roles" class="two">
-</div> <!-- End of div two -->
-
-
-
-        <div class="container-of-timeline-of-studies">
-            <div class="timeline-of-studies">
-                <ul id="studies-list" class="list-of-studies"></ul>
-            </div>
-        </div>
-        <div id="content-of-roles" class="container-of-content-of-studies"></div>
+<div id="content-of-experiences" class="container-of-content-of-experiences">
+</div>
