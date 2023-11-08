@@ -104,7 +104,7 @@ function createExperienceItems(rolesJsonData){
 
             // ANCHOR OF GROUP
             const anchorOfDetail = document.createElement("a");
-            anchorOfDetail.setAttribute("id", `${role.id}-${detail}`.toLowerCase());
+            anchorOfDetail.setAttribute("id", `${idOfAnchor}-${detail}`.toLowerCase());
             anchorOfDetail.setAttribute("class", `${classOfDetail}`);
             anchorOfDetail.setAttribute("href", "#");
             // anchorOfDetail.addEventListener("click", getStudyDetails); // later
@@ -113,8 +113,8 @@ function createExperienceItems(rolesJsonData){
 
             // DESCRIPTION OF DETAIL
             const divOfDescriptionOfDetail = document.createElement("div");
-            divOfDescriptionOfDetail.setAttribute("id", `tab-content-${role.id}-${detail}`.toLowerCase());
-            divOfDescriptionOfDetail.setAttribute("title", `${role.id}-${detail}`.toLowerCase());
+            divOfDescriptionOfDetail.setAttribute("id", `tab-content-${idOfAnchor}-${detail}`.toLowerCase());
+            divOfDescriptionOfDetail.setAttribute("title", `${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
             const paragraphOfDescriptionOfDetail = document.createElement("p");
             paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder")
