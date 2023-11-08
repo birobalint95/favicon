@@ -26,12 +26,12 @@ function selectPosition() {
 
 };
 
-function selectRoleDetailTab(){
+function selectRoleDetailTab(trigger){
     let selectedRoleDetailTab;
-    if (blabla.target) {
+    if (trigger.target) {
         selectedRoleDetailTab = this;
     } else {
-        selectedRoleDetailTab = blabla;
+        selectedRoleDetailTab = trigger;
     }
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
