@@ -20,9 +20,9 @@ function selectPosition() {
     roleContent.classList.add("displayed");
     };
 
-    console.log(CSS.escape(this.id) + "-responsibilities");
+    let responsibilitiesDetail = document.getElementById(CSS.escape(this.id) + "-responsibilities");
 
-    selectRoleDetailTab(CSS.escape(this.id) + "-responsibilities")
+    selectRoleDetailTab(responsibilitiesDetail);
 };
 
 function selectRoleDetailTab(){
