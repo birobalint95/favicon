@@ -102,8 +102,6 @@ function createExperienceItems(rolesJsonData){
                 classOfDescription += " displayed"
             }
 
-            createHtmlContentForRoleDetail(detail, role);
-
             // ANCHOR OF GROUP
             const anchorOfDetail = document.createElement("a");
             anchorOfDetail.setAttribute("id", `${idOfAnchor}-${detail}`.toLowerCase());
@@ -118,9 +116,7 @@ function createExperienceItems(rolesJsonData){
             divOfDescriptionOfDetail.setAttribute("id", `tab-content-${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("title", `${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
-            const paragraphOfDescriptionOfDetail = document.createElement("p");
-            paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder")
-            divOfDescriptionOfDetail.appendChild(paragraphOfDescriptionOfDetail)
+            createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
             divsOfDescriptions.push(divOfDescriptionOfDetail);
 
             indexOfDetail++;
@@ -143,23 +139,25 @@ function createExperienceItems(rolesJsonData){
     }
 };
 
-function createHtmlContentForRoleDetail(detail, role){
+function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
     console.log(role.title)
-    if (detail == "Responsibilities"){
+    if (detailCategory == "Responsibilities"){
         console.log("IDE JON A RESP");
-    } else if (detail == "Skills"){
-        createHtmlContentForRoleSkills(role.skills);
-    } else if (detail == "Tools"){
+    } else if (detailCategory == "Skills"){
+        createHtmlContentForRoleSkills(role.skills, detailElement);
+    } else if (detailCategory == "Tools"){
         console.log("IDE JON A TOOLS");
     }
 }
 
-function createHtmlContentForRoleSkills(skills){
-    let sectionOfSkills;
+function createHtmlContentForRoleSkills(skills, detailElement){
+
+    console.log(detailElement);
+
     Object.entries(skills).forEach(([skill_area, area_skills]) => {
         const skillArea = document.createElement("p");
         skillArea.insertAdjacentHTML("beforeend", `${skill_area}`);
-        sectionOfSkills = document.createElement("section");
+        const sectionOfSkills = document.createElement("section");
         sectionOfSkills.setAttribute("class", "hobby-cards");
         for(let area_skill of area_skills){
             // SKILL CARD
@@ -181,8 +179,9 @@ function createHtmlContentForRoleSkills(skills){
             roleSkillCard.appendChild(roleSkillCardContent);
             sectionOfSkills.appendChild(roleSkillCard);
         }
+
+
     });
-    console.log(sectionOfSkills);
 }
 
 {/* <section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
