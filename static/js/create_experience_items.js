@@ -116,8 +116,14 @@ function createExperienceItems(rolesJsonData){
             divOfDescriptionOfDetail.setAttribute("id", `tab-content-${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("title", `${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
-            let detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
-            divsOfDescriptions.push(detailElementWithContent);
+
+            const paragraphOfDescriptionOfDetail = document.createElement("p");
+            paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder")
+            divOfDescriptionOfDetail.appendChild(paragraphOfDescriptionOfDetail)
+            divsOfDescriptions.push(divOfDescriptionOfDetail);
+
+            // let detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
+            // divsOfDescriptions.push(detailElementWithContent);
 
             indexOfDetail++;
         });
