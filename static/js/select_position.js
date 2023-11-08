@@ -1,16 +1,15 @@
-function selectPosition(clicked_id) {
-    var clickedElement = document.getElementById(clicked_id);
-    var isElementSelected = clickedElement.classList.contains("selected");
+function selectPosition() {
+    var isElementSelected = this.classList.contains("selected");
     var allRightboxItems = document.getElementsByClassName("rb-item");
 
     if (! isElementSelected) {
         [].forEach.call(allRightboxItems, function(actualRightboxItem) {
             actualRightboxItem.classList.remove("selected");
         });
-    clickedElement.parentElement.classList.add("selected");
+    this.parentElement.classList.add("selected");
     };
 
-    var roleContent = document.querySelector("[title=" + CSS.escape(clicked_id) + "]");
+    var roleContent = document.querySelector("[title=" + CSS.escape(this.id) + "]");
     var isRoleContentDisplayed = roleContent.classList.contains("displayed");
     var allRoleContentItems = document.getElementsByClassName("role-description");
 
@@ -21,7 +20,7 @@ function selectPosition(clicked_id) {
     roleContent.classList.add("displayed");
     };
 
-    selectRoleDetailTab(CSS.escape(clicked_id) + "-responsibilities")
+    selectRoleDetailTab(CSS.escape(this.id) + "-responsibilities")
 };
 
 function selectRoleDetailTab(roleDetailSelectorId){
