@@ -5,6 +5,15 @@ function createExperienceItems(rolesJsonData){
     let indexOfRole = 1;
     for(let role of rolesJsonData){
 
+        console.log('------')
+        console.log("ROLE:" + String(role));
+        Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
+            console.log("SKILL AREA:" + String(skill_area));
+            for(let area_skill of area_skills){
+                console.log(area_skill)
+            }
+        });
+
         let classOfListItemOfExperience = "experience-item";
         let classOfExperienceContentDiv = "experience-content";
         if (indexOfRole == 1) {
@@ -21,10 +30,10 @@ function createExperienceItems(rolesJsonData){
 
         // ANCHOR OF LIST ITEM
         const anchorOfListItem = document.createElement("a");
-        let idOfAnchor = `${role.area}-${role.title}`.toLowerCase().replace(/ & /g, "-and-").replace(/ /g, "-"); // remove role id from json
+        let idOfAnchor = `${role.area}-${role.title}`.toLowerCase().replace(/ & /g, "-and-").replace(/ /g, "-");
         anchorOfListItem.setAttribute("id", `${idOfAnchor}`);
         anchorOfListItem.setAttribute("href", "javascript:void(0)");
-        anchorOfListItem.addEventListener("click", selectPosition); // check later
+        anchorOfListItem.addEventListener("click", selectPosition);
 
         // TITLE OF ROLE
         const titleOfRole = document.createElement("div");
@@ -140,3 +149,13 @@ function createExperienceItems(rolesJsonData){
 
     }
 };
+
+
+
+<section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
+    <div class="hobby-card" style="display: flex;">
+        <div class="hobby-card-content" style="padding-right: 0px; margin: 0px auto;">
+            <p class="hobby-description">Travelling</p>
+        </div>
+    </div>
+</section>
