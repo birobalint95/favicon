@@ -95,7 +95,16 @@ function createStudyItems(introJsonData){
         descriptionOfStudyContent.setAttribute("id", `study-description-${idOfAnchor}`);
         descriptionOfStudyContent.setAttribute("class", "study-description");
 
-        $(descriptionOfStudyContent).load(`${study.description_html}`);
+        fetch(`${study.description_html}`).then(function (response) {
+            if (response.ok) {
+                return response.text();
+            }
+            throw response;
+        }).then(function (text) {
+            console.log(text);
+            // let dialog = document.querySelector('dialog');
+            // dialog.innnerHTML = text;
+        });
 
         descriptionOfStudyContent.setAttribute("include-html-snippet", `${study.description_html}`);
         descriptionSectionOfStudyContent.appendChild(descriptionOfStudyContent)
