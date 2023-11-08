@@ -140,16 +140,15 @@ function createExperienceItems(rolesJsonData){
 };
 
 function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
-    console.log(role.title)
     let detailElementWithContent;
     if (detailCategory == "Responsibilities"){
-        console.log("IDE JON A RESP");
-        detailElementWithContent = document.createElement("p");;
+        detailElementWithContent = document.createElement("p");
+        detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
     } else if (detailCategory == "Skills"){
         detailElementWithContent = createHtmlContentForRoleSkills(role.skills, detailElement);
     } else if (detailCategory == "Tools"){
-        console.log("IDE JON A TOOLS");
-        detailElementWithContent = document.createElement("p");;
+        detailElementWithContent = document.createElement("p");
+        detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
     }
     return detailElementWithContent;
 }
