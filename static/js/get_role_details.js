@@ -3,7 +3,7 @@ fetch("./static/json/role_details.json")
    return response.json();
 })
 .then(function(roles){
-    let unorderedListOfRoles = document.querySelector("#list-of-roles");
+    let unorderedListOfRoles = document.querySelector("#experiences-list");
     let listItemsOfRoles = "";
 
     let divOfContentOfRoles = document.querySelector("#content-of-roles");

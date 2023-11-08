@@ -12,12 +12,21 @@ filename: experiences
     </a>
 </h2>
 
-<div class="one">
-    <div class="rb-container">
-        <ul id="list-of-roles" class="rb">
+<div class="container-of-timeline-of-experiences">
+    <div class="timeline-of-experiences">
+        <ul id="experiences-list" class="list-of-experiences">
         </ul>
     </div>
 </div>
 
 <div id="content-of-roles" class="two">
 </div> <!-- End of div two -->
+
+
+
+        <div class="container-of-timeline-of-studies">
+            <div class="timeline-of-studies">
+                <ul id="studies-list" class="list-of-studies"></ul>
+            </div>
+        </div>
+        <div id="content-of-roles" class="container-of-content-of-studies"></div>

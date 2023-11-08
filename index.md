@@ -45,7 +45,7 @@ filename: index
     <div id="tab-content-studies-about" title="about-studies" class="tab-content">
         <div class="container-of-timeline-of-studies">
             <div class="timeline-of-studies">
-                <ul id="list-of-studies" class="list-of-studies"></ul>
+                <ul id="studies-list" class="list-of-studies"></ul>
             </div>
         </div>
         <div id="content-of-roles" class="container-of-content-of-studies"></div>

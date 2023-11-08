@@ -21,7 +21,7 @@
     margin-bottom: 6px;
 }
 
-.one{
+.container-of-timeline-of-experiences{
     width:240px;
     height:400px;
     float:left;
@@ -34,19 +34,19 @@
     overflow:hidden;
 }
 
-.rb-container {
+.timeline-of-experiences {
     width: 50%;
     display: block;
     position: relative;
 }
 
-.rb-container ul.rb {
+.timeline-of-experiences ul.list-of-experiences {
     margin: 2.5em 0;
     padding: 0;
     display: inline-block;
 }
 
-.rb-container ul.rb li {
+.timeline-of-experiences ul.list-of-experiences li {
     list-style: none;
     margin: auto;
     margin-left: 2em;
@@ -57,16 +57,16 @@
     position: relative;
 }
 
-.rb-container ul.rb li.rb-item a {
+.timeline-of-experiences ul.list-of-experiences li.rb-item a {
     text-decoration: none;
     top: -12px;
 }
 
-.rb-container ul.rb li:last-child {
+.timeline-of-experiences ul.list-of-experiences li:last-child {
     border-left: 0;
 }
 
-.rb-container ul.rb li::before {
+.timeline-of-experiences ul.list-of-experiences li::before {
     position: absolute;
     left: -10px;
     top: -2px;
@@ -79,16 +79,16 @@
     transition: all 250ms ease-in-out;
 }
 
-.rb-container ul.rb li.rb-item:has(a:hover)::before {
+.timeline-of-experiences ul.list-of-experiences li.rb-item:has(a:hover)::before {
     border-color: #fff;
     background: #fff;
 }
 
-.rb-container ul.rb li.rb-item a:hover div.item-title {
+.timeline-of-experiences ul.list-of-experiences li.rb-item a:hover div.item-title {
     color: #fff;
 }
 
-.rb-container ul.rb li.rb-item a:hover div.timestamp {
+.timeline-of-experiences ul.list-of-experiences li.rb-item a:hover div.timestamp {
     color: #fff;
 }
 
@@ -102,7 +102,7 @@
     }
 }
 
-ul.rb li .timestamp {
+ul.list-of-experiences li .timestamp {
     color: rgba(137, 148, 153, 1);
     position: relative;
     width: 140px;
@@ -113,21 +113,21 @@ ul.rb li .timestamp {
     color: rgba(137, 148, 153, 1);
 }
 
-.rb-container ul.rb li.rb-item.selected::before {
+.timeline-of-experiences ul.list-of-experiences li.rb-item.selected::before {
     border-color: #50d890 !important;
     background: #50d890 !important;
     animation: pulse-animation 2s infinite;
 }
 
-.rb-container ul.rb li.rb-item.selected a div.item-title {
+.timeline-of-experiences ul.list-of-experiences li.rb-item.selected a div.item-title {
     color: #fff;
 }
 
-.rb-container ul.rb li.rb-item.selected a div.timestamp {
+.timeline-of-experiences ul.list-of-experiences li.rb-item.selected a div.timestamp {
     color: #50d890;
 }
 
-#list-of-roles {
+#experiences-list {
     margin-bottom: 0px;
 }
 

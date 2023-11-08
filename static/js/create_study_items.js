@@ -44,7 +44,7 @@ function createStudyItems(introJsonData){
         listItemOfStudy.appendChild(anchorOfListItem);
 
         // ADD STUDY LIST ITEM TO ITS SECTION
-        const studySection = document.getElementById("list-of-studies");
+        const studySection = document.getElementById("studies-list");
         studySection.appendChild(listItemOfStudy);
 
         // *** CONTENT SECTION ***
