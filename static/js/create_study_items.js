@@ -94,6 +94,9 @@ function createStudyItems(introJsonData){
         const descriptionOfStudyContent = document.createElement("div");
         descriptionOfStudyContent.setAttribute("id", `study-description-${idOfAnchor}`);
         descriptionOfStudyContent.setAttribute("class", "study-description");
+
+        $(descriptionOfStudyContent).load(`${study.description_html}`);
+
         descriptionOfStudyContent.setAttribute("include-html-snippet", `${study.description_html}`);
         descriptionSectionOfStudyContent.appendChild(descriptionOfStudyContent)
 
