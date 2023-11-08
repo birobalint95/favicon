@@ -21,7 +21,7 @@ function createExperienceItems(rolesJsonData){
 
         // ANCHOR OF LIST ITEM
         const anchorOfListItem = document.createElement("a");
-        let idOfAnchor = `${role.area}-${role.title}`.toLowerCase().replace(/ /g, "-"); // remove role id from json
+        let idOfAnchor = `${role.area}-${role.title}`.toLowerCase().replace(/&/g, "-and-").replace(/ /g, "-"); // remove role id from json
         anchorOfListItem.setAttribute("id", `${idOfAnchor}`);
         anchorOfListItem.setAttribute("href", "javascript:void(0)");
         anchorOfListItem.addEventListener("click", selectPosition); // check later
