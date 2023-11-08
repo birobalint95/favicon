@@ -294,7 +294,7 @@ ul.list-of-experiences li .timestamp {
 .role-skill-card-content {
     display: flex;
     flex-direction: column;
-    padding: 20px 0px;
+    padding: 0px;
     margin: 0px auto;
 }
 
