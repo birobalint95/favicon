@@ -148,20 +148,41 @@ function createHtmlContentForRoleDetail(detail, role){
     if (detail == "Responsibilities"){
         console.log("IDE JON A RESP");
     } else if (detail == "Skills"){
-        console.log("IDE JON A SKILLS");
+        createHtmlContentForRoleSkills(role.skills);
     } else if (detail == "Tools"){
         console.log("IDE JON A TOOLS");
     }
-    // console.log('------')
-    // console.log("ROLE:" + String(role.title));
-    // Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
-    //     console.log("SKILL AREA:" + String(skill_area));
-    //     for(let area_skill of area_skills){
-    //         console.log(area_skill)
-    //     }
-    // });
 }
 
+function createHtmlContentForRoleSkills(skills){
+    Object.entries(skills).forEach(([skill_area, area_skills]) => {
+        const skillArea = document.createElement("p");
+        skillArea.insertAdjacentHTML("beforeend", `${skill_area}`);
+        const sectionOfSkills = document.createElement("section");
+        sectionOfSkills.setAttribute("class", "hobby-cards");
+        for(let area_skill of area_skills){
+            // SKILL CARD
+            const roleSkillCard = document.createElement("div");
+            roleSkillCard.setAttribute("class", "hobby-card");
+            roleSkillCard.setAttribute("style", "display: flex;");
+
+            // CONTENT OF SKILL CARD
+            const roleSkillCardContent = document.createElement("div");
+            roleSkillCardContent.setAttribute("class", "hobby-card-content");
+
+            // PARAGRAPH OF SKILL CARD
+            const roleSkillDescription = document.createElement("p");
+            roleSkillDescription.setAttribute("class", "hobby-description");
+            roleSkillDescription.insertAdjacentHTML("beforeend", `${area_skill}`);
+
+            // APPEND CHILDREN
+            roleSkillCardContent.appendChild(roleSkillDescription);
+            roleSkillCard.appendChild(roleSkillCardContent);
+            sectionOfSkills.appendChild(roleSkillCard);
+        }
+    });
+    console.log(sectionOfSkills);
+}
 
 {/* <section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
     <div class="hobby-card" style="display: flex;">
