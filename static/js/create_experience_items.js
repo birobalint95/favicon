@@ -96,8 +96,10 @@ function createExperienceItems(rolesJsonData){
         const divsOfDescriptions = [];
         ['Responsibilities','Skills','Tools'].forEach(function(detail) {
             let classOfDetail = "detail-category";
+            let classOfDescription = "tab-content";
             if (indexOfDetail == 1) {
                 classOfDetail += " selected"
+                classOfDescription += " displayed"
             }
 
             // ANCHOR OF GROUP
@@ -113,7 +115,7 @@ function createExperienceItems(rolesJsonData){
             const divOfDescriptionOfDetail = document.createElement("div");
             divOfDescriptionOfDetail.setAttribute("id", `tab-content-${role.id}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("title", `${role.id}-${detail}`.toLowerCase());
-            divOfDescriptionOfDetail.setAttribute("class", "tab-content");
+            divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
             const paragraphOfDescriptionOfDetail = document.createElement("p");
             paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder")
             divOfDescriptionOfDetail.appendChild(paragraphOfDescriptionOfDetail)
