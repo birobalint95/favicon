@@ -116,8 +116,8 @@ function createExperienceItems(rolesJsonData){
             divOfDescriptionOfDetail.setAttribute("id", `tab-content-${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("title", `${idOfAnchor}-${detail}`.toLowerCase());
             divOfDescriptionOfDetail.setAttribute("class", `${classOfDescription}`);
-            createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
-            divsOfDescriptions.push(divOfDescriptionOfDetail);
+            detailElementWithContent = createHtmlContentForRoleDetail(detail, role, divOfDescriptionOfDetail);
+            divsOfDescriptions.push(detailElementWithContent);
 
             indexOfDetail++;
         });
@@ -141,22 +141,24 @@ function createExperienceItems(rolesJsonData){
 
 function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
     console.log(role.title)
+    let detailElementWithContent;
     if (detailCategory == "Responsibilities"){
         console.log("IDE JON A RESP");
+        detailElementWithContent = "";
     } else if (detailCategory == "Skills"){
-        createHtmlContentForRoleSkills(role.skills, detailElement);
+        detailElementWithContent = createHtmlContentForRoleSkills(role.skills, detailElement);
     } else if (detailCategory == "Tools"){
         console.log("IDE JON A TOOLS");
+        detailElementWithContent = "";
     }
+    return detailElementWithContent;
 }
 
 function createHtmlContentForRoleSkills(skills, detailElement){
-
-    console.log(detailElement);
-
     Object.entries(skills).forEach(([skill_area, area_skills]) => {
         const skillArea = document.createElement("p");
         skillArea.insertAdjacentHTML("beforeend", `${skill_area}`);
+        detailElement.appendChild(skillArea);
         const sectionOfSkills = document.createElement("section");
         sectionOfSkills.setAttribute("class", "hobby-cards");
         for(let area_skill of area_skills){
@@ -179,9 +181,9 @@ function createHtmlContentForRoleSkills(skills, detailElement){
             roleSkillCard.appendChild(roleSkillCardContent);
             sectionOfSkills.appendChild(roleSkillCard);
         }
-
-
+        detailElement.appendChild(sectionOfSkills);
     });
+    return detailElement;
 }
 
 {/* <section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
