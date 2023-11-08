@@ -101,7 +101,7 @@ function createStudyItems(introJsonData){
             }
             throw response;
         }).then(function (text) {
-            descriptionOfStudyContent.innerHTML = text;
+            descriptionOfStudyContent.insertAdjacentHTML("beforeend", `${text}`);
         });
 
         descriptionOfStudyContent.setAttribute("include-html-snippet", `${study.description_html}`);
