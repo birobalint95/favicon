@@ -107,7 +107,7 @@ function createExperienceItems(rolesJsonData){
             anchorOfDetail.setAttribute("id", `${idOfAnchor}-${detail}`.toLowerCase());
             anchorOfDetail.setAttribute("class", `${classOfDetail}`);
             anchorOfDetail.setAttribute("href", "#");
-            // anchorOfDetail.addEventListener("click", getStudyDetails); // later
+            anchorOfDetail.addEventListener("click", selectRoleDetailTab);
             anchorOfDetail.innerHTML = `${detail}`;
             groupOfDetails.appendChild(anchorOfDetail);
 
