@@ -1,6 +1,6 @@
 function selectPosition() {
     var isElementSelected = this.classList.contains("selected");
-    var allRightboxItems = document.getElementsByClassName("rb-item");
+    var allRightboxItems = document.getElementsByClassName("experience-item");
 
     if (! isElementSelected) {
         [].forEach.call(allRightboxItems, function(actualRightboxItem) {
@@ -11,7 +11,7 @@ function selectPosition() {
 
     var roleContent = document.querySelector("[title=" + CSS.escape(this.id) + "]");
     var isRoleContentDisplayed = roleContent.classList.contains("displayed");
-    var allRoleContentItems = document.getElementsByClassName("role-description");
+    var allRoleContentItems = document.getElementsByClassName("experience-content");
 
     if (! isRoleContentDisplayed) {
         [].forEach.call(allRoleContentItems, function(actualRoleContentItem){
