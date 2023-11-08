@@ -141,22 +141,18 @@ function createExperienceItems(rolesJsonData){
 };
 
 function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
-    const paragraphOfDescriptionOfDetail = document.createElement("p");
-    paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
-    detailElement.appendChild(paragraphOfDescriptionOfDetail);
+    if (detailCategory == "Responsibilities"){
+        const paragraphOfDescriptionOfDetail = document.createElement("p");
+        paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
+        detailElement.appendChild(paragraphOfDescriptionOfDetail);
+    } else if (detailCategory == "Skills"){
+        detailElement = createHtmlContentForRoleSkills(role.skills, detailElement);
+    } else if (detailCategory == "Tools"){
+        const paragraphOfDescriptionOfDetail = document.createElement("p");
+        paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
+        detailElement.appendChild(paragraphOfDescriptionOfDetail);
+    }
     return detailElement;
-
-    // let detailElementWithContent;
-    // if (detailCategory == "Responsibilities"){
-    //     detailElementWithContent = document.createElement("p");
-    //     detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
-    // } else if (detailCategory == "Skills"){
-    //     detailElementWithContent = createHtmlContentForRoleSkills(role.skills, detailElement);
-    // } else if (detailCategory == "Tools"){
-    //     detailElementWithContent = document.createElement("p");
-    //     detailElementWithContent.insertAdjacentHTML("beforeend", "Placeholder");
-    // }
-    // return detailElementWithContent;
 }
 
 function createHtmlContentForRoleSkills(skills, detailElement){
