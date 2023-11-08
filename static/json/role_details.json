@@ -1,6 +1,5 @@
 [
     {
-        "id": "product-owner-2",
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
         "area": "Test Automation",
@@ -27,7 +26,6 @@
         }
     },
     {
-        "id": "product-owner-1",
         "title": "Product Owner",
         "company": "Jaguar Land Rover",
         "area": "Automation & Framework",
@@ -54,7 +52,6 @@
         }
     },
     {
-        "id": "sw-developer",
         "title": "SW Developer",
         "company": "Jaguar Land Rover",
         "area": "Modelling & Simulation",
@@ -79,7 +76,6 @@
         }
     },
     {
-        "id": "technical-manager",
         "title": "Technical Manager",
         "company": "BME Formula Racing Team",
         "area": "Electric & Driverless Cars",
@@ -105,7 +101,6 @@
         }
     },
     {
-        "id": "chief-engineer",
         "title": "Chief Engineer",
         "company": "BME Formula Racing Team",
         "area": "Electric & Driverless Cars",
@@ -131,7 +126,6 @@
         }
     },
     {
-        "id": "group-leader-1",
         "title": "Group Leader",
         "company": "BME Formula Racing Team",
         "area": "Vehicle Dynamics Control",

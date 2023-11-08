@@ -26,23 +26,13 @@ function selectPosition() {
 
 };
 
-// function selectRoleDetailTab(){
-//     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
-//     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
-//         var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
-//         if(actualRoleDetailSelectorItem.id == this.id){
-//             actualRoleDetailSelectorItem.classList.add("selected");
-//             actualRoleDetailContentItem.classList.add("displayed");
-//         } else {
-//             actualRoleDetailSelectorItem.classList.remove("selected");
-//             actualRoleDetailContentItem.classList.remove("displayed");
-//         }
-//     });
-// };
-
-
 function selectRoleDetailTab(){
-    let selectedRoleDetailTab = this;
+    let selectedRoleDetailTab;
+    if (blabla.target) {
+        selectedRoleDetailTab = this;
+    } else {
+        selectedRoleDetailTab = blabla;
+    }
     var allRoleDetailSelectorItems = document.getElementsByClassName("detail-category");
     [].forEach.call(allRoleDetailSelectorItems, function(actualRoleDetailSelectorItem) {
         var actualRoleDetailContentItem = document.querySelector("[title=" + CSS.escape(actualRoleDetailSelectorItem.id) + "]");
