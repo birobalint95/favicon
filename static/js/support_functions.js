@@ -74,3 +74,7 @@ function selectAboutDetailTab(aboutDetailSelector){
         }
     });
 };
+
+function selectSkillArea(){
+    console.log("SZIA");
+}
