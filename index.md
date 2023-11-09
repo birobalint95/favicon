@@ -50,7 +50,7 @@ filename: index
         </div>
         <div id="content-of-studies" class="container-of-content-of-studies"></div>
     </div>
-    <div id="tab-content-hobbies-about" title="about-hobbies" class="tab-content" style="color: black;">
+    <div id="tab-content-hobbies-about" title="about-hobbies" class="tab-content">
         <section id="hobby-cards-section" class="hobby-cards"></section>
     </div>
 </div>

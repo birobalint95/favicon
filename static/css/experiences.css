@@ -305,9 +305,5 @@ ul.list-of-experiences li .timestamp {
 /* GENERIC CARD WITHOUT IMAGE */
 
 .content-of-generic-card-without-image {
-    margin: 0px auto;
-}
-
-.description-of-generic-card-without-image {
     margin: auto;
 }
