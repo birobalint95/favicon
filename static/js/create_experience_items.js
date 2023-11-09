@@ -142,15 +142,19 @@ function createExperienceItems(rolesJsonData){
 
 function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
     if (detailCategory == "Responsibilities"){
-        const paragraphOfDescriptionOfDetail = document.createElement("p");
-        paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
-        detailElement.appendChild(paragraphOfDescriptionOfDetail);
+        const descriptionOfResponsibilities = document.createElement("div");
+        fetch(`${role.description_html}`).then(function (response) {
+            if (response.ok) {
+                return response.text();
+            }
+            throw response;
+        }).then(function (htmlOfDescription) {
+            descriptionOfResponsibilities.insertAdjacentHTML("beforeend", `${htmlOfDescription}`);
+        });
+        detailElement.appendChild(descriptionOfResponsibilities);
     } else if (detailCategory == "Skills"){
         detailElement = createHtmlContentForRoleSkills(role.skills, detailElement);
     } else if (detailCategory == "Tools"){
-        // const paragraphOfDescriptionOfDetail = document.createElement("p");
-        // paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
-        // detailElement.appendChild(paragraphOfDescriptionOfDetail);
         detailElement = createHtmlContentForRoleTools(role.tools, detailElement);
     }
     return detailElement;

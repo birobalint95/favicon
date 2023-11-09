@@ -4,7 +4,7 @@
         "company": "Jaguar Land Rover",
         "area": "Test Automation",
         "time": "2022 May - present",
-        "content": "Content of Test Automation Product Owner.",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
                 "Scaled Agile Framework",
@@ -72,7 +72,7 @@
         "company": "Jaguar Land Rover",
         "area": "Automation & Framework",
         "time": "2021 Sep - 2022 May",
-        "content": "Content of Automation & Framework Product Owner.",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
                 "Scaled Agile Framework",
@@ -99,7 +99,7 @@
         "company": "Jaguar Land Rover",
         "area": "Modelling & Simulation",
         "time": "2019 Jun - 2021 Sep",
-        "content": "Content of Modelling & Simulation SW Developer.",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
                 "Scaled Agile Framework",
@@ -124,7 +124,7 @@
         "company": "BME Formula Racing Team",
         "area": "Electric & Driverless Cars",
         "time": "2018 Sep - 2019 Feb",
-        "content": "Content of Electric & Driverless Technical Manager.",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
                 "Product Vision",
@@ -150,7 +150,7 @@
         "company": "BME Formula Racing Team",
         "area": "Electric & Driverless Cars",
         "time": "2017 Sep - 2018 Sep",
-        "content": "Content of Electric & Driverless Chief Engineer.",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
                 "Product Vision",
@@ -176,7 +176,7 @@
         "company": "BME Formula Racing Team",
         "area": "Vehicle Dynamics Control",
         "time": "2018 Sep - 2019 Feb",
-        "content": "Content of Vehicle Dynamics Control Group Leader.",
+        "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
                 "Product Vision",
