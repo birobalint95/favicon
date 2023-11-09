@@ -76,5 +76,5 @@ function selectAboutDetailTab(aboutDetailSelector){
 };
 
 function selectSkillArea(){
-    console.log("SZIA");
+    console.log("HELLO");
 }
