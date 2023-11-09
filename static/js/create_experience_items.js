@@ -148,10 +148,10 @@ function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
     } else if (detailCategory == "Skills"){
         detailElement = createHtmlContentForRoleSkills(role.skills, detailElement);
     } else if (detailCategory == "Tools"){
-        const paragraphOfDescriptionOfDetail = document.createElement("p");
-        paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
-        detailElement.appendChild(paragraphOfDescriptionOfDetail);
-        createHtmlContentForRoleTools(role.tools, detailElement);
+        // const paragraphOfDescriptionOfDetail = document.createElement("p");
+        // paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
+        // detailElement.appendChild(paragraphOfDescriptionOfDetail);
+        detailElement = createHtmlContentForRoleTools(role.tools, detailElement);
     }
     return detailElement;
 }
@@ -169,10 +169,14 @@ function createHtmlContentForRoleSkills(skills, detailElement){
 }
 
 function createHtmlContentForRoleTools(tools, detailElement){
+    const sectionOfTools = document.createElement("section");
+    sectionOfTools.setAttribute("class", "role-skill-cards");
     for (let tool of tools){
-        console.log(tool.name);
-        console.log(tool.image_location);
+        let roleToolCard = createGenericCardWithImage(tool.name, tool.image_location);
+        sectionOfTools.appendChild(roleToolCard);
     }
+    detailElement.appendChild(sectionOfTools);
+    return detailElement;
 }
 
 
