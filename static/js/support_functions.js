@@ -1,7 +1,7 @@
 function createGenericCardWithoutImage(text){
     // CARD ELEMENT
     const genericCardWithoutImage = document.createElement("div");
-    genericCardWithoutImage.setAttribute("class", "generic-card-without-image");
+    genericCardWithoutImage.setAttribute("class", "generic-card");
     // TEXT OF CARD ELEMENT
     const textOfGenericCard = document.createElement("span");
     textOfGenericCard.setAttribute("class", "content-of-generic-card-without-image");
@@ -13,7 +13,7 @@ function createGenericCardWithoutImage(text){
 function createGenericCardWithImage(text, image_location){
     // CARD ELEMENT
     const genericCardWithImage = document.createElement("div");
-    genericCardWithImage.setAttribute("class", "generic-card-with-image");
+    genericCardWithImage.setAttribute("class", "generic-card");
     // IMAGE OF CARD ELEMENT
     const imgOfGenericCard = document.createElement("img");
     imgOfGenericCard.setAttribute("class", "image-of-generic-card");

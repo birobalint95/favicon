@@ -113,11 +113,10 @@
     padding: 10px 40px 40px 40px;
 }
 
-.generic-card-with-image {
+.generic-card {
     background-color: rgb(53 53 53);
     border-radius: 16px;
     height: 70px;
-    color: white;
     display: flex;
 }
 
