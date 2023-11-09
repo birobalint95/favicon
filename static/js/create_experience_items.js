@@ -155,7 +155,7 @@ function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
     } else if (detailCategory == "Skills"){
         detailElement = createHtmlContentForRoleSkills(role.skills, detailElement);
     } else if (detailCategory == "Tools"){
-        detailElement = createHtmlContentForRoleTools(role.tools, detailElement);
+        detailElement = createHtmlContentForRoleTools(role.skills.tools, detailElement);
     }
     return detailElement;
 }

@@ -22,6 +22,11 @@
                 "Priority Management",
                 "Backlog Management",
                 "Stakeholder Management"
+            ],
+            "tools": [
+                "Confluence",
+                "Django",
+                "Docker"
             ]
         },
         "tools": [
@@ -66,6 +71,11 @@
                 "Priority Management",
                 "Backlog Management",
                 "Stakeholder Management"
+            ],
+            "tools": [
+                "Confluence",
+                "Django",
+                "Docker"
             ]
         },
         "tools": []
@@ -91,6 +101,11 @@
                 "Priority Management",
                 "Backlog Management",
                 "Stakeholder Management"
+            ],
+            "tools": [
+                "Confluence",
+                "Django",
+                "Docker"
             ]
         },
         "tools": []
@@ -117,6 +132,11 @@
                 "Priority Management",
                 "Backlog Management",
                 "Stakeholder Management"
+            ],
+            "tools": [
+                "Confluence",
+                "Django",
+                "Docker"
             ]
         },
         "tools": []
@@ -143,6 +163,11 @@
                 "Priority Management",
                 "Backlog Management",
                 "Stakeholder Management"
+            ],
+            "tools": [
+                "Confluence",
+                "Django",
+                "Docker"
             ]
         },
         "tools": []
@@ -168,6 +193,11 @@
             "management": [
                 "Priority Management",
                 "Backlog Management"
+            ],
+            "tools": [
+                "Confluence",
+                "Django",
+                "Docker"
             ]
         },
         "tools": []

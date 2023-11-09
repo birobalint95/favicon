@@ -33,11 +33,13 @@ filename: index
     <div id="rounded-spacer-for-tab-contents"></div>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
-        <section id="language-skill-cards-section" class="skill-cards" style="color: black;"></section>
+        <section id="language-skill-cards-section" class="skill-cards"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>
-        <section id="methodology-skill-cards-section" class="skill-cards" style="color: black;"></section>
+        <section id="methodology-skill-cards-section" class="skill-cards"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Management and ownership</p>
-        <section id="management-skill-cards-section" class="skill-cards" style="color: black;"></section>
+        <section id="management-skill-cards-section" class="skill-cards"></section>
+        <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Tools and software</p>
+        <section id="management-skill-cards-section" class="skill-cards"></section>
     </div>
     <div id="tab-content-certifications-about" title="about-certifications" class="tab-content">
         <section id="certification-cards-section" class="certification-cards"></section>
