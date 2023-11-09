@@ -76,7 +76,24 @@ function selectAboutDetailTab(aboutDetailSelector){
 };
 
 function selectSkillArea(){
-    console.log("HELLO");
     var numberOfCheckedLabelSelectorCheckboxes = document.querySelectorAll('.labelSelectorCheckbox:checked').length;
-    console.log(numberOfCheckedLabelSelectorCheckboxes);
+    console.log(this);
+    if (numberOfCheckedLabelSelectorCheckboxes == 0) {
+		// create a span element for the warning message of no selected label
+		var noSelectedLabelWarningMessage = document.createElement('span')
+		// define the id of the span
+		noSelectedLabelWarningMessage.id = "no-selected-label-warning-message";
+		// define the text the warning message displays
+		noSelectedLabelWarningMessage.innerHTML = "No skill area selected.";
+		// get label checkbox container element and append the warning message element to it
+		document.getElementById("filter-bar").appendChild(noSelectedLabelWarningMessage);
+	} else {
+		// create the span element for the warning message of no selected label
+		var noSelectedLabelWarningMessage = document.getElementById("no-selected-label-warning-message");
+		// check if the element exists
+		if (noSelectedLabelWarningMessage) {
+			// if it does, remove it
+			noSelectedLabelWarningMessage.remove();
+		}
+	}
 }
