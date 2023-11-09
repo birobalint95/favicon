@@ -181,9 +181,7 @@ function createHtmlContentForRoleTools(tools, detailElement){
         let possiblePath;
         for (let possibleExtension of possibleExtensions) {
             possiblePath = imageLocationWithoutExtension + possibleExtension;
-            console.log(possiblePath);
-
-            // let possibleFile = new File(possiblePath);
+            let possibleFile = new File(`${possiblePath}`);
             // if (possibleFile.exists()) {break;}
         }
         console.log(possiblePath);
