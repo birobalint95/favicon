@@ -26,27 +26,22 @@
             "tools": [
                 "Confluence",
                 "Django",
-                "Docker"
+                "Docker",
+                "Git",
+                "IPG Carmaker",
+                "Jira",
+                "Lucid",
+                "MATLAB",
+                "MS Office",
+                "PTC Creo",
+                "Pycharm",
+                "Simulink",
+                "Smartsheet",
+                "Unreal Engine",
+                "VS Code",
+                "Xray"
             ]
-        },
-        "tools": [
-            "Confluence",
-            "Django",
-            "Docker",
-            "Git",
-            "IPG Carmaker",
-            "Jira",
-            "Lucid",
-            "MATLAB",
-            "MS Office",
-            "PTC Creo",
-            "Pycharm",
-            "Simulink",
-            "Smartsheet",
-            "Unreal Engine",
-            "VS Code",
-            "Xray"
-        ]
+        }
     },
     {
         "title": "Product Owner",
@@ -77,8 +72,7 @@
                 "Django",
                 "Docker"
             ]
-        },
-        "tools": []
+        }
     },
     {
         "title": "SW Developer",
@@ -107,8 +101,7 @@
                 "Django",
                 "Docker"
             ]
-        },
-        "tools": []
+        }
     },
     {
         "title": "Technical Manager",
@@ -138,8 +131,7 @@
                 "Django",
                 "Docker"
             ]
-        },
-        "tools": []
+        }
     },
     {
         "title": "Chief Engineer",
@@ -169,8 +161,7 @@
                 "Django",
                 "Docker"
             ]
-        },
-        "tools": []
+        }
     },
     {
         "title": "Group Leader",
@@ -199,7 +190,6 @@
                 "Django",
                 "Docker"
             ]
-        },
-        "tools": []
+        }
     }
 ]

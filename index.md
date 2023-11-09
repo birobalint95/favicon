@@ -39,7 +39,7 @@ filename: index
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Management and ownership</p>
         <section id="management-skill-cards-section" class="skill-cards"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Tools and software</p>
-        <section id="management-skill-cards-section" class="skill-cards"></section>
+        <section id="tools-skill-cards-section" class="skill-cards"></section>
     </div>
     <div id="tab-content-certifications-about" title="about-certifications" class="tab-content">
         <section id="certification-cards-section" class="certification-cards"></section>
