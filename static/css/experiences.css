@@ -291,13 +291,6 @@ ul.list-of-experiences li .timestamp {
     }
 }
 
-.role-skill-card-content {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px auto;
-}
-
 .role-skill-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -307,4 +300,21 @@ ul.list-of-experiences li .timestamp {
 
 .role-skill-area {
     padding-left: 20px;
+}
+
+.generic-card-without-image {
+    width: min(100%, 500px);
+    background-color: rgb(53 53 53);
+    border-radius: 16px;
+    z-index: 5;
+    text-decoration: none;
+    height: 70px;
+    color: white;
+}
+
+.content-of-generic-card-without-image {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px auto;
 }
