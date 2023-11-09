@@ -171,28 +171,8 @@ function createHtmlContentForRoleSection(area_skills){
     const sectionOfSkills = document.createElement("section");
     sectionOfSkills.setAttribute("class", "role-skill-cards");
     for(let area_skill of area_skills){
-        // SKILL CARD
-        const roleSkillCard = document.createElement("div");
-        roleSkillCard.setAttribute("class", "generic-card-without-image");
-
-        // CONTENT OF SKILL CARD
-        const roleSkillCardContent = document.createElement("span");
-        roleSkillCardContent.setAttribute("class", "content-of-generic-card-without-image");
-        roleSkillCardContent.innerText = `${area_skill}`;
-
-        // APPEND CHILDREN
-        roleSkillCard.appendChild(roleSkillCardContent);
+        let roleSkillCard = createGenericCardWithoutImage(area_skill);
         sectionOfSkills.appendChild(roleSkillCard);
     }
     return sectionOfSkills
 }
-
-{/* 
-<section id="role-skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
-    <div class="hobby-card" style="display: flex;">
-        <div class="role-skill-card-content" style="padding-right: 0px; margin: 0px auto;">
-            <p class="hobby-description">Travelling</p>
-        </div>
-    </div>
-</section> 
-*/}
