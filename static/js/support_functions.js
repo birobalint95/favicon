@@ -77,4 +77,6 @@ function selectAboutDetailTab(aboutDetailSelector){
 
 function selectSkillArea(){
     console.log("HELLO");
+    var numberOfCheckedLabelSelectorCheckboxes = document.querySelectorAll('.labelSelectorCheckbox:checked').length;
+    console.log(numberOfCheckedLabelSelectorCheckboxes);
 }

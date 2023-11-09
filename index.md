@@ -42,19 +42,19 @@ filename: index
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="methodologies" checked=""/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="methodologies" checked="" onclick="selectSkillArea()"/>
                     <label for="checkboxTwo">
                         <span class="checkbox-text">Methodologies</span>
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxThree" value="tools" checked=""/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxThree" value="tools" checked="" onclick="selectSkillArea()"/>
                     <label for="checkboxThree">
                         <span class="checkbox-text">Tools</span>
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxFour" value="programming" checked=""/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxFour" value="programming" checked="" onclick="selectSkillArea()"/>
                     <label for="checkboxFour">
                         <span class="checkbox-text">Programming</span>
                     </label>
