@@ -36,7 +36,7 @@ filename: index
             <ul class="ks-cboxtags">
                 <span class="checkbox-pretext">Filter skills:</span>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="languages" checked=""/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="languages" checked="" onclick="selectSkillArea()"/>
                     <label for="checkboxOne">
                         <span class="checkbox-text">Languages</span>
                     </label>
@@ -85,35 +85,3 @@ filename: index
         <section id="hobby-cards-section" class="hobby-cards"></section>
     </div>
 </div>
-
-
-
-<ul class="ks-cboxtags" style="
-    padding-left: 40px;
-    padding-right: 40px;
-">
-                <span class="checkbox-pretext">Filter skills:</span>
-                <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="technical" checked="">
-                    <label for="checkboxOne">
-                        <span class="checkbox-text">Languages</span>
-                    </label>
-                </li>
-                <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked="">
-                    <label for="checkboxTwo">
-                        <span class="checkbox-text">Methodologies</span>
-                    </label>
-                </li><li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked="">
-                    <label for="checkboxTwo">
-                        <span class="checkbox-text">Tools</span>
-                    </label>
-                </li>
-                <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked="">
-                    <label for="checkboxTwo">
-                        <span class="checkbox-text">Programming</span>
-                    </label>
-                </li>
-            </ul>
