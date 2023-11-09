@@ -1,3 +1,15 @@
+function createGenericCardWithoutImage(text){
+    // CARD ELEMENT
+    const genericCardWithoutImage = document.createElement("div");
+    genericCardWithoutImage.setAttribute("class", "generic-card-without-image");
+    // TEXT OF CARD ELEMENT
+    const textOfGenericCard = document.createElement("span");
+    textOfGenericCard.setAttribute("class", "content-of-generic-card-without-image");
+    textOfGenericCard.innerText = `${text}`;
+    genericCardWithoutImage.appendChild(textOfGenericCard);
+    return genericCardWithoutImage
+}
+
 function createGenericCardWithImage(text, image_location){
     // CARD ELEMENT
     const genericCardWithImage = document.createElement("div");

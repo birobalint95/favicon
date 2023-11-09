@@ -174,19 +174,13 @@ function createHtmlContentForRoleSection(area_skills){
         // SKILL CARD
         const roleSkillCard = document.createElement("div");
         roleSkillCard.setAttribute("class", "generic-card-without-image");
-        roleSkillCard.setAttribute("style", "display: flex;");
 
         // CONTENT OF SKILL CARD
-        const roleSkillCardContent = document.createElement("div");
+        const roleSkillCardContent = document.createElement("span");
         roleSkillCardContent.setAttribute("class", "content-of-generic-card-without-image");
-
-        // PARAGRAPH OF SKILL CARD
-        const roleSkillDescription = document.createElement("p");
-        roleSkillDescription.setAttribute("class", "description-of-generic-card-without-image");
-        roleSkillDescription.insertAdjacentHTML("beforeend", `${area_skill}`);
+        roleSkillCardContent.innerText = `${area_skill}`;
 
         // APPEND CHILDREN
-        roleSkillCardContent.appendChild(roleSkillDescription);
         roleSkillCard.appendChild(roleSkillCardContent);
         sectionOfSkills.appendChild(roleSkillCard);
     }
@@ -201,17 +195,4 @@ function createHtmlContentForRoleSection(area_skills){
         </div>
     </div>
 </section> 
-*/}
-
-{/* 
-<section id="skill-cards-section" class="hobby-cards" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px;">
-    <div class="hobby-card" style="display: flex;">
-        <div>
-            <img class="hobby-icon" src="./static/images/hobby_travelling.svg" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-        </div>
-        <div class="hobby-card-content" style="padding-right: 0px; margin: 0px auto;">
-            <p class="hobby-description">Travelling</p>
-        </div>
-    </div>
-</section>
 */}
