@@ -25,7 +25,7 @@ function createTechnicalSkillCards(rolesJsonData){
 };
 
 function createToolSkillCards(){
-    
+
 }
 
 function createLanguageSkillCards(introJsonData){
@@ -50,7 +50,13 @@ function createTechnicalSkillCard(skill, skillAttributes) {
         sumSpentTime += calculateSpentTime(timeInterval);
     }
     let spentTimeInWords = getWords(sumSpentTime);
-    let subTitle = `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> roles`;
+    let subTitleEnding;
+    if (roles.length > 1){
+        subTitleEnding = "roles";
+    } else {
+        subTitleEnding = "role";
+    }
+    let subTitle = `${spentTimeInWords}, in <span class="number-of-roles">${roles.length.toString()}</span> ${subTitleEnding}`;
 
     // DETAILS
     let details = roles;

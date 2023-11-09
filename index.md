@@ -32,6 +32,23 @@ filename: index
     </group>
     <div id="rounded-spacer-for-tab-contents"></div>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
+        <div id="filter-bar" class="filter-bar">
+            <ul class="ks-cboxtags">
+                <span class="checkbox-pretext">Show thoughts that are: </span>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="technical" checked=""/>
+                    <label for="checkboxOne">
+                        <span class="checkbox-text">technical</span>
+                    </label>
+                </li>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked=""/>
+                    <label for="checkboxTwo">
+                        <span class="checkbox-text">personal</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
         <section id="language-skill-cards-section" class="skill-cards"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>
