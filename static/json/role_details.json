@@ -64,6 +64,30 @@
             {
                 "name": "PTC Creo",
                 "image_location": "./static/images/tool_images/ptc_creo.png"
+            },
+            {
+                "name": "Pycharm",
+                "image_location": "./static/images/tool_images/pycharm.svg"
+            },
+            {
+                "name": "Simulink",
+                "image_location": "./static/images/tool_images/simulink.png"
+            },
+            {
+                "name": "Smartsheet",
+                "image_location": "./static/images/tool_images/smartsheet.png"
+            },
+            {
+                "name": "Unreal Engine",
+                "image_location": "./static/images/tool_images/unreal_engine.svg"
+            },
+            {
+                "name": "VS Code",
+                "image_location": "./static/images/tool_images/vs_code.png"
+            },
+            {
+                "name": "Xray",
+                "image_location": "./static/images/tool_images/xray.png"
             }
         ]
     },
