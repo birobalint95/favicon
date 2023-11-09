@@ -21,9 +21,9 @@ function createGenericCardWithImage(text, image_location){
     imgOfGenericCard.setAttribute("src", `${image_location}`);
     genericCardWithImage.appendChild(imgOfGenericCard)
     // TEXT OF CARD ELEMENT
-    const contentOfGenericCard = document.createElement("div");
-    contentOfGenericCard.setAttribute("class", "content-of-generic-card");
-    contentOfGenericCard.innerText = `${text}`;
-    genericCardWithImage.appendChild(contentOfGenericCard);
+    const textOfGenericCard = document.createElement("span");
+    textOfGenericCard.setAttribute("class", "content-of-generic-card");
+    textOfGenericCard.innerText = `${text}`;
+    genericCardWithImage.appendChild(textOfGenericCard);
     return genericCardWithImage
 }
