@@ -302,6 +302,8 @@ ul.list-of-experiences li .timestamp {
     padding-left: 20px;
 }
 
+/* GENERIC CARD WITHOUT IMAGE */
+
 .generic-card-without-image {
     width: min(100%, 500px);
     background-color: rgb(53 53 53);
@@ -317,4 +319,8 @@ ul.list-of-experiences li .timestamp {
     flex-direction: column;
     padding: 0px;
     margin: 0px auto;
+}
+
+.description-of-generic-card-without-image {
+    margin: auto;
 }
