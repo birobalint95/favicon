@@ -34,17 +34,29 @@ filename: index
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
         <div id="filter-bar" class="filter-bar">
             <ul class="ks-cboxtags">
-                <span class="checkbox-pretext">Show thoughts that are: </span>
+                <span class="checkbox-pretext">Filter skills:</span>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="technical" checked=""/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="languages" checked=""/>
                     <label for="checkboxOne">
-                        <span class="checkbox-text">technical</span>
+                        <span class="checkbox-text">Languages</span>
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked=""/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="methodologies" checked=""/>
                     <label for="checkboxTwo">
-                        <span class="checkbox-text">personal</span>
+                        <span class="checkbox-text">Methodologies</span>
+                    </label>
+                </li>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxThree" value="tools" checked=""/>
+                    <label for="checkboxThree">
+                        <span class="checkbox-text">Tools</span>
+                    </label>
+                </li>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxFour" value="programming" checked=""/>
+                    <label for="checkboxFour">
+                        <span class="checkbox-text">Programming</span>
                     </label>
                 </li>
             </ul>
@@ -73,3 +85,35 @@ filename: index
         <section id="hobby-cards-section" class="hobby-cards"></section>
     </div>
 </div>
+
+
+
+<ul class="ks-cboxtags" style="
+    padding-left: 40px;
+    padding-right: 40px;
+">
+                <span class="checkbox-pretext">Filter skills:</span>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="technical" checked="">
+                    <label for="checkboxOne">
+                        <span class="checkbox-text">Languages</span>
+                    </label>
+                </li>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked="">
+                    <label for="checkboxTwo">
+                        <span class="checkbox-text">Methodologies</span>
+                    </label>
+                </li><li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked="">
+                    <label for="checkboxTwo">
+                        <span class="checkbox-text">Tools</span>
+                    </label>
+                </li>
+                <li>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="personal" checked="">
+                    <label for="checkboxTwo">
+                        <span class="checkbox-text">Programming</span>
+                    </label>
+                </li>
+            </ul>
