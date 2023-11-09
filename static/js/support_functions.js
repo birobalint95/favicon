@@ -75,9 +75,9 @@ function selectAboutDetailTab(aboutDetailSelector){
     });
 };
 
-function selectSkillArea(){
+function selectSkillArea(selectedInput){
     var numberOfCheckedLabelSelectorCheckboxes = document.querySelectorAll('.labelSelectorCheckbox:checked').length;
-    console.log(this);
+    console.log(selectedInput);
     if (numberOfCheckedLabelSelectorCheckboxes == 0) {
 		// create a span element for the warning message of no selected label
 		var noSelectedLabelWarningMessage = document.createElement('span')

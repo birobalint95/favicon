@@ -36,25 +36,25 @@ filename: index
             <ul class="ks-cboxtags">
                 <span class="checkbox-pretext">Filter skills:</span>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="languages" checked="" onclick="selectSkillArea()"/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxOne" value="languages" checked="" onclick="selectSkillArea(this)"/>
                     <label for="checkboxOne">
                         <span class="checkbox-text">Languages</span>
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="methodologies" checked="" onclick="selectSkillArea()"/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxTwo" value="methodologies" checked="" onclick="selectSkillArea(this)"/>
                     <label for="checkboxTwo">
                         <span class="checkbox-text">Methodologies</span>
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxThree" value="tools" checked="" onclick="selectSkillArea()"/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxThree" value="tools" checked="" onclick="selectSkillArea(this)"/>
                     <label for="checkboxThree">
                         <span class="checkbox-text">Tools</span>
                     </label>
                 </li>
                 <li>
-                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxFour" value="programming" checked="" onclick="selectSkillArea()"/>
+                    <input class="labelSelectorCheckbox" type="checkbox" id="checkboxFour" value="programming" checked="" onclick="selectSkillArea(this)"/>
                     <label for="checkboxFour">
                         <span class="checkbox-text">Programming</span>
                     </label>
