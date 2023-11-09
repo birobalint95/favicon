@@ -176,6 +176,17 @@ function createHtmlContentForRoleTools(tools, detailElement){
     const sectionOfTools = document.createElement("section");
     sectionOfTools.setAttribute("class", "role-skill-cards");
     for (let tool of tools){
+        let imageLocationWithoutExtension = "./static/images/tool_images/" + `${tool.name}`.toLowerCase().replace(/ /g, "_");
+        var possibleExtensions = ['.svg', '.png'];
+        let possiblePath;
+        for (let possibleExtension of possibleExtensions) {
+            possiblePath = imageLocationWithoutExtension + possibleExtension;
+            const possibleFile = Bun.file(possiblePath);
+            console.log(possiblePath);
+            if (possibleFile.exists()) {break;}
+        }
+        console.log(possiblePath);
+
         let roleToolCard = createGenericCardWithImage(tool.name, tool.image_location);
         sectionOfTools.appendChild(roleToolCard);
     }

@@ -43,7 +43,7 @@
             },
             {
                 "name": "IPG Carmaker",
-                "image_location": "./static/images/tool_images/ipg_carmaker.jpg"
+                "image_location": "./static/images/tool_images/ipg_carmaker.png"
             },
             {
                 "name": "Jira",
