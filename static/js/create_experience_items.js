@@ -176,8 +176,8 @@ function createHtmlContentForRoleTools(tools, detailElement){
     const sectionOfTools = document.createElement("section");
     sectionOfTools.setAttribute("class", "role-skill-cards");
     for (let tool of tools){
-        let imageLocation = "./static/images/tool_images/" + `${tool.name}`.toLowerCase().replace(/ /g, "_") + ".png";
-        let roleToolCard = createGenericCardWithImage(tool.name, imageLocation);
+        let imageLocation = "./static/images/tool_images/" + `${tool}`.toLowerCase().replace(/ /g, "_") + ".png";
+        let roleToolCard = createGenericCardWithImage(tool, imageLocation);
         sectionOfTools.appendChild(roleToolCard);
     }
     detailElement.appendChild(sectionOfTools);

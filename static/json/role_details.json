@@ -25,70 +25,22 @@
             ]
         },
         "tools": [
-            {
-                "name": "Confluence",
-                "image_location": "./static/images/tool_images/confluence.png"
-            },
-            {
-                "name": "Django",
-                "image_location": "./static/images/tool_images/django.svg"
-            },
-            {
-                "name": "Docker",
-                "image_location": "./static/images/tool_images/docker.svg"
-            },
-            {
-                "name": "Git",
-                "image_location": "./static/images/tool_images/git.png"
-            },
-            {
-                "name": "IPG Carmaker",
-                "image_location": "./static/images/tool_images/ipg_carmaker.png"
-            },
-            {
-                "name": "Jira",
-                "image_location": "./static/images/tool_images/jira.png"
-            },
-            {
-                "name": "Lucid",
-                "image_location": "./static/images/tool_images/lucid.png"
-            },
-            {
-                "name": "MATLAB",
-                "image_location": "./static/images/tool_images/matlab.png"
-            },
-            {
-                "name": "MS Office",
-                "image_location": "./static/images/tool_images/ms_office.png"
-            },
-            {
-                "name": "PTC Creo",
-                "image_location": "./static/images/tool_images/ptc_creo.png"
-            },
-            {
-                "name": "Pycharm",
-                "image_location": "./static/images/tool_images/pycharm.svg"
-            },
-            {
-                "name": "Simulink",
-                "image_location": "./static/images/tool_images/simulink.png"
-            },
-            {
-                "name": "Smartsheet",
-                "image_location": "./static/images/tool_images/smartsheet.png"
-            },
-            {
-                "name": "Unreal Engine",
-                "image_location": "./static/images/tool_images/unreal_engine.svg"
-            },
-            {
-                "name": "VS Code",
-                "image_location": "./static/images/tool_images/vs_code.png"
-            },
-            {
-                "name": "Xray",
-                "image_location": "./static/images/tool_images/xray.png"
-            }
+            "Confluence",
+            "Django",
+            "Docker",
+            "Git",
+            "IPG Carmaker",
+            "Jira",
+            "Lucid",
+            "MATLAB",
+            "MS Office",
+            "PTC Creo",
+            "Pycharm",
+            "Simulink",
+            "Smartsheet",
+            "Unreal Engine",
+            "VS Code",
+            "Xray"
         ]
     },
     {
