@@ -23,7 +23,49 @@
                 "Backlog Management",
                 "Stakeholder Management"
             ]
-        }
+        },
+        "tools": [
+            {
+                "name": "Confluence",
+                "image_location": "./static/images/tool_images/confluence.png"
+            },
+            {
+                "name": "Django",
+                "image_location": "./static/images/tool_images/django.svg"
+            },
+            {
+                "name": "Docker",
+                "image_location": "./static/images/tool_images/docker.svg"
+            },
+            {
+                "name": "Git",
+                "image_location": "./static/images/tool_images/git.png"
+            },
+            {
+                "name": "IPG Carmaker",
+                "image_location": "./static/images/tool_images/ipg-carmaker.jpg"
+            },
+            {
+                "name": "Jira",
+                "image_location": "./static/images/tool_images/jira.png"
+            },
+            {
+                "name": "Lucid",
+                "image_location": "./static/images/tool_images/lucid.png"
+            },
+            {
+                "name": "MATLAB",
+                "image_location": "./static/images/tool_images/matlab.png"
+            },
+            {
+                "name": "MS Office",
+                "image_location": "./static/images/tool_images/ms_office.png"
+            },
+            {
+                "name": "PTC Creo",
+                "image_location": "./static/images/tool_images/ptc_creo.png"
+            }
+        ]
     },
     {
         "title": "Product Owner",

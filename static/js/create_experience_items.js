@@ -151,6 +151,7 @@ function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
         const paragraphOfDescriptionOfDetail = document.createElement("p");
         paragraphOfDescriptionOfDetail.insertAdjacentHTML("beforeend", "Placeholder");
         detailElement.appendChild(paragraphOfDescriptionOfDetail);
+        createHtmlContentForRoleTools(role.tools, detailElement);
     }
     return detailElement;
 }
@@ -166,6 +167,14 @@ function createHtmlContentForRoleSkills(skills, detailElement){
     });
     return detailElement;
 }
+
+function createHtmlContentForRoleTools(tools, detailElement){
+    for (let tool of tools){
+        console.log(tool.name);
+        console.log(tool.image_location);
+    }
+}
+
 
 function createHtmlContentForRoleSection(area_skills){
     const sectionOfSkills = document.createElement("section");
