@@ -45,10 +45,13 @@ $('select').each(function(){
         $list.hide();
 
         var idOfElementToDisplay = $this.val() + '-skill-cards-div';
-        console.log(idOfElementToDisplay);
-        console.log($("div[id$='-skill-cards-div']"));
-
-
+        $("div[id$='-skill-cards-div']").each(function() {
+            if ($(this).attr('id') == idOfElementToDisplay){
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
     });
   
     $(document).click(function() {
