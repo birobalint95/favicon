@@ -519,10 +519,9 @@ ul.ks-cboxtags li input[type="checkbox"] {
        bottom: 0;
        left: 0;
        background-color: rgb(53 53 53);
-       padding: 8px 15px;
      border-radius: 10px;
-      padding-top: 10px;
-      padding-left: 5px;
+    padding: 8px 15px 8px 5px;
+
   }
    .select-styled:after {
        content: "";
@@ -592,6 +591,9 @@ ul.ks-cboxtags li input[type="checkbox"] {
   .span12 {
       height: 50px;
       display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
   }
   
   .skill-area-selector-text{
