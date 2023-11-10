@@ -32,7 +32,16 @@ filename: index
     </group>
     <div id="rounded-spacer-for-tab-contents"></div>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
-        <div id="filter-bar" class="filter-bar">
+        <div class="span12"> 
+            <span class="skill-area-selector-text">Show skills related to</span>
+            <select class="input-block-level">
+                <option value="languages">Languages</option>
+                <option value="methodologies">Methodologies</option>
+                <option value="tools">Tools</option>
+                <option value="programming">Programming</option>
+            </select>
+        </div>
+        <!-- <div id="filter-bar" class="filter-bar">
             <ul class="ks-cboxtags">
                 <span class="checkbox-pretext">Filter skills:</span>
                 <li>
@@ -60,7 +69,7 @@ filename: index
                     </label>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
         <section id="language-skill-cards-section" class="skill-cards"></section>
         <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>

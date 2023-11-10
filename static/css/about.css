@@ -423,7 +423,7 @@
 
 /* FILTER */
 
-ul.ks-cboxtags {
+/* ul.ks-cboxtags {
     list-style: none;
     padding: 20px 40px;
 }
@@ -495,4 +495,107 @@ ul.ks-cboxtags li input[type="checkbox"] {
 ul.ks-cboxtags li input[type="checkbox"] {
   position: absolute;
   opacity: 0;
-}
+} */
+
+   .select-hidden {
+       display: none;
+       visibility: hidden;
+       padding-right: 10px;
+  }
+   .select {
+       cursor: pointer;
+       display: inline-block;
+       position: relative;
+       font-size: 16px;
+       color: #fff;
+       width: 220px;
+       height: 40px;
+     margin: auto 0px auto 5px;
+  }
+   .select-styled {
+       position: absolute;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       background-color: rgb(53 53 53);
+       padding: 8px 15px;
+     border-radius: 10px;
+      padding-top: 10px;
+      padding-left: 5px;
+  }
+   .select-styled:after {
+       content: "";
+       width: 0;
+       height: 0;
+       border: 7px solid transparent;
+       border-color: #fff transparent transparent transparent;
+       position: absolute;
+       top: 16px;
+       right: 10px;
+  }
+  
+   .select-styled:active, .select-styled.active {
+       background-color: rgb(53 53 53);
+     border-bottom: 2px solid rgb(49, 133, 88);
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+  }
+   .select-styled:active:after, .select-styled.active:after {
+       top: 9px;
+       border-color: transparent transparent #fff transparent;
+  }
+   .select-options {
+       display: none;
+       position: absolute;
+       top: 100%;
+       right: 0;
+       left: 0;
+       z-index: 999;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+       background-color: rgb(53 53 53);
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+  }
+   .select-options li {
+       margin: 0;
+       padding: 12px 0;
+       text-indent: 15px;
+  }
+   .select-options li:hover {
+       color: black;
+       background: rgb(49, 133, 88);
+  }
+  
+  .select-options li.is-selected {
+    color: rgb(80, 216, 144);
+  }
+  
+  .select-options li.is-selected:hover {
+    background-color: rgb(53 53 53);
+  }
+  
+  .select-options li:last-child:hover {
+       color: black;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+  }
+  
+  .select-options li:last-child.is-selected {
+    color: rgb(80, 216, 144);
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+  }
+  
+  .span12 {
+      height: 50px;
+      display: flex;
+  }
+  
+  .skill-area-selector-text{
+    color: white;
+    margin: auto 0px;
+  }
+  
