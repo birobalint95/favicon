@@ -44,8 +44,11 @@ $('select').each(function(){
       $list.find('li[rel="' + $(this).attr('rel') + '"]').addClass('is-selected');
         $list.hide();
 
-        console.log($this.val());
-        
+        var idOfElementToDisplay = $this.val() + '-skill-cards-div';
+        console.log(idOfElementToDisplay);
+        console.log($("div[id$='-skill-cards-div']"));
+
+
     });
   
     $(document).click(function() {

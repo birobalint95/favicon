@@ -24,10 +24,6 @@ function createTechnicalSkillCards(rolesJsonData){
 
 };
 
-function createToolSkillCards(){
-
-}
-
 function createLanguageSkillCards(introJsonData){
     let jsonDataOfLanguages = introJsonData["languages"];
     for(let language of jsonDataOfLanguages){
