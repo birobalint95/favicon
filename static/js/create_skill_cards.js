@@ -40,7 +40,8 @@ function appendSkillAreaOptionToSelect(skillArea){
     skillAreaOption.setAttribute("value", `${skillAreaForTag}-skill-cards-div`);
     skillAreaOption.innerText = `${skillArea}`;
     const skillAreaSelectorOptions = document.getElementById("skill-area-selector-options");
-    skillAreaSelectorOptions.appendChild(skillAreaOption);
+    console.log(skillAreaSelectorOptions);
+    // skillAreaSelectorOptions.appendChild(skillAreaOption);
 }
 
 function createSkillAreaDiv(skillArea){
