@@ -70,13 +70,13 @@ filename: index
                 </li>
             </ul>
         </div> -->
-        <!-- <div id="languages-skill-cards-div" style="display: block;">
+        <div id="languages-skill-cards-div" style="display: block;">
             <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
                 <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Languages</span>
             </p>
             <section id="language-skill-cards-section" class="skill-cards"></section>
         </div>
-        <div id="methodologies-skill-cards-div" style="display: none;">
+        <!-- <div id="methodologies-skill-cards-div" style="display: none;">
             <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
                 <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Methodologies and frameworks</span>
             </p>
