@@ -7,7 +7,8 @@
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "methodology": [
-                "Scaled Agile Framework",
+                "Agile",
+                "SAFe",
                 "Product Vision",
                 "Scrum",
                 "Kanban",
@@ -39,7 +40,49 @@
                 "Smartsheet",
                 "Unreal Engine",
                 "VS Code",
-                "Xray"
+                "Xray",
+                "PostgreSQL"
+            ],
+            "programming": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "Gherkin",
+                "JSON",
+                "SQL",
+                "AJAX"
+            ],
+            "processes": [
+                "SW Development",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Web Application Development",
+                "UX/UI",
+                "Test Automation",
+                "Requirement definition",
+                "Product Delivery management", 
+                "Requirements and Project Plan management",
+                "SIL Simulation",
+                "HIL Simulation",
+                "Architecture",
+                "System Design",
+                "Mechanical design",
+                "Manufacturing"
+            ],
+            "support": [
+                "Advisory",
+                "Presentation",
+                "Workflow optimization",
+                "Guideline creation",
+                "3 Amigos Session",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization",
+                "Peer Review"
             ]
         }
     },
