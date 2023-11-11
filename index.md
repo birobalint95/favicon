@@ -71,19 +71,27 @@ filename: index
             </ul>
         </div> -->
         <div id="languages-skill-cards-div" style="display: block;">
-            <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Languages</p>
+            <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
+                <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Languages</span>
+            </p>
             <section id="language-skill-cards-section" class="skill-cards"></section>
         </div>
         <div id="methodologies-skill-cards-div" style="display: none;">
-            <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Methodologies and frameworks</p>
+            <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
+                <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Methodologies and frameworks</span>
+            </p>
             <section id="methodology-skill-cards-section" class="skill-cards"></section>
         </div>
         <div id="management-skill-cards-div" style="display: none;">
-            <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Management and ownership</p>
+            <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
+                <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Management and ownership</span>
+            </p>
             <section id="management-skill-cards-section" class="skill-cards"></section>
         </div>
         <div id="tools-skill-cards-div" style="display: none;">
-            <p style="padding-left: 40px; margin-bottom: 0px; margin-top: 0px;">Tools and software</p>
+            <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
+                <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Tools and software</span>
+            </p>
             <section id="tools-skill-cards-section" class="skill-cards"></section>
         </div>
     </div>
