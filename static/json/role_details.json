@@ -214,10 +214,6 @@
                 "V-model"
             ],
             "Management and ownership": [
-                "Backlog Management",
-                "Priority Management",
-                "Product Vision",
-                "Product Roadmap",
                 "Product Strategy",
                 "Dependency Management",
                 "Risk Management",
@@ -228,7 +224,8 @@
             "Tools and software": [
                 "MS Office",
                 "PTC Creo",
-                "Smartsheet"
+                "Smartsheet",
+                "IPG Carmaker"
             ],
             "Programming and web development": [],
             "Processes": [
@@ -255,34 +252,45 @@
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
-                "Product Vision",
-                "Product Management",
-                "Product Development",
-                "Software Development",
-                "Product Strategy",
-                "Product Road Mapping",
-                "Communication",
                 "Waterfall",
                 "V-model"
             ],
             "Management and ownership": [
-                "Priority Management",
                 "Backlog Management",
-                "Stakeholder Management"
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
             ],
             "Tools and software": [
                 "MS Office",
+                "PTC Creo",
+                "Smartsheet",
                 "IPG Carmaker",
                 "MATLAB",
-                "Simulink",
-                "PTC Creo",
-                "Smartsheet"
+                "Simulink"
             ],
             "Programming and web development": [],
             "Processes": [
+                "Architecture",
+                "System Design",
+                "Mechanical design",
+                "Manufacturing",
                 "SIL Simulation"
             ],
-            "Support skills": []
+            "Support skills": [
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization"
+            ]
         }
     },
     {
@@ -293,28 +301,42 @@
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
-                "Product Vision",
-                "Product Management",
-                "Product Development",
-                "Software Development",
-                "Product Strategy",
-                "Product Road Mapping",
-                "Communication",
                 "Waterfall",
                 "V-model"
             ],
             "Management and ownership": [
+                "Backlog Management",
                 "Priority Management",
-                "Backlog Management"
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Product Delivery Management"
             ],
             "Tools and software": [
-                "Confluence",
-                "Django",
-                "Docker"
+                "MS Office",
+                "Smartsheet",
+                "IPG Carmaker",
+                "MATLAB",
+                "Simulink"
             ],
             "Programming and web development": [],
-            "Processes": [],
-            "Support skills": []
+            "Processes": [
+                "SIL Simulation",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Product Development"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Knowledge Transfer"
+            ]
         }
     }
 ]
