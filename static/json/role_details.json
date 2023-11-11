@@ -149,7 +149,7 @@
         "company": "Jaguar Land Rover",
         "area": "Modelling & Simulation",
         "time": "2019 Jun - 2021 Sep",
-        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "description_html": "./html_snippets/modelling_and_simulation_sw_developer_description.html",
         "skills": {
             "Methodologies and frameworks": [
                 "Waterfall",
@@ -206,7 +206,7 @@
         "company": "BME Formula Racing Team",
         "area": "Electric & Driverless Cars",
         "time": "2018 Sep - 2019 Feb",
-        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "description_html": "./html_snippets/electric_and_driverless_cars_technical_manager_description.html",
         "skills": {
             "Methodologies and frameworks": [
                 "Waterfall",
@@ -248,7 +248,7 @@
         "company": "BME Formula Racing Team",
         "area": "Electric & Driverless Cars",
         "time": "2017 Sep - 2018 Sep",
-        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "description_html": "./html_snippets/electric_and_driverless_cars_chief_engineer_description.html",
         "skills": {
             "Methodologies and frameworks": [
                 "Waterfall",
@@ -297,7 +297,7 @@
         "company": "BME Formula Racing Team",
         "area": "Vehicle Dynamics Control",
         "time": "2016 Sep - 2017 Sep",
-        "description_html": "./html_snippets/test_automation_product_owner_description.html",
+        "description_html": "./html_snippets/vehicle_dynamics_control_group_leader_description.html",
         "skills": {
             "Methodologies and frameworks": [
                 "Waterfall",
