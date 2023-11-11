@@ -36,9 +36,9 @@ filename: index
             <span class="skill-area-selector-text">Show skills related to</span>
             <select id="skill-area-selector-options" class="skill-area-selector-options">
                 <option value="languages">Languages</option>
-                <option value="methodologies">Methodologies and frameworks</option>
+                <!-- <option value="methodologies">Methodologies and frameworks</option>
                 <option value="management">Management and ownership</option>
-                <option value="tools">Tools and software</option>
+                <option value="tools">Tools and software</option> -->
             </select>
         </div>
         <!-- <div id="filter-bar" class="filter-bar">
