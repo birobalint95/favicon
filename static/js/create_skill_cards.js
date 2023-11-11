@@ -39,7 +39,7 @@ function createSkillAreaDiv(skillArea){
 
     const skillAreaDiv = document.createElement("div");
     skillAreaDiv.setAttribute("id", `${skillAreaForTag}-skill-cards-div`);
-    skillAreaDiv.setAttribute("style", "display: block;"); // languages are the first with block display
+    skillAreaDiv.setAttribute("style", "display: none;"); // languages are the first with block display
 
     const skillAreaParagraph = document.createElement("p");
     skillAreaParagraph.setAttribute("class", "skill-area-separator");

@@ -19,12 +19,12 @@
                 "Product Road Mapping",
                 "Communication"
             ],
-            "management": [
+            "Management and ownership": [
                 "Priority Management",
                 "Backlog Management",
                 "Stakeholder Management"
             ],
-            "tools": [
+            "Tools and software": [
                 "Confluence",
                 "Django",
                 "Docker",
@@ -43,7 +43,7 @@
                 "Xray",
                 "PostgreSQL"
             ],
-            "programming": [
+            "Programming and web development": [
                 "Python",
                 "HTML",
                 "CSS",
@@ -54,7 +54,7 @@
                 "SQL",
                 "AJAX"
             ],
-            "processes": [
+            "Processes": [
                 "SW Development",
                 "SW Testing",
                 "SW Integration",
@@ -72,7 +72,7 @@
                 "Mechanical design",
                 "Manufacturing"
             ],
-            "support": [
+            "Support skills": [
                 "Advisory",
                 "Presentation",
                 "Workflow optimization",
