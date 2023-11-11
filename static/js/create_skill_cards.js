@@ -23,8 +23,8 @@ function createTechnicalSkillCards(rolesJsonData){
         });
     }
 
-    for (skillArea of arrayOfSkillAreas) {
-        createSkillAreaDivs(skillArea);
+    for (let skillArea of arrayOfSkillAreas) {
+        createSkillAreaDiv(skillArea);
     }
 
     for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
@@ -33,7 +33,7 @@ function createTechnicalSkillCards(rolesJsonData){
 
 };
 
-function createSkillAreaDivs(skillArea){
+function createSkillAreaDiv(skillArea){
     const skillAreaDiv = document.createElement("div");
     skillAreaDiv.setAttribute("id", `${skillArea}-skill-cards-div`);
     skillAreaDiv.setAttribute("style", "display: block;"); // first only
