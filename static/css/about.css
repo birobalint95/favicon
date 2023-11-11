@@ -508,7 +508,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
        position: relative;
        font-size: 16px;
        color: #fff;
-       width: 220px;
+       width: 250px;
        height: 40px;
      margin: auto 0px auto 5px;
   }
@@ -555,6 +555,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
        padding: 0;
        list-style: none;
        background-color: rgb(53 53 53);
+       border: 2px solid rgb(49, 133, 88);
      border-bottom-right-radius: 10px;
      border-bottom-left-radius: 10px;
   }
@@ -565,7 +566,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
   }
    .select-options li:hover {
        color: black;
-       background: rgb(49, 133, 88);
+       background: rgb(80, 216, 144);
   }
   
   .select-options li.is-selected {
@@ -588,7 +589,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
      border-bottom-left-radius: 10px;
   }
   
-  .span12 {
+  .skill-area-selector {
       height: 50px;
       display: flex;
     margin-left: 40px;

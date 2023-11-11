@@ -32,13 +32,13 @@ filename: index
     </group>
     <div id="rounded-spacer-for-tab-contents"></div>
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
-        <div class="span12"> 
+        <div class="skill-area-selector"> 
             <span class="skill-area-selector-text">Show skills related to</span>
-            <select class="input-block-level">
+            <select class="skill-area-selector-options">
                 <option value="languages">Languages</option>
-                <option value="methodologies">Methodologies</option>
-                <option value="management">Management</option>
-                <option value="tools">Tools</option>
+                <option value="methodologies">Methodologies and frameworks</option>
+                <option value="management">Management and ownership</option>
+                <option value="tools">Tools and software</option>
             </select>
         </div>
         <!-- <div id="filter-bar" class="filter-bar">
