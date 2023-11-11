@@ -400,7 +400,7 @@
 #rounded-spacer-for-tab-contents {
     height: 30px;
     background-color: #181c21;
-    margin: 0 2px;
+    margin: -1px 2px;
     position: sticky; 
     top: 130px; 
     background-color: rgb(24, 28, 33); 
