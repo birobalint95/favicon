@@ -42,7 +42,7 @@ function appendSkillAreaOptionToSelect(skillArea){
     const skillAreaSelectorOptions = document.getElementById("skill-area-selector-options");
     console.log(skillAreaSelectorOptions);
     console.log(skillAreaOption);
-    // skillAreaSelectorOptions.appendChild(skillAreaOption);
+    skillAreaSelectorOptions.appendChild(skillAreaOption);
 }
 
 function createSkillAreaDiv(skillArea){
