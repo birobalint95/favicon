@@ -26,6 +26,7 @@ function createTechnicalSkillCards(rolesJsonData){
     for (let skillArea of arrayOfSkillAreas) {
         appendSkillAreaOptionToSelect(skillArea);
         createSkillAreaDiv(skillArea);
+        customizeSelectTag();
     }
 
     for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
@@ -41,7 +42,6 @@ function appendSkillAreaOptionToSelect(skillArea){
     skillAreaOption.innerText = `${skillArea}`;
     const skillAreaSelectorOptions = document.getElementById("skill-area-selector-options");
     skillAreaSelectorOptions.appendChild(skillAreaOption);
-    customizeSelectTag();
 }
 
 function createSkillAreaDiv(skillArea){
