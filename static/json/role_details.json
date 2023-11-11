@@ -22,7 +22,6 @@
                 "Risk Management",
                 "Stakeholder Management",
                 "Stakeholder Communication",
-                "Product Management",
                 "Product Delivery Management"
             ],
             "Tools and software": [
@@ -297,7 +296,7 @@
         "title": "Group Leader",
         "company": "BME Formula Racing Team",
         "area": "Vehicle Dynamics Control",
-        "time": "2018 Sep - 2019 Feb",
+        "time": "2016 Sep - 2017 Sep",
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
