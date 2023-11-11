@@ -41,6 +41,7 @@ function appendSkillAreaOptionToSelect(skillArea){
     skillAreaOption.innerText = `${skillArea}`;
     const skillAreaSelectorOptions = document.getElementById("skill-area-selector-options");
     skillAreaSelectorOptions.appendChild(skillAreaOption);
+    customizeSelectTag();
 }
 
 function createSkillAreaDiv(skillArea){
