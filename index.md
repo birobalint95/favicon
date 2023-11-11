@@ -34,7 +34,7 @@ filename: index
     <div id="tab-content-skills-about" title="about-skills" class="tab-content displayed">
         <div class="skill-area-selector"> 
             <span class="skill-area-selector-text">Show skills related to</span>
-            <select class="skill-area-selector-options">
+            <select id="skill-area-selector-options" class="skill-area-selector-options">
                 <option value="languages">Languages</option>
                 <option value="methodologies">Methodologies and frameworks</option>
                 <option value="management">Management and ownership</option>

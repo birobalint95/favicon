@@ -24,6 +24,7 @@ function createTechnicalSkillCards(rolesJsonData){
     }
 
     for (let skillArea of arrayOfSkillAreas) {
+        appendSkillAreaOptionToSelect(skillArea);
         createSkillAreaDiv(skillArea);
     }
 
@@ -32,6 +33,15 @@ function createTechnicalSkillCards(rolesJsonData){
     }
 
 };
+
+function appendSkillAreaOptionToSelect(skillArea){
+    let skillAreaForTag = `${skillArea}`.toLowerCase().replace(/ /g, "-");
+    let skillAreaOption = document.createElement("option");
+    skillAreaOption.setAttribute("value", `${skillAreaForTag}-skill-cards-div`);
+    skillAreaOption.innerText = `${skillArea}`;
+    const skillAreaSelectorOptions = document.getElementById("skill-area-selector-options");
+    skillAreaSelectorOptions.appendChild(skillAreaOption);
+}
 
 function createSkillAreaDiv(skillArea){
 
