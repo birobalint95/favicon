@@ -70,7 +70,7 @@ filename: index
                 </li>
             </ul>
         </div> -->
-        <div id="languages-skill-cards-div" style="display: block;">
+        <!-- <div id="languages-skill-cards-div" style="display: block;">
             <p style="border-bottom: 2px solid rgb(53 53 53); line-height:0.1em; margin-bottom: 0px;margin-top: 0px;color: rgba(80, 216, 144);">
                 <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Languages</span>
             </p>
@@ -93,7 +93,7 @@ filename: index
                 <span style="background-color: #181c21;padding-left: 40px;padding-right: 20px;">Tools and software</span>
             </p>
             <section id="tools-skill-cards-section" class="skill-cards"></section>
-        </div>
+        </div> -->
     </div>
     <div id="tab-content-certifications-about" title="about-certifications" class="tab-content">
         <section id="certification-cards-section" class="certification-cards"></section>
