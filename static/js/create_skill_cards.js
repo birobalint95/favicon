@@ -23,13 +23,38 @@ function createTechnicalSkillCards(rolesJsonData){
         });
     }
 
-    console.log(arrayOfSkillAreas);
+    for (skillArea of arrayOfSkillAreas) {
+        createSkillAreaDivs(skillArea);
+    }
 
     for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
         createTechnicalSkillCard(skill, skillAttributes);
     }
 
 };
+
+function createSkillAreaDivs(skillArea){
+    const skillAreaDiv = document.createElement("div");
+    skillAreaDiv.setAttribute("id", `${skillArea}-skill-cards-div`);
+    skillAreaDiv.setAttribute("style", "display: block;"); // first only
+
+    const skillAreaParagraph = document.createElement("p");
+    skillAreaParagraph.setAttribute("class", "skill-area-separator");
+
+    const skillAreaSpan = document.createElement("span");
+    skillAreaSpan.setAttribute("class", "skill-area-text");
+    skillAreaSpan.insertAdjacentHTML("beforeend", `${skillArea}`);
+    skillAreaParagraph.appendChild(skillAreaSpan);
+    skillAreaDiv.appendChild(skillAreaParagraph);
+
+    const skillAreaSection = document.createElement("section");
+    skillAreaSection.setAttribute("id", `${skillArea}-skill-cards-section`)
+    skillAreaSection.setAttribute("class", "skill-cards")
+    skillAreaDiv.appendChild(skillAreaSection);
+
+    const skillsSection = document.getElementById("tab-content-skills-about");
+    skillsSection.appendChild(skillAreaDiv)
+}
 
 function createLanguageSkillCards(introJsonData){
     let jsonDataOfLanguages = introJsonData["languages"];
@@ -79,24 +104,6 @@ function createTechnicalSkillCard(skill, skillAttributes) {
             skillCard.style.height = "70px";
         }
     })
-
-    // const skillsSection = document.getElementById("tab-content-skills-about");
-    // const skillAreaDiv = document.createElement("div");
-    // skillAreaDiv.setAttribute("id", `${skillArea}-skill-cards-div`);
-    // skillAreaDiv.setAttribute("style", "display: block;"); // first only
-    // const skillAreaParagraph = document.createElement("p");
-    // skillAreaParagraph.setAttribute("class", "skill-area-separator");
-    // const skillAreaSpan = document.createElement("span");
-    // skillAreaSpan.setAttribute("class", "skill-area-text");
-    // skillAreaSpan.insertAdjacentHTML("beforeend", `${skillArea}`);
-    // skillAreaParagraph.appendChild(skillAreaSpan);
-    // skillAreaDiv.appendChild(skillAreaParagraph);
-
-    // const skillAreaSection = document.createElement("section");
-    // skillAreaSection.setAttribute("id", `${skillArea}-skill-cards-section`)
-    // skillAreaSection.setAttribute("class", "skill-cards")
-    // skillAreaDiv.appendChild(skillAreaSection);
-
 
     // ADD SKILLCARD TO ITS SECTION
     const skillCardSection = document.getElementById(`${skillArea}-skill-cards-section`);
