@@ -9,39 +9,34 @@
             "Methodologies and frameworks": [
                 "Agile",
                 "SAFe",
-                "Product Vision",
                 "Scrum",
-                "Kanban",
-                "Product Management",
-                "Product Development",
-                "Software Development",
-                "Product Strategy",
-                "Product Road Mapping",
-                "Communication"
+                "Kanban"
             ],
             "Management and ownership": [
-                "Priority Management",
                 "Backlog Management",
-                "Stakeholder Management"
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Management",
+                "Product Delivery Management"
             ],
             "Tools and software": [
-                "Confluence",
-                "Django",
-                "Docker",
-                "Git",
-                "IPG Carmaker",
                 "Jira",
-                "Lucid",
-                "MATLAB",
+                "Confluence",
                 "MS Office",
-                "PTC Creo",
-                "Pycharm",
-                "Simulink",
-                "Smartsheet",
-                "Unreal Engine",
+                "Git",
+                "Django",
                 "VS Code",
+                "Pycharm",
+                "Lucid",
                 "Xray",
-                "PostgreSQL"
+                "PostgreSQL",
+                "Docker"
             ],
             "Programming and web development": [
                 "Python",
@@ -55,34 +50,26 @@
                 "AJAX"
             ],
             "Processes": [
-                "SW Development",
+                "Test Automation",
+                "Full Stack SW Development",
                 "SW Testing",
                 "SW Integration",
                 "SW Validation and Verification",
                 "Tool Maintenance",
                 "Web Application Development",
-                "UX/UI",
-                "Test Automation",
-                "Requirement definition",
-                "Product Delivery management",
-                "SIL Simulation",
-                "HIL Simulation",
-                "Architecture",
-                "System Design",
-                "Mechanical design",
-                "Manufacturing"
+                "Requirement Definition",
+                "Product Development"
             ],
             "Support skills": [
-                "Coaching and mentoring",
+                "Coaching & Mentoring",
                 "Presentation",
-                "Workflow optimization",
-                "Guideline creation",
-                "3 Amigos Session",
+                "Workflow Optimization",
+                "Guideline Creation",
                 "Workshop Organization",
                 "Knowledge Transfer",
                 "Training Organization",
-                "Peer Review",
-                "Pair programming"
+                "3 Amigos Meeting",
+                "Peer Review"
             ]
         }
     },
@@ -94,30 +81,68 @@
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
-                "Scaled Agile Framework",
-                "Product Vision",
-                "Scrum",
-                "Kanban",
-                "Product Management",
-                "Product Development",
-                "Software Development",
-                "Product Strategy",
-                "Product Road Mapping",
-                "Communication"
+                "Agile",
+                "SAFe",
+                "Scrum"
             ],
             "Management and ownership": [
-                "Priority Management",
                 "Backlog Management",
-                "Stakeholder Management"
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
             ],
             "Tools and software": [
+                "Jira",
                 "Confluence",
+                "MS Office",
+                "Git",
                 "Django",
+                "VS Code",
+                "Pycharm",
+                "Lucid",
+                "Xray",
+                "PostgreSQL",
                 "Docker"
             ],
-            "Programming and web development": [],
-            "Processes": [],
-            "Support skills": []
+            "Programming and web development": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "JSON",
+                "SQL",
+                "AJAX"
+            ],
+            "Processes": [
+                "Test Automation",
+                "Full Stack SW Development",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Web Application Development",
+                "Requirement Definition",
+                "Product Development",
+                "UX/UI Design"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization",
+                "3 Amigos Meeting",
+                "Peer Review",
+                "Pair Programming"
+            ]
         }
     },
     {
@@ -128,28 +153,54 @@
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
-                "Scaled Agile Framework",
-                "Product Vision",
-                "Product Management",
-                "Product Development",
-                "Software Development",
-                "Product Strategy",
-                "Product Road Mapping",
-                "Communication"
+                "Waterfall",
+                "V-model"
             ],
-            "Management and ownership": [
-                "Priority Management",
-                "Backlog Management",
-                "Stakeholder Management"
-            ],
+            "Management and ownership": [],
             "Tools and software": [
+                "Jira",
                 "Confluence",
+                "MS Office",
+                "Git",
                 "Django",
-                "Docker"
+                "Pycharm",
+                "Lucid",
+                "Xray",
+                "PostgreSQL",
+                "Docker",
+                "IPG Carmaker",
+                "MATLAB",
+                "Simulink",
+                "Unreal Engine"
             ],
-            "Programming and web development": [],
-            "Processes": [],
-            "Support skills": []
+            "Programming and web development": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Javascript",
+                "jQuery",
+                "JSON",
+                "SQL",
+                "AJAX"
+            ],
+            "Processes": [
+                "Full Stack SW Development",
+                "SW Testing",
+                "SW Integration",
+                "SW Validation and Verification",
+                "Tool Maintenance",
+                "Web Application Development",
+                "Requirement Definition",
+                "Product Development",
+                "UX/UI Design"
+            ],
+            "Support skills": [
+                "Presentation",
+                "Guideline Creation",
+                "Knowledge Transfer",
+                "Peer Review",
+                "Pair Programming"
+            ]
         }
     },
     {
@@ -176,12 +227,23 @@
                 "Stakeholder Management"
             ],
             "Tools and software": [
-                "Confluence",
-                "Django",
-                "Docker"
+                "IPG Carmaker",
+                "MATLAB",
+                "PTC Creo",
+                "Pycharm",
+                "Simulink",
+                "Smartsheet",
+                "Unreal Engine"
             ],
             "Programming and web development": [],
-            "Processes": [],
+            "Processes": [
+                "SIL Simulation",
+                "HIL Simulation",
+                "Architecture",
+                "System Design",
+                "Mechanical design",
+                "Manufacturing"
+            ],
             "Support skills": []
         }
     },
