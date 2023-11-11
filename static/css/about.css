@@ -536,7 +536,6 @@ ul.ks-cboxtags li input[type="checkbox"] {
   
    .select-styled:active, .select-styled.active {
        background-color: rgb(53 53 53);
-     border-bottom: 2px solid rgb(49, 133, 88);
      border-bottom-right-radius: 0px;
      border-bottom-left-radius: 0px;
   }
