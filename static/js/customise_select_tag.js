@@ -4,6 +4,8 @@ Reference: http://jsfiddle.net/BB3JK/47/
 
 $('select').each(function(){
     var $this = $(this), numberOfOptions = $(this).children('option').length;
+
+    console.log($(this).children('option'));
   
     $this.addClass('select-hidden'); 
     $this.wrap('<div class="select"></div>');
