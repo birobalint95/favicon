@@ -307,3 +307,11 @@ ul.list-of-experiences li .timestamp {
 .content-of-generic-card-without-image {
     margin: auto;
 }
+
+.main-responsibility {
+    padding-bottom: 20px;
+}
+
+ul .main-responsibility:last-child {
+    padding-bottom: 0px;
+}
