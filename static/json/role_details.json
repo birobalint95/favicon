@@ -114,7 +114,10 @@
                 "Confluence",
                 "Django",
                 "Docker"
-            ]
+            ],
+            "programming": [],
+            "processes": [],
+            "support": []
         }
     },
     {
@@ -143,7 +146,10 @@
                 "Confluence",
                 "Django",
                 "Docker"
-            ]
+            ],
+            "programming": [],
+            "processes": [],
+            "support": []
         }
     },
     {
@@ -173,7 +179,10 @@
                 "Confluence",
                 "Django",
                 "Docker"
-            ]
+            ],
+            "programming": [],
+            "processes": [],
+            "support": []
         }
     },
     {
@@ -203,7 +212,10 @@
                 "Confluence",
                 "Django",
                 "Docker"
-            ]
+            ],
+            "programming": [],
+            "processes": [],
+            "support": []
         }
     },
     {
@@ -232,7 +244,10 @@
                 "Confluence",
                 "Django",
                 "Docker"
-            ]
+            ],
+            "programming": [],
+            "processes": [],
+            "support": []
         }
     }
 ]

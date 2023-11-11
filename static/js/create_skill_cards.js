@@ -2,10 +2,13 @@ export {createTechnicalSkillCards, createLanguageSkillCards};
 
 function createTechnicalSkillCards(rolesJsonData){
     var dictOfSkills = {};
+    var arrayOfSkillAreas = [];
     for(let role of rolesJsonData){
         let roleToDisplay = role.area + " " + role.title;
         Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
-            console.log(skill_area);
+            if (!arrayOfSkillAreas.includes(skill_area)){
+                arrayOfSkillAreas.push(skill_area)
+            }
             for(let area_skill of area_skills){
                 if (area_skill in dictOfSkills) {
                     dictOfSkills[area_skill]["roles"].push(roleToDisplay);
@@ -19,6 +22,9 @@ function createTechnicalSkillCards(rolesJsonData){
             }
         });
     }
+
+    console.log(arrayOfSkillAreas);
+
     for (const [skill, skillAttributes] of Object.entries(dictOfSkills)) {
         createTechnicalSkillCard(skill, skillAttributes);
     }
