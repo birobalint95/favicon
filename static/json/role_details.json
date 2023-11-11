@@ -73,7 +73,7 @@
                 "Manufacturing"
             ],
             "Support skills": [
-                "Advisory",
+                "Coaching and mentoring",
                 "Presentation",
                 "Workflow optimization",
                 "Guideline creation",
@@ -81,7 +81,8 @@
                 "Workshop Organization",
                 "Knowledge Transfer",
                 "Training Organization",
-                "Peer Review"
+                "Peer Review",
+                "Pair programming"
             ]
         }
     },
@@ -167,7 +168,7 @@
                 "Product Road Mapping",
                 "Communication",
                 "Waterfall",
-                "V-modell"
+                "V-model"
             ],
             "Management and ownership": [
                 "Priority Management",
@@ -200,7 +201,7 @@
                 "Product Road Mapping",
                 "Communication",
                 "Waterfall",
-                "V-modell"
+                "V-model"
             ],
             "Management and ownership": [
                 "Priority Management",
@@ -233,7 +234,7 @@
                 "Product Road Mapping",
                 "Communication",
                 "Waterfall",
-                "V-modell"
+                "V-model"
             ],
             "Management and ownership": [
                 "Priority Management",
