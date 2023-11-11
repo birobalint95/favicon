@@ -34,9 +34,12 @@ function createTechnicalSkillCards(rolesJsonData){
 };
 
 function createSkillAreaDiv(skillArea){
+
+    let skillAreaForTag = `${skillArea}`.toLowerCase().replace(/ /g, "-");
+
     const skillAreaDiv = document.createElement("div");
-    skillAreaDiv.setAttribute("id", `${skillArea}-skill-cards-div`);
-    skillAreaDiv.setAttribute("style", "display: block;"); // first only
+    skillAreaDiv.setAttribute("id", `${skillAreaForTag}-skill-cards-div`);
+    skillAreaDiv.setAttribute("style", "display: block;"); // languages are the first with block display
 
     const skillAreaParagraph = document.createElement("p");
     skillAreaParagraph.setAttribute("class", "skill-area-separator");
@@ -48,7 +51,7 @@ function createSkillAreaDiv(skillArea){
     skillAreaDiv.appendChild(skillAreaParagraph);
 
     const skillAreaSection = document.createElement("section");
-    skillAreaSection.setAttribute("id", `${skillArea}-skill-cards-section`)
+    skillAreaSection.setAttribute("id", `${skillAreaForTag}-skill-cards-section`)
     skillAreaSection.setAttribute("class", "skill-cards")
     skillAreaDiv.appendChild(skillAreaSection);
 
@@ -67,7 +70,8 @@ function createTechnicalSkillCard(skill, skillAttributes) {
 
     let timeIntervals = skillAttributes["timeIntervals"];
     let roles = skillAttributes["roles"];
-    let skillArea = skillAttributes["skillArea"];
+    let skillAreaForTag = skillAttributes["skillArea"].toLowerCase().replace(/ /g, "-");;
+
 
     // MAIN TITLE
     let mainTitle = `${skill}`;
@@ -106,7 +110,7 @@ function createTechnicalSkillCard(skill, skillAttributes) {
     })
 
     // ADD SKILLCARD TO ITS SECTION
-    const skillCardSection = document.getElementById(`${skillArea}-skill-cards-section`);
+    const skillCardSection = document.getElementById(`${skillAreaForTag}-skill-cards-section`);
     skillCardSection.appendChild(skillCard);
     
 }
