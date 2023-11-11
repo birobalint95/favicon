@@ -120,7 +120,7 @@
     display: flex;
 }
 
-.generic-card .thinner {
+.generic-card.thinner {
     height: 50px;
 }
 
