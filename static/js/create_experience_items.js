@@ -162,6 +162,7 @@ function createHtmlContentForRoleDetail(detailCategory, role, detailElement){
 
 function createHtmlContentForRoleSkills(skills, detailElement){
     Object.entries(skills).forEach(([skill_area, area_skills]) => {
+        console.log(area_skills.length);
         const skillArea = document.createElement("p");
         skillArea.insertAdjacentHTML("beforeend", `${skill_area}`);
         skillArea.setAttribute("class", "role-skill-area");
@@ -189,7 +190,7 @@ function createHtmlContentForRoleSection(area_skills){
     const sectionOfSkills = document.createElement("section");
     sectionOfSkills.setAttribute("class", "role-skill-cards");
     for(let area_skill of area_skills){
-        let roleSkillCard = createGenericCardWithoutImage(area_skill);
+        let roleSkillCard = createGenericCardWithoutImage(area_skill, true);
         sectionOfSkills.appendChild(roleSkillCard);
     }
     return sectionOfSkills

@@ -164,7 +164,6 @@
                 "Git",
                 "Django",
                 "Pycharm",
-                "Lucid",
                 "Xray",
                 "PostgreSQL",
                 "Docker",
@@ -211,40 +210,41 @@
         "description_html": "./html_snippets/test_automation_product_owner_description.html",
         "skills": {
             "Methodologies and frameworks": [
-                "Product Vision",
-                "Product Management",
-                "Product Development",
-                "Software Development",
-                "Product Strategy",
-                "Product Road Mapping",
-                "Communication",
                 "Waterfall",
                 "V-model"
             ],
             "Management and ownership": [
-                "Priority Management",
                 "Backlog Management",
-                "Stakeholder Management"
+                "Priority Management",
+                "Product Vision",
+                "Product Roadmap",
+                "Product Strategy",
+                "Dependency Management",
+                "Risk Management",
+                "Stakeholder Management",
+                "Stakeholder Communication",
+                "Product Delivery Management"
             ],
             "Tools and software": [
-                "IPG Carmaker",
-                "MATLAB",
+                "MS Office",
                 "PTC Creo",
-                "Pycharm",
-                "Simulink",
-                "Smartsheet",
-                "Unreal Engine"
+                "Smartsheet"
             ],
             "Programming and web development": [],
             "Processes": [
-                "SIL Simulation",
-                "HIL Simulation",
                 "Architecture",
                 "System Design",
                 "Mechanical design",
                 "Manufacturing"
             ],
-            "Support skills": []
+            "Support skills": [
+                "Presentation",
+                "Workflow Optimization",
+                "Guideline Creation",
+                "Workshop Organization",
+                "Knowledge Transfer",
+                "Training Organization"
+            ]
         }
     },
     {
@@ -271,12 +271,17 @@
                 "Stakeholder Management"
             ],
             "Tools and software": [
-                "Confluence",
-                "Django",
-                "Docker"
+                "MS Office",
+                "IPG Carmaker",
+                "MATLAB",
+                "Simulink",
+                "PTC Creo",
+                "Smartsheet"
             ],
             "Programming and web development": [],
-            "Processes": [],
+            "Processes": [
+                "SIL Simulation"
+            ],
             "Support skills": []
         }
     },

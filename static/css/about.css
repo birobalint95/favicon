@@ -120,6 +120,10 @@
     display: flex;
 }
 
+.generic-card .thinner {
+    height: 50px;
+}
+
 .content-of-generic-card {
     margin: auto 0px;
 }

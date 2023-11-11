@@ -1,7 +1,11 @@
-function createGenericCardWithoutImage(text){
+function createGenericCardWithoutImage(text, isThinner){
     // CARD ELEMENT
     const genericCardWithoutImage = document.createElement("div");
-    genericCardWithoutImage.setAttribute("class", "generic-card");
+    let classOfCard = "generic-card";
+    if (isThinner){
+        classOfCard += " thinner";
+    }
+    genericCardWithoutImage.setAttribute("class", `${classOfCard}`);
     // TEXT OF CARD ELEMENT
     const textOfGenericCard = document.createElement("span");
     textOfGenericCard.setAttribute("class", "content-of-generic-card-without-image");
