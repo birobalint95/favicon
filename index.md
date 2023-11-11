@@ -36,9 +36,12 @@ filename: index
             <span class="skill-area-selector-text">Show skills related to</span>
             <select id="skill-area-selector-options" class="skill-area-selector-options">
                 <option value="languages">Languages</option>
-                <!-- <option value="methodologies">Methodologies and frameworks</option>
-                <option value="management">Management and ownership</option>
-                <option value="tools">Tools and software</option> -->
+                <option value="methodologies-and-frameworks">Methodologies and frameworks</option>
+                <option value="management-and-ownership">Management and ownership</option>
+                <option value="tools-and-software">Tools and software</option>
+                <option value="programming-and-web-development">Programming and web development</option>
+                <option value="processes">Processes</option>
+                <option value="support-skills">Support skills</option>
             </select>
         </div>
         <!-- <div id="filter-bar" class="filter-bar">
