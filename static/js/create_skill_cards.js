@@ -5,6 +5,7 @@ function createTechnicalSkillCards(rolesJsonData){
     for(let role of rolesJsonData){
         let roleToDisplay = role.area + " " + role.title;
         Object.entries(role.skills).forEach(([skill_area, area_skills]) => {
+            console.log(skill_area);
             for(let area_skill of area_skills){
                 if (area_skill in dictOfSkills) {
                     dictOfSkills[area_skill]["roles"].push(roleToDisplay);
@@ -72,6 +73,24 @@ function createTechnicalSkillCard(skill, skillAttributes) {
             skillCard.style.height = "70px";
         }
     })
+
+    // const skillsSection = document.getElementById("tab-content-skills-about");
+    // const skillAreaDiv = document.createElement("div");
+    // skillAreaDiv.setAttribute("id", `${skillArea}-skill-cards-div`);
+    // skillAreaDiv.setAttribute("style", "display: block;"); // first only
+    // const skillAreaParagraph = document.createElement("p");
+    // skillAreaParagraph.setAttribute("class", "skill-area-separator");
+    // const skillAreaSpan = document.createElement("span");
+    // skillAreaSpan.setAttribute("class", "skill-area-text");
+    // skillAreaSpan.insertAdjacentHTML("beforeend", `${skillArea}`);
+    // skillAreaParagraph.appendChild(skillAreaSpan);
+    // skillAreaDiv.appendChild(skillAreaParagraph);
+
+    // const skillAreaSection = document.createElement("section");
+    // skillAreaSection.setAttribute("id", `${skillArea}-skill-cards-section`)
+    // skillAreaSection.setAttribute("class", "skill-cards")
+    // skillAreaDiv.appendChild(skillAreaSection);
+
 
     // ADD SKILLCARD TO ITS SECTION
     const skillCardSection = document.getElementById(`${skillArea}-skill-cards-section`);

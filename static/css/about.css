@@ -603,4 +603,17 @@ ul.ks-cboxtags li input[type="checkbox"] {
     color: white;
     margin: auto 0px;
   }
-  
+
+  .skill-area-separator {
+    border-bottom: 2px solid rgb(53 53 53); 
+    line-height:0.1em; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgba(80, 216, 144);
+  }
+
+  .skill-area-text {
+    background-color: #181c21;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
