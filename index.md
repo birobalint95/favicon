@@ -6,29 +6,11 @@ filename: index
 
 <h2 class="main-title">About</h2>
 
-<div class="box" style="width: auto; background-color: #181c21;border: 10px solid #181c21;border-radius: 10px;height: 300px;display: flex;color: white;margin: 0px 2px;">
-      <div style="
-    width: 700px;
-">
-        <img src="static/images/cv_photo.jpg" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
+<div class="intro">
+    <div style="width: 700px;">
+        <img class="intro-image" src="static/images/cv_photo.jpg" alt="CV photo">
     </div>
-      <div class="text" style="padding-top: 16px;">
-        <p>Hi, my name is Balint Biro and welcome to my personal website!</p>
-        <p>This website is a reflection of my passions, interests, and experiences. I am a full-time Product Owner, currently living in Budapest with my beautiful girlfriend, Anna and our crazy black cat, Dante.</p>
-        <p>Through these pages, I'll be sharing a piece of my world and the stories that shape it.</p>
-        <p>Please also find me on:</p>
-        <a class="contact-option" href="mailto:birobalint95@gmail.com" style="margin-right: 16px;"><i class="fa fa-envelope"></i></a>
-        <a class="contact-option" href="https://www.linkedin.com/in/balintbiro" style="margin-right: 16px;"><i class="fa fa-linkedin-square"></i></a>
-        <a class="contact-option" href="https://www.facebook.com/biro95" style="margin-right: 16px;"><i class="fa fa-facebook-square"></i></a>
-        <a class="contact-option" href="https://www.instagram.com/birobalint"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
-
-<!-- <div class="box" style="width: auto; background-color: #181c21;border: 10px solid #181c21;border-radius: 10px;height: 300px;display: flex;color: white;margin: 0px 2px;">
-    <div>
-        <img src="static/images/cv_photo.jpg" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
-    </div>
-    <div style="padding: 20px; width: 60%; height: fit-content;">
+    <div class="intro-text">
         <p>Hi, my name is Balint Biro and welcome to my personal website!</p>
         <p>This website is a reflection of my passions, interests, and experiences. I am a full-time Product Owner, currently living in Budapest with my beautiful girlfriend, Anna and our crazy black cat, Dante.</p>
         <p>Through these pages, I'll be sharing a piece of my world and the stories that shape it.</p>
@@ -38,8 +20,7 @@ filename: index
         <a class="contact-option" href="https://www.facebook.com/biro95" style="margin-right: 16px;"><i class="fa fa-facebook-square"></i></a>
         <a class="contact-option" href="https://www.instagram.com/birobalint"><i class="fa fa-instagram"></i></a>
     </div>
-</div> -->
-
+</div>
 <div class="content-section">
     <group id="group-of-details" style="position: -webkit-sticky; position: sticky; top: 90px; background-color: #232931; z-index: 99;">
         <a id="about-skills" class="detail-category selected" href="#" onclick="selectAboutDetailTab(this)">Skills</a>
