@@ -11,7 +11,7 @@ filename: index
     <div>
         <img src="static/images/cv_photo.jpg" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
     </div>
-    <div style="padding: 20px; width: 60%;">
+    <div style="padding: 20px; width: 60%; height: fit-content;">
         <p>Hi, my name is Balint Biro and welcome to my personal website!</p>
         <p>This website is a reflection of my passions, interests, and experiences. I am a full-time Product Owner, currently living in Budapest with my beautiful girlfriend, Anna and our crazy black cat, Dante.</p>
         <p>Through these pages, I'll be sharing a piece of my world and the stories that shape it.</p>
