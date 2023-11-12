@@ -7,6 +7,7 @@ $(document).ready (function() {
     } else {
         var navItemId = lastPieceOfUrl;
     }
+    console.log(lastPieceOfUrl);
     var navItemToSelect = document.getElementById(navItemId);
     var isNavItemSelected = navItemToSelect.classList.contains("selected");
     var allNavElements = document.getElementsByClassName("nav-item");
