@@ -210,7 +210,8 @@ function calculateSpentTime(intervalString){
     let endDate = partsOfString[1];
     let endDateInput;
     if (endDate == "present"){
-        endDateInput = new Date();
+        let endDateInputBeforeCorrection = new Date();
+        endDateInput = new Date(endDateInputBeforeCorrection.setMonth(endDateInputBeforeCorrection.getMonth()+2));
     } else {
         let splitEndDate = endDate.split(" ");
         let endYear = splitEndDate[0];
