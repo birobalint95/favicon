@@ -8,7 +8,7 @@ filename: index
 
 <div class="box" style="width: auto; background-color: #181c21;border: 10px solid #181c21;border-radius: 10px;height: 300px;display: flex;color: white;margin: 0px 2px;">
       <div style="
-    width: 500px;
+    width: 700px;
 ">
         <img src="static/images/cv_photo.jpg" alt="CV photo" style="max-width: 100%; max-height: 100%; display: block; border-radius: 10px;">
     </div>
