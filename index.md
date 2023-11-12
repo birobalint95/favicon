@@ -24,7 +24,7 @@ filename: index
       </div>
     </div>
 
-<!-- <div class="intro">
+<div class="intro">
     <div style="width: 700px;">
         <img class="intro-image" src="static/images/cv_photo.jpg" alt="CV photo">
     </div>
@@ -38,7 +38,7 @@ filename: index
         <a class="contact-option" href="https://www.facebook.com/biro95" style="margin-right: 16px;"><i class="fa fa-facebook-square"></i></a>
         <a class="contact-option" href="https://www.instagram.com/birobalint"><i class="fa fa-instagram"></i></a>
     </div>
-</div> -->
+</div>
 
 <div class="content-section">
     <group id="group-of-details" style="position: -webkit-sticky; position: sticky; top: 90px; background-color: #232931; z-index: 99;">
